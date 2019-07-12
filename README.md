@@ -6,7 +6,8 @@ Corne with an extra key
 
 Version 1.0 has been already assembled and checked, everything works fine.
 
-* [jorne-classic-1.0.zip](corne-classic/pcb/jorne-classic-1.0.zip)
+* [jorne-classic-1.0-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/corne-classic/pcb/jorne-classic-1.0.zip)
+
 
 ## Firmware
 
