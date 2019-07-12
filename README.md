@@ -15,7 +15,7 @@ Compatible with [stock Corne firmware](https://github.com/qmk/qmk_firmware/tree/
 
 ## PCB manufacturers
 
-I recommend [JLCPCB.com](https://jlcbcb.com). New users gets $8 discount, so 5 black matte PCBs cost $9.88 total, including shipping.
+I recommend [JLCPCB.com](https://jlcpcb.com). New users gets $8 discount, so 5 black matte PCBs cost $9.88 total, including shipping.
 
 ## Pictures
 
