@@ -31,9 +31,11 @@ In order to make your own Corne clone, you need to do the following:
 * Fix the schematic to your taste (add an extra key to the free row, add an extra LED to the end of the strip)
 * Press Ctrl+Q to update the PCB (uncheck the "Delete extra footprints" setting)
 * Fix the 1.75u footprint for the autorouting (I moved bottom pads a little bit apart)
-* Export "Specctra DSN" file run Freerouting and autoroute the board, import Specctra session file.
-* Use "Add corner" for the ground zones and move corners to match the new outline
+* Export "Specctra DSN" file, run Freerouting and autoroute the board, import Specctra session file
+* Use "Create Corner" for the Zone Outlines, move corners to match the new outline (they autoupdate)
 * Plot with "Use Protel filename extensions", generate drill files with "PTH and NPTH in a single file"
+
+Note I did not reroute the whole board, just added a few traces and it worked.
 
 ## Pictures
 
