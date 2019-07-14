@@ -9,6 +9,8 @@ Version 1.0 has been already assembled and checked, everything works fine.
 * [jorne-classic-1.0-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/corne-classic/pcb/jorne-classic-1.0-gerbers.zip)
 
 
+**WARNING** no mounting holes in this revision! Lost in conversion.
+
 ## Firmware
 
 Compatible with [stock Corne firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/crkbd). The extra key can be snapped off. [Bluetooth firmware version](https://github.com/joric/nrfmicro/wiki/Corne-BLE) is in progress.
