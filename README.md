@@ -23,6 +23,18 @@ Compatible with [stock Corne firmware](https://github.com/qmk/qmk_firmware/tree/
 
 I recommend [JLCPCB.com](https://jlcpcb.com). New users gets $8 discount, so 5 black matte PCBs cost $9.88 total, including shipping.
 
+## Modification
+
+In order to make your own Corne clone, you need to do the following:
+
+* Fix "find segment with an endpoint" error messages on Alt+3 (see https://github.com/foostan/crkbd/pull/21)
+* Fix the schematic to your taste (add an extra key to the free row, add an extra LED to the end of the strip)
+* Press Ctrl+Q to update the PCB (uncheck the "Delete extra footprints" setting)
+* Fix the 1.75u footprint for the autorouting (I moved bottom pads a little bit apart)
+* Export "Specctra DSN" file run Freerouting and autoroute the board, import Specctra session file.
+* Use "Add corner" for the ground zones and move corners to match the new outline
+* Plot with "Use Protel filename extensions", generate drill files with "PTH and NPTH in a single file"
+
 ## Pictures
 
 ![](corne-classic/pcb/front.png)
