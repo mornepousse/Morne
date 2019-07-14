@@ -8,8 +8,12 @@ Version 1.0 has been already assembled and checked, everything works fine.
 
 * [jorne-classic-1.0-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/corne-classic/pcb/jorne-classic-1.0-gerbers.zip)
 
+**WARNING** no mounting holes and ground zones in this revision (lost in conversion)!
 
-**WARNING** no mounting holes in this revision! Lost in conversion.
+There are also two **UNTESTED** revisions with an extra key, use at your own risk:
+
+* [jorne-classic-2.1-gerbers.zip](https://github.com/joric/crkbd/raw/jorne-cherry/corne-cherry/pcb/jorne-classic-2.1-gerbers.zip) (classic version, with mounting holes and ground planes)
+* [jorne-cherry-2.1-gerbers.zip](https://github.com/joric/crkbd/raw/jorne-cherry/corne-cherry/pcb/jorne-cherry-2.1-gerbers.zip) (hotswap version, see [jorne-cherry](https://github.com/joric/crkbd/tree/jorne-cherry) branch)
 
 ## Firmware
 
