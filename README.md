@@ -35,7 +35,7 @@ In order to make your own Corne clone, you need to do the following:
 * Use "Create Corner" for the Zone Outlines, move corners to match the new outline (they autoupdate)
 * Plot with "Use Protel filename extensions", generate drill files with "PTH and NPTH in a single file"
 
-Note I did not reroute the whole board, just added a few traces and it worked.
+Note I did not reroute the whole board, just autorouted a few new traces and it worked.
 
 ## Pictures
 
