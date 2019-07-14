@@ -6,7 +6,7 @@ Corne with an extra key
 
 Version 2.0 has been already assembled and checked, everything works fine.
 
-* [jorne-classic-2.0-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/corne-classic/pcb/jorne-classic-1.0-gerbers.zip)
+* [jorne-classic-2.0-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/corne-classic/pcb/jorne-classic-2.0-gerbers.zip)
 
 **WARNING** no mounting holes and ground zones in this revision (lost in conversion)!
 
