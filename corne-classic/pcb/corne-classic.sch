@@ -2013,4 +2013,125 @@ Connection ~ 5400 2250
 Wire Wire Line
 	3300 3375 3900 3375
 Connection ~ 3300 3375
+$Comp
+L Graphic:Logo_Open_Hardware_Small G1
+U 1 1 5D2CFB37
+P 10650 1350
+F 0 "G1" H 10650 1625 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 10650 1125 50  0001 C CNN
+F 2 "kbd:corne" H 10650 1350 50  0001 C CNN
+F 3 "~" H 10650 1350 50  0001 C CNN
+	1    10650 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small G2
+U 1 1 5D2FA8EC
+P 10650 1800
+F 0 "G2" H 10650 2075 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 10650 1575 50  0001 C CNN
+F 2 "kbd:corne" H 10650 1800 50  0001 C CNN
+F 3 "~" H 10650 1800 50  0001 C CNN
+	1    10650 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5D30ECD9
+P 10525 2175
+F 0 "H1" H 10625 2221 50  0000 L CNN
+F 1 "MountingHole" H 10625 2130 50  0000 L CNN
+F 2 "kbd:LEGO_HOLE" H 10525 2175 50  0001 C CNN
+F 3 "~" H 10525 2175 50  0001 C CNN
+	1    10525 2175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5D30FB80
+P 10525 2375
+F 0 "H2" H 10625 2421 50  0000 L CNN
+F 1 "MountingHole" H 10625 2330 50  0000 L CNN
+F 2 "kbd:LEGO_HOLE" H 10525 2375 50  0001 C CNN
+F 3 "~" H 10525 2375 50  0001 C CNN
+	1    10525 2375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5D323E5A
+P 10525 2575
+F 0 "H3" H 10625 2621 50  0000 L CNN
+F 1 "MountingHole" H 10625 2530 50  0000 L CNN
+F 2 "kbd:LEGO_HOLE" H 10525 2575 50  0001 C CNN
+F 3 "~" H 10525 2575 50  0001 C CNN
+	1    10525 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5D3381BF
+P 10525 2775
+F 0 "H4" H 10625 2821 50  0000 L CNN
+F 1 "MountingHole" H 10625 2730 50  0000 L CNN
+F 2 "kbd:LEGO_HOLE" H 10525 2775 50  0001 C CNN
+F 3 "~" H 10525 2775 50  0001 C CNN
+	1    10525 2775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5D34C593
+P 10525 3050
+F 0 "H5" H 10625 3096 50  0000 L CNN
+F 1 "MountingHole" H 10625 3005 50  0000 L CNN
+F 2 "kbd:LEGO_HOLE" H 10525 3050 50  0001 C CNN
+F 3 "~" H 10525 3050 50  0001 C CNN
+	1    10525 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 5D36083A
+P 10525 3250
+F 0 "H6" H 10625 3296 50  0000 L CNN
+F 1 "MountingHole" H 10625 3205 50  0000 L CNN
+F 2 "kbd:LEGO_HOLE" H 10525 3250 50  0001 C CNN
+F 3 "~" H 10525 3250 50  0001 C CNN
+	1    10525 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 5D374CE3
+P 10525 3450
+F 0 "H7" H 10625 3496 50  0000 L CNN
+F 1 "MountingHole" H 10625 3405 50  0000 L CNN
+F 2 "kbd:LEGO_HOLE" H 10525 3450 50  0001 C CNN
+F 3 "~" H 10525 3450 50  0001 C CNN
+	1    10525 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 5D38913B
+P 10525 3675
+F 0 "H8" H 10625 3721 50  0000 L CNN
+F 1 "MountingHole" H 10625 3630 50  0000 L CNN
+F 2 "kbd:LEGO_HOLE" H 10525 3675 50  0001 C CNN
+F 3 "~" H 10525 3675 50  0001 C CNN
+	1    10525 3675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H9
+U 1 1 5D39D533
+P 10525 3875
+F 0 "H9" H 10625 3921 50  0000 L CNN
+F 1 "MountingHole" H 10625 3830 50  0000 L CNN
+F 2 "kbd:LEGO_HOLE" H 10525 3875 50  0001 C CNN
+F 3 "~" H 10525 3875 50  0001 C CNN
+	1    10525 3875
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
