@@ -26,17 +26,17 @@ There are also two **UNTESTED** revisions with an extra key, use at your own ris
 
 Tilting-tenting case is available as well (same for soldered and hotswap versions, yet untested)
 
-* [tilting-tenting-jorne.ai](https://github.com/joric/crkbd/corne-classic/acrylic_plate/tilting-tenting-jorne.ai)
+* [tilting-tenting-jorne.ai](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/tilting-tenting-jorne.ai)
 
-* [tilting-tenting-jorne.dxf](https://github.com/joric/crkbd/corne-classic/acrylic_plate/tilting-tenting-jorne.dxf)
+* [tilting-tenting-jorne.dxf](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/tilting-tenting-jorne.dxf)
 
 ![](images/tilting-tenting-jorne.png)
 
 Simple case is available too
 
-* [top-bottom-jorne.ai](https://github.com/joric/crkbd/corne-classic/acrylic_plate/top-bottom-jorne.ai)
+* [top-bottom-jorne.ai](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/top-bottom-jorne.ai)
 
-* [top-bottom-jorne.dxf](https://github.com/joric/crkbd/corne-classic/acrylic_plate/top-bottom-jorne.dxf)
+* [top-bottom-jorne.dxf](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/top-bottom-jorne.dxf)
 
 ![](images/top-bottom-jorne.png)
 
