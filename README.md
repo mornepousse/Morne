@@ -6,7 +6,7 @@ Corne with an extra key
 
 Version 2.0 has been already assembled and checked, everything works fine.
 
-* [jorne-classic-2.0-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/corne-classic/pcb/jorne-classic-2.0-gerbers.zip)
+* [jorne-classic-2.0-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/gerbers/jorne-classic-2.0-gerbers.zip)
 
 ![](images/jorne-classic-2.0.png)
 
@@ -14,13 +14,31 @@ Version 2.0 has been already assembled and checked, everything works fine.
 
 There are also two **UNTESTED** revisions with an extra key, use at your own risk:
 
-* [jorne-classic-2.1-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/corne-classic/pcb/jorne-classic-2.1-gerbers.zip) (classic version, with mounting holes and ground planes)
+* [jorne-classic-2.1-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/gerbers/jorne-classic-2.1-gerbers.zip) (classic version, with mounting holes and ground planes)
 
 ![](images/jorne-classic-2.1.png)
 
-* [jorne-cherry-2.1-gerbers.zip](https://github.com/joric/crkbd/raw/jorne-cherry/corne-cherry/pcb/jorne-cherry-2.1-gerbers.zip) (hotswap version, see [jorne-cherry](https://github.com/joric/crkbd/tree/jorne-cherry) branch)
+* [jorne-cherry-2.1-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/gerbers/jorne-cherry-2.1-gerbers.zip) (hotswap version with kailh hotswap sockets)
 
 ![](images/jorne-cherry-2.1.png)
+
+## Case
+
+Tilting-tenting case is available as well (same for soldered and hotswap versions, yet untested)
+
+* [tilting-tenting-jorne.ai](https://github.com/joric/crkbd/corne-classic/acrylic_plate/tilting-tenting-jorne.ai)
+
+* [tilting-tenting-jorne.dxf](https://github.com/joric/crkbd/corne-classic/acrylic_plate/tilting-tenting-jorne.dxf)
+
+![](images/tilting-tenting-jorne.png)
+
+Simple case is available too
+
+* [top-bottom-jorne.ai](https://github.com/joric/crkbd/corne-classic/acrylic_plate/top-bottom-jorne.ai)
+
+* [top-bottom-jorne.dxf](https://github.com/joric/crkbd/corne-classic/acrylic_plate/top-bottom-jorne.dxf)
+
+![](images/top-bottom-jorne.png)
 
 ## Firmware
 
