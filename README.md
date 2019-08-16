@@ -30,13 +30,6 @@ Originally uses 3 mm acrylic glass for all the parts.
 
 If you're preferring 1.6mm carbon mind that at least the screen protector piece should be transparent.
 
-### Tilting-tenting case
-
-* [tilting-tenting-jorne.ai](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/tilting-tenting-jorne.ai)
-
-* [tilting-tenting-jorne.dxf](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/tilting-tenting-jorne.dxf)
-
-![](images/tilting-tenting-jorne.png)
 
 ### Simple case
 
@@ -45,6 +38,16 @@ If you're preferring 1.6mm carbon mind that at least the screen protector piece 
 * [top-bottom-jorne.dxf](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/top-bottom-jorne.dxf)
 
 ![](images/top-bottom-jorne.png)
+
+### Tilting-tenting case
+
+Tilting-tenting case is a little bit ugly, I wouldn't recommend it but it's a personal taste.
+
+* [tilting-tenting-jorne.ai](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/tilting-tenting-jorne.ai)
+
+* [tilting-tenting-jorne.dxf](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/tilting-tenting-jorne.dxf)
+
+![](images/tilting-tenting-jorne.png)
 
 ## Firmware
 
