@@ -6,6 +6,8 @@ Corne with an extra key
 
 Version 2.0 has been already assembled and checked, everything works fine.
 
+Please refer to the official english [build guide](https://github.com/foostan/crkbd/blob/master/corne-classic/doc/buildguide_en.md) for assembly.
+
 * [jorne-classic-2.0-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/gerbers/jorne-classic-2.0-gerbers.zip)
 
 ![](images/jorne-classic-2.0.png)
@@ -24,7 +26,11 @@ There are also two **UNTESTED** revisions with an extra key, use at your own ris
 
 ## Case
 
-Tilting-tenting case is available as well (same for soldered and hotswap versions, yet untested)
+Originally uses 3 mm acrylic glass for all the parts.
+
+If you're preferring 1.6mm carbon mind that at least the screen protector piece should be transparent.
+
+### Tilting-tenting case
 
 * [tilting-tenting-jorne.ai](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/tilting-tenting-jorne.ai)
 
@@ -32,7 +38,7 @@ Tilting-tenting case is available as well (same for soldered and hotswap version
 
 ![](images/tilting-tenting-jorne.png)
 
-Simple case is available too
+### Simple case
 
 * [top-bottom-jorne.ai](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/top-bottom-jorne.ai)
 
