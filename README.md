@@ -41,8 +41,6 @@ If you're preferring 1.6mm carbon mind that at least the screen protector piece 
 
 ### Tilting-tenting case
 
-Tilting-tenting case is a little bit ugly, I wouldn't recommend it but it's a personal taste.
-
 * [tilting-tenting-jorne.ai](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/tilting-tenting-jorne.ai)
 
 * [tilting-tenting-jorne.dxf](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/tilting-tenting-jorne.dxf)
