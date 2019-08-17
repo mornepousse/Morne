@@ -5,11 +5,15 @@ HEADER
   9
 $ACADVER
   1
-AC1012
+AC1024
+  9
+$ACADMAINTVER
+ 70
+     6
   9
 $DWGCODEPAGE
   3
-ansi_1251
+ANSI_1251
   9
 $INSBASE
  10
@@ -67,17 +71,9 @@ $MIRRTEXT
  70
      1
   9
-$DRAGMODE
- 70
-     2
-  9
 $LTSCALE
  40
 1.0
-  9
-$OSMODE
- 70
-    37
   9
 $ATTMODE
  70
@@ -93,7 +89,7 @@ $TRACEWID
   9
 $TEXTSTYLE
   7
-STANDARD
+Standard
   9
 $CLAYER
   8
@@ -101,7 +97,7 @@ $CLAYER
   9
 $CELTYPE
   6
-BYLAYER
+ByLayer
   9
 $CECOLOR
  62
@@ -110,10 +106,6 @@ $CECOLOR
 $CELTSCALE
  40
 1.0
-  9
-$DELOBJ
- 70
-     1
   9
 $DISPSILH
  70
@@ -265,7 +257,7 @@ $DIMBLK2
   9
 $DIMSTYLE
   2
-STANDARD
+Standard
   9
 $DIMCLRD
  70
@@ -315,17 +307,9 @@ $DIMALTTZ
  70
      0
   9
-$DIMFIT
- 70
-     3
-  9
 $DIMUPT
  70
      0
-  9
-$DIMUNIT
- 70
-     2
   9
 $DIMDEC
  70
@@ -345,9 +329,93 @@ $DIMALTTD
   9
 $DIMTXSTY
   7
-STANDARD
+Standard
   9
 $DIMAUNIT
+ 70
+     0
+  9
+$DIMADEC
+ 70
+     0
+  9
+$DIMALTRND
+ 40
+0.0
+  9
+$DIMAZIN
+ 70
+     0
+  9
+$DIMDSEP
+ 70
+    46
+  9
+$DIMATFIT
+ 70
+     3
+  9
+$DIMFRAC
+ 70
+     0
+  9
+$DIMLDRBLK
+  1
+
+  9
+$DIMLUNIT
+ 70
+     2
+  9
+$DIMLWD
+ 70
+    -2
+  9
+$DIMLWE
+ 70
+    -2
+  9
+$DIMTMOVE
+ 70
+     0
+  9
+$DIMFXL
+ 40
+1.0
+  9
+$DIMFXLON
+ 70
+     0
+  9
+$DIMJOGANG
+ 40
+0.7853981633974483
+  9
+$DIMTFILL
+ 70
+     0
+  9
+$DIMTFILLCLR
+ 70
+     0
+  9
+$DIMARCSYM
+ 70
+     0
+  9
+$DIMLTYPE
+  6
+
+  9
+$DIMLTEX1
+  6
+
+  9
+$DIMLTEX2
+  6
+
+  9
+$DIMTXTDIRECTION
  70
      0
   9
@@ -417,11 +485,19 @@ $SKPOLY
   9
 $TDCREATE
  40
-2458713.634532222
+2458713.643466829
+  9
+$TDUCREATE
+ 40
+2458713.435133495
   9
 $TDUPDATE
  40
-2458713.634532303
+2458713.643466922
+  9
+$TDUUPDATE
+ 40
+2458713.435133588
   9
 $TDINDWG
  40
@@ -455,10 +531,6 @@ $PLINEWID
  40
 0.0
   9
-$COORDS
- 70
-     1
-  9
 $SPLFRAME
  70
      0
@@ -471,21 +543,9 @@ $SPLINESEGS
  70
      8
   9
-$ATTDIA
- 70
-     0
-  9
-$ATTREQ
- 70
-     1
-  9
-$HANDLING
- 70
-     1
-  9
 $HANDSEED
   5
-449
+440
   9
 $SURFTAB1
  70
@@ -506,6 +566,10 @@ $SURFU
 $SURFV
  70
      6
+  9
+$UCSBASE
+  2
+
   9
 $UCSNAME
   2
@@ -535,6 +599,66 @@ $UCSYDIR
  30
 0.0
   9
+$UCSORTHOREF
+  2
+
+  9
+$UCSORTHOVIEW
+ 70
+     0
+  9
+$UCSORGTOP
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$UCSORGBOTTOM
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$UCSORGLEFT
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$UCSORGRIGHT
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$UCSORGFRONT
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$UCSORGBACK
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSBASE
+  2
+
+  9
 $PUCSNAME
   2
 
@@ -560,6 +684,62 @@ $PUCSYDIR
 0.0
  20
 1.0
+ 30
+0.0
+  9
+$PUCSORTHOREF
+  2
+
+  9
+$PUCSORTHOVIEW
+ 70
+     0
+  9
+$PUCSORGTOP
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSORGBOTTOM
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSORGLEFT
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSORGRIGHT
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSORGFRONT
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSORGBACK
+ 10
+0.0
+ 20
+0.0
  30
 0.0
   9
@@ -683,13 +863,9 @@ $TREEDEPTH
  70
   3020
   9
-$PICKSTYLE
- 70
-     1
-  9
 $CMLSTYLE
   2
-STANDARD
+Standard
   9
 $CMLJUST
  70
@@ -699,9 +875,233 @@ $CMLSCALE
  40
 1.0
   9
-$SAVEIMAGES
+$PROXYGRAPHICS
  70
      1
+  9
+$MEASUREMENT
+ 70
+     0
+  9
+$CELWEIGHT
+370
+    -1
+  9
+$ENDCAPS
+280
+     0
+  9
+$JOINSTYLE
+280
+     0
+  9
+$LWDISPLAY
+290
+     1
+  9
+$INSUNITS
+ 70
+     1
+  9
+$HYPERLINKBASE
+  1
+
+  9
+$STYLESHEET
+  1
+
+  9
+$XEDIT
+290
+     1
+  9
+$CEPSNTYPE
+380
+     0
+  9
+$PSTYLEMODE
+290
+     1
+  9
+$FINGERPRINTGUID
+  2
+{E0E49E8B-7823-4C54-B64F-A202F655C244}
+  9
+$VERSIONGUID
+  2
+{FAEB1C32-E019-11D5-929B-00C0DF256EC4}
+  9
+$EXTNAMES
+290
+     1
+  9
+$PSVPSCALE
+ 40
+0.0
+  9
+$OLESTARTUP
+290
+     0
+  9
+$SORTENTS
+280
+   127
+  9
+$INDEXCTL
+280
+     0
+  9
+$HIDETEXT
+280
+     1
+  9
+$XCLIPFRAME
+280
+     2
+  9
+$HALOGAP
+280
+     0
+  9
+$OBSCOLOR
+ 70
+   257
+  9
+$OBSLTYPE
+280
+     0
+  9
+$INTERSECTIONDISPLAY
+280
+     0
+  9
+$INTERSECTIONCOLOR
+ 70
+   257
+  9
+$DIMASSOC
+280
+     2
+  9
+$PROJECTNAME
+  1
+
+  9
+$CAMERADISPLAY
+290
+     0
+  9
+$LENSLENGTH
+ 40
+50.0
+  9
+$CAMERAHEIGHT
+ 40
+0.0
+  9
+$STEPSPERSEC
+ 40
+2.0
+  9
+$STEPSIZE
+ 40
+6.0
+  9
+$3DDWFPREC
+ 40
+2.0
+  9
+$PSOLWIDTH
+ 40
+0.25
+  9
+$PSOLHEIGHT
+ 40
+4.0
+  9
+$LOFTANG1
+ 40
+1.570796326794897
+  9
+$LOFTANG2
+ 40
+1.570796326794897
+  9
+$LOFTMAG1
+ 40
+0.0
+  9
+$LOFTMAG2
+ 40
+0.0
+  9
+$LOFTPARAM
+ 70
+     7
+  9
+$LOFTNORMALS
+280
+     1
+  9
+$LATITUDE
+ 40
+37.795
+  9
+$LONGITUDE
+ 40
+-122.394
+  9
+$NORTHDIRECTION
+ 40
+0.0
+  9
+$TIMEZONE
+ 70
+ -8000
+  9
+$LIGHTGLYPHDISPLAY
+280
+     1
+  9
+$TILEMODELIGHTSYNCH
+280
+     1
+  9
+$CMATERIAL
+347
+3C
+  9
+$SOLIDHIST
+280
+     1
+  9
+$SHOWHIST
+280
+     1
+  9
+$DWFFRAME
+280
+     2
+  9
+$DGNFRAME
+280
+     2
+  9
+$REALWORLDSCALE
+290
+     1
+  9
+$INTERFERECOLOR
+ 62
+   256
+  9
+$CSHADOW
+280
+     0
+  9
+$SHADOWPLANELOCATION
+ 40
+0.0
   0
 ENDSEC
   0
@@ -717,7 +1117,9 @@ AcDbDictionaryWithDefault
   3
 ObjectDBX Classes
  90
-    32768
+        0
+ 91
+        4
 280
      0
 281
@@ -732,6 +1134,8 @@ AcDbVisualStyle
 ObjectDBX Classes
  90
      4095
+ 91
+        4
 280
      0
 281
@@ -746,6 +1150,8 @@ AcDbMaterial
 ObjectDBX Classes
  90
      1153
+ 91
+        4
 280
      0
 281
@@ -760,90 +1166,8 @@ AcDbSun
 SCENEOE
  90
      1024
-280
-     0
-281
-     0
-  0
-CLASS
-  1
-DICTIONARYVAR
-  2
-AcDbDictionaryVar
-  3
-ObjectDBX Classes
- 90
-        0
-280
-     0
-281
-     0
-  0
-CLASS
-  1
-XRECORD
-  2
-AcDbXrecord
-  3
-AutoCAD 2000
- 90
-    32768
-280
-     0
-281
-     0
-  0
-CLASS
-  1
-LWPOLYLINE
-  2
-AcDbPolyline
-  3
-AutoCAD 2000
- 90
-    32768
-280
-     0
-281
-     1
-  0
-CLASS
-  1
-HATCH
-  2
-AcDbHatch
-  3
-AutoCAD 2000
- 90
-    32768
-280
-     0
-281
-     1
-  0
-CLASS
-  1
-ACDBPLACEHOLDER
-  2
-AcDbPlaceHolder
-  3
-ObjectDBX Classes
- 90
-        0
-280
-     0
-281
-     0
-  0
-CLASS
-  1
-LAYOUT
-  2
-AcDbLayout
-  3
-ObjectDBX Classes
- 90
-        0
+ 91
+        4
 280
      0
 281
@@ -877,7 +1201,7 @@ AcDbSymbolTableRecord
 100
 AcDbViewportTableRecord
   2
-*ACTIVE
+*Active
  70
      0
  10
@@ -946,6 +1270,48 @@ AcDbViewportTableRecord
      0
  78
      0
+281
+     0
+ 65
+     1
+110
+0.0
+120
+0.0
+130
+0.0
+111
+1.0
+121
+0.0
+131
+0.0
+112
+0.0
+122
+1.0
+132
+0.0
+ 79
+     0
+146
+0.0
+ 60
+     3
+ 61
+     5
+292
+     1
+282
+     1
+141
+0.0
+142
+0.0
+ 63
+   250
+361
+3F
   0
 ENDTAB
   0
@@ -971,7 +1337,7 @@ AcDbSymbolTableRecord
 100
 AcDbLinetypeTableRecord
   2
-BYBLOCK
+ByBlock
  70
      0
   3
@@ -993,7 +1359,7 @@ AcDbSymbolTableRecord
 100
 AcDbLinetypeTableRecord
   2
-BYLAYER
+ByLayer
  70
      0
   3
@@ -1015,7 +1381,7 @@ AcDbSymbolTableRecord
 100
 AcDbLinetypeTableRecord
   2
-CONTINUOUS
+Continuous
  70
      0
   3
@@ -1057,7 +1423,13 @@ AcDbLayerTableRecord
  62
      7
   6
-CONTINUOUS
+Continuous
+370
+    -3
+390
+F
+347
+3E
   0
 LAYER
   5
@@ -1069,13 +1441,19 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-_U_5F6B_U_523B_U_30D1_U_30
+_U+5F6B_U+523B_U+30D1_U+30B9
  70
      0
  62
      7
   6
-CONTINUOUS
+Continuous
+370
+    -3
+390
+F
+347
+3E
   0
 LAYER
   5
@@ -1087,13 +1465,19 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  70
      0
  62
      7
   6
-CONTINUOUS
+Continuous
+370
+    -3
+390
+F
+347
+3E
   0
 ENDTAB
   0
@@ -1119,7 +1503,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-STANDARD
+Standard
  70
      0
  40
@@ -1206,6 +1590,8 @@ A
 AcDbSymbolTable
  70
      1
+100
+AcDbDimStyleTable
   0
 DIMSTYLE
 105
@@ -1217,119 +1603,13 @@ AcDbSymbolTableRecord
 100
 AcDbDimStyleTableRecord
   2
-STANDARD
+Standard
  70
-     0
-  3
-
-  4
-
-  5
-
-  6
-
-  7
-
- 40
-1.0
- 41
-0.18
- 42
-0.0625
- 43
-0.38
- 44
-0.18
- 45
-0.0
- 46
-0.0
- 47
-0.0
- 48
-0.0
-140
-0.18
-141
-0.09
-142
-0.0
-143
-25.4
-144
-1.0
-145
-0.0
-146
-1.0
-147
-0.09
- 71
-     0
- 72
-     0
- 73
-     1
- 74
-     1
- 75
-     0
- 76
-     0
- 77
-     0
- 78
-     0
-170
-     0
-171
-     2
-172
-     0
-173
-     0
-174
-     0
-175
-     0
-176
-     0
-177
      0
 178
      0
-270
-     2
-271
-     4
-272
-     4
-273
-     2
-274
-     2
 340
 11
-275
-     0
-280
-     0
-281
-     0
-282
-     0
-283
-     1
-284
-     0
-285
-     0
-286
-     0
-287
-     3
-288
-     0
   0
 ENDTAB
   0
@@ -1355,7 +1635,15 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-*MODEL_SPACE
+*Model_Space
+340
+22
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1367,7 +1655,35 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-*PAPER_SPACE
+*Paper_Space
+340
+1E
+ 70
+     0
+280
+     1
+281
+     0
+  0
+BLOCK_RECORD
+  5
+23
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+*Paper_Space0
+340
+26
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1379,7 +1695,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_2
+block 2
+340
+0
+102
+{BLKREFS
+331
+43
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1391,7 +1721,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_3
+block 3
+340
+0
+102
+{BLKREFS
+331
+47
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1403,7 +1747,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_4
+block 4
+340
+0
+102
+{BLKREFS
+331
+4C
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1415,7 +1773,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_5
+block 5
+340
+0
+102
+{BLKREFS
+331
+51
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1427,7 +1799,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_6
+block 6
+340
+0
+102
+{BLKREFS
+331
+56
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1439,7 +1825,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_7
+block 7
+340
+0
+102
+{BLKREFS
+331
+5A
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1451,7 +1851,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_8
+block 8
+340
+0
+102
+{BLKREFS
+331
+5F
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1463,7 +1877,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_9
+block 9
+340
+0
+102
+{BLKREFS
+331
+64
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1475,7 +1903,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_10
+block 10
+340
+0
+102
+{BLKREFS
+331
+69
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1487,7 +1929,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_11
+block 11
+340
+0
+102
+{BLKREFS
+331
+6D
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1499,7 +1955,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_12
+block 12
+340
+0
+102
+{BLKREFS
+331
+71
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1511,7 +1981,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_13
+block 13
+340
+0
+102
+{BLKREFS
+331
+76
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1523,7 +2007,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_14
+block 14
+340
+0
+102
+{BLKREFS
+331
+7B
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1535,7 +2033,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_15
+block 15
+340
+0
+102
+{BLKREFS
+331
+7F
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1547,7 +2059,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_16
+block 16
+340
+0
+102
+{BLKREFS
+331
+84
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1559,7 +2085,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_17
+block 17
+340
+0
+102
+{BLKREFS
+331
+89
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1571,7 +2111,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_18
+block 18
+340
+0
+102
+{BLKREFS
+331
+8D
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1583,7 +2137,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_19
+block 19
+340
+0
+102
+{BLKREFS
+331
+92
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1595,7 +2163,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_20
+block 20
+340
+0
+102
+{BLKREFS
+331
+97
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1607,7 +2189,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_21
+block 21
+340
+0
+102
+{BLKREFS
+331
+9B
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1619,7 +2215,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_22
+block 22
+340
+0
+102
+{BLKREFS
+331
+A0
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1631,7 +2241,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_23
+block 23
+340
+0
+102
+{BLKREFS
+331
+A5
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1643,7 +2267,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_24
+block 24
+340
+0
+102
+{BLKREFS
+331
+A9
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1655,7 +2293,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_25
+block 25
+340
+0
+102
+{BLKREFS
+331
+AE
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1667,7 +2319,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_26
+block 26
+340
+0
+102
+{BLKREFS
+331
+B3
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1679,7 +2345,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_27
+block 27
+340
+0
+102
+{BLKREFS
+331
+B7
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1691,7 +2371,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_28
+block 28
+340
+0
+102
+{BLKREFS
+331
+BC
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1703,7 +2397,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_29
+block 29
+340
+0
+102
+{BLKREFS
+331
+C1
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1715,7 +2423,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_30
+block 30
+340
+0
+102
+{BLKREFS
+331
+C5
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1727,7 +2449,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_31
+block 31
+340
+0
+102
+{BLKREFS
+331
+CA
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1739,7 +2475,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_32
+block 32
+340
+0
+102
+{BLKREFS
+331
+CF
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1751,7 +2501,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_33
+block 33
+340
+0
+102
+{BLKREFS
+331
+D3
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1763,7 +2527,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_34
+block 34
+340
+0
+102
+{BLKREFS
+331
+D8
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1775,7 +2553,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_35
+block 35
+340
+0
+102
+{BLKREFS
+331
+DD
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1787,7 +2579,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_36
+block 36
+340
+0
+102
+{BLKREFS
+331
+E1
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1799,7 +2605,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_37
+block 37
+340
+0
+102
+{BLKREFS
+331
+E6
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1811,7 +2631,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_38
+block 38
+340
+0
+102
+{BLKREFS
+331
+EB
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1823,7 +2657,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_39
+block 39
+340
+0
+102
+{BLKREFS
+331
+F0
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1835,7 +2683,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_40
+block 40
+340
+0
+102
+{BLKREFS
+331
+F5
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1847,7 +2709,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_41
+block 41
+340
+0
+102
+{BLKREFS
+331
+FA
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1859,7 +2735,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_42
+block 42
+340
+0
+102
+{BLKREFS
+331
+105
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1871,7 +2761,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_43
+block 43
+340
+0
+102
+{BLKREFS
+331
+110
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1883,7 +2787,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_44
+block 44
+340
+0
+102
+{BLKREFS
+331
+11B
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1895,7 +2813,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_45
+block 45
+340
+0
+102
+{BLKREFS
+331
+126
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1907,7 +2839,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_46
+block 46
+340
+0
+102
+{BLKREFS
+331
+131
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1919,7 +2865,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_47
+block 47
+340
+0
+102
+{BLKREFS
+331
+13C
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1931,7 +2891,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_48
+block 48
+340
+0
+102
+{BLKREFS
+331
+147
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1943,7 +2917,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_49
+block 49
+340
+0
+102
+{BLKREFS
+331
+152
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1955,7 +2943,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_50
+block 50
+340
+0
+102
+{BLKREFS
+331
+15D
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1967,7 +2969,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_51
+block 51
+340
+0
+102
+{BLKREFS
+331
+168
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1979,7 +2995,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_52
+block 52
+340
+0
+102
+{BLKREFS
+331
+173
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -1991,7 +3021,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_53
+block 53
+340
+0
+102
+{BLKREFS
+331
+17E
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2003,7 +3047,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_54
+block 54
+340
+0
+102
+{BLKREFS
+331
+189
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2015,7 +3073,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_55
+block 55
+340
+0
+102
+{BLKREFS
+331
+194
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2027,7 +3099,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_56
+block 56
+340
+0
+102
+{BLKREFS
+331
+19F
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2039,7 +3125,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_57
+block 57
+340
+0
+102
+{BLKREFS
+331
+1AA
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2051,7 +3151,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_58
+block 58
+340
+0
+102
+{BLKREFS
+331
+1B5
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2063,7 +3177,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_59
+block 59
+340
+0
+102
+{BLKREFS
+331
+1C0
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2075,7 +3203,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_60
+block 60
+340
+0
+102
+{BLKREFS
+331
+1CB
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2087,7 +3229,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_61
+block 61
+340
+0
+102
+{BLKREFS
+331
+1D6
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2099,7 +3255,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_62
+block 62
+340
+0
+102
+{BLKREFS
+331
+1EA
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2111,7 +3281,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_63
+block 63
+340
+0
+102
+{BLKREFS
+331
+1EF
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2123,7 +3307,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_64
+block 64
+340
+0
+102
+{BLKREFS
+331
+1F4
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2135,7 +3333,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_65
+block 65
+340
+0
+102
+{BLKREFS
+331
+1F9
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2147,7 +3359,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_66
+block 66
+340
+0
+102
+{BLKREFS
+331
+202
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2159,7 +3385,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_67
+block 67
+340
+0
+102
+{BLKREFS
+331
+20D
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2171,7 +3411,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_68
+block 68
+340
+0
+102
+{BLKREFS
+331
+21B
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2183,7 +3437,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_69
+block 69
+340
+0
+102
+{BLKREFS
+331
+21F
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2195,7 +3463,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_70
+block 70
+340
+0
+102
+{BLKREFS
+331
+224
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2207,7 +3489,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_71
+block 71
+340
+0
+102
+{BLKREFS
+331
+229
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2219,7 +3515,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_72
+block 72
+340
+0
+102
+{BLKREFS
+331
+22E
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2231,7 +3541,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_73
+block 73
+340
+0
+102
+{BLKREFS
+331
+233
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2243,7 +3567,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_74
+block 74
+340
+0
+102
+{BLKREFS
+331
+238
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2255,7 +3593,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_75
+block 75
+340
+0
+102
+{BLKREFS
+331
+23D
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2267,7 +3619,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_76
+block 76
+340
+0
+102
+{BLKREFS
+331
+242
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2279,7 +3645,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_77
+block 77
+340
+0
+102
+{BLKREFS
+331
+247
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2291,7 +3671,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_78
+block 78
+340
+0
+102
+{BLKREFS
+331
+24D
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2303,7 +3697,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_79
+block 79
+340
+0
+102
+{BLKREFS
+331
+251
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2315,7 +3723,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_80
+block 80
+340
+0
+102
+{BLKREFS
+331
+255
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2327,7 +3749,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_81
+block 81
+340
+0
+102
+{BLKREFS
+331
+25A
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2339,7 +3775,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_82
+block 82
+340
+0
+102
+{BLKREFS
+331
+25F
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2351,7 +3801,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_83
+block 83
+340
+0
+102
+{BLKREFS
+331
+263
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2363,7 +3827,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_84
+block 84
+340
+0
+102
+{BLKREFS
+331
+268
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2375,7 +3853,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_85
+block 85
+340
+0
+102
+{BLKREFS
+331
+26D
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2387,7 +3879,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_86
+block 86
+340
+0
+102
+{BLKREFS
+331
+271
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2399,7 +3905,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_87
+block 87
+340
+0
+102
+{BLKREFS
+331
+276
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2411,7 +3931,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_88
+block 88
+340
+0
+102
+{BLKREFS
+331
+27B
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2423,7 +3957,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_89
+block 89
+340
+0
+102
+{BLKREFS
+331
+27F
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2435,7 +3983,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_90
+block 90
+340
+0
+102
+{BLKREFS
+331
+284
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2447,7 +4009,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_91
+block 91
+340
+0
+102
+{BLKREFS
+331
+289
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2459,7 +4035,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_92
+block 92
+340
+0
+102
+{BLKREFS
+331
+28D
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2471,7 +4061,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_93
+block 93
+340
+0
+102
+{BLKREFS
+331
+292
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2483,7 +4087,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_94
+block 94
+340
+0
+102
+{BLKREFS
+331
+297
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2495,7 +4113,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_95
+block 95
+340
+0
+102
+{BLKREFS
+331
+29B
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2507,7 +4139,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_96
+block 96
+340
+0
+102
+{BLKREFS
+331
+2A0
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2519,7 +4165,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_97
+block 97
+340
+0
+102
+{BLKREFS
+331
+2A5
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2531,7 +4191,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_98
+block 98
+340
+0
+102
+{BLKREFS
+331
+2A9
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2543,7 +4217,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_99
+block 99
+340
+0
+102
+{BLKREFS
+331
+2AE
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2555,7 +4243,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_100
+block 100
+340
+0
+102
+{BLKREFS
+331
+2B3
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2567,7 +4269,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_101
+block 101
+340
+0
+102
+{BLKREFS
+331
+2B7
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2579,7 +4295,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_102
+block 102
+340
+0
+102
+{BLKREFS
+331
+2BC
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2591,7 +4321,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_103
+block 103
+340
+0
+102
+{BLKREFS
+331
+2C1
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2603,7 +4347,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_104
+block 104
+340
+0
+102
+{BLKREFS
+331
+2C5
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2615,7 +4373,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_105
+block 105
+340
+0
+102
+{BLKREFS
+331
+2CA
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2627,7 +4399,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_106
+block 106
+340
+0
+102
+{BLKREFS
+331
+2CF
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2639,7 +4425,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_107
+block 107
+340
+0
+102
+{BLKREFS
+331
+2D4
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2651,7 +4451,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_108
+block 108
+340
+0
+102
+{BLKREFS
+331
+2D9
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2663,7 +4477,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_109
+block 109
+340
+0
+102
+{BLKREFS
+331
+2DE
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2675,7 +4503,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_110
+block 110
+340
+0
+102
+{BLKREFS
+331
+2E9
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2687,7 +4529,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_111
+block 111
+340
+0
+102
+{BLKREFS
+331
+2F4
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2699,7 +4555,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_112
+block 112
+340
+0
+102
+{BLKREFS
+331
+2FF
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2711,7 +4581,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_113
+block 113
+340
+0
+102
+{BLKREFS
+331
+30A
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2723,7 +4607,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_114
+block 114
+340
+0
+102
+{BLKREFS
+331
+315
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2735,7 +4633,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_115
+block 115
+340
+0
+102
+{BLKREFS
+331
+320
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2747,7 +4659,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_116
+block 116
+340
+0
+102
+{BLKREFS
+331
+32B
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2759,7 +4685,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_117
+block 117
+340
+0
+102
+{BLKREFS
+331
+336
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2771,7 +4711,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_118
+block 118
+340
+0
+102
+{BLKREFS
+331
+341
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2783,7 +4737,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_119
+block 119
+340
+0
+102
+{BLKREFS
+331
+34C
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2795,7 +4763,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_120
+block 120
+340
+0
+102
+{BLKREFS
+331
+357
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2807,7 +4789,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_121
+block 121
+340
+0
+102
+{BLKREFS
+331
+362
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2819,7 +4815,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_122
+block 122
+340
+0
+102
+{BLKREFS
+331
+36D
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2831,7 +4841,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_123
+block 123
+340
+0
+102
+{BLKREFS
+331
+378
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2843,7 +4867,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_124
+block 124
+340
+0
+102
+{BLKREFS
+331
+383
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2855,7 +4893,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_125
+block 125
+340
+0
+102
+{BLKREFS
+331
+38E
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2867,7 +4919,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_126
+block 126
+340
+0
+102
+{BLKREFS
+331
+399
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2879,7 +4945,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_127
+block 127
+340
+0
+102
+{BLKREFS
+331
+3A4
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2891,7 +4971,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_128
+block 128
+340
+0
+102
+{BLKREFS
+331
+3AF
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2903,7 +4997,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_129
+block 129
+340
+0
+102
+{BLKREFS
+331
+3BA
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2915,7 +5023,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_130
+block 130
+340
+0
+102
+{BLKREFS
+331
+3CE
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2927,7 +5049,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_131
+block 131
+340
+0
+102
+{BLKREFS
+331
+3D3
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2939,7 +5075,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_132
+block 132
+340
+0
+102
+{BLKREFS
+331
+3D8
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2951,7 +5101,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_133
+block 133
+340
+0
+102
+{BLKREFS
+331
+3DD
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2963,7 +5127,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_134
+block 134
+340
+0
+102
+{BLKREFS
+331
+3E6
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2975,7 +5153,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_135
+block 135
+340
+0
+102
+{BLKREFS
+331
+3FA
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2987,7 +5179,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_136
+block 136
+340
+0
+102
+{BLKREFS
+331
+3FE
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -2999,7 +5205,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_137
+block 137
+340
+0
+102
+{BLKREFS
+331
+403
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -3011,7 +5231,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_138
+block 138
+340
+0
+102
+{BLKREFS
+331
+408
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -3023,7 +5257,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_139
+block 139
+340
+0
+102
+{BLKREFS
+331
+40D
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -3035,7 +5283,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_140
+block 140
+340
+0
+102
+{BLKREFS
+331
+412
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -3047,7 +5309,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_141
+block 141
+340
+0
+102
+{BLKREFS
+331
+417
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -3059,7 +5335,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_142
+block 142
+340
+0
+102
+{BLKREFS
+331
+41C
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -3071,7 +5361,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_143
+block 143
+340
+0
+102
+{BLKREFS
+331
+421
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -3083,7 +5387,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_144
+block 144
+340
+0
+102
+{BLKREFS
+331
+426
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 BLOCK_RECORD
   5
@@ -3095,7 +5413,21 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-BLOCK_145
+block 145
+340
+0
+102
+{BLKREFS
+331
+42B
+102
+}
+ 70
+     0
+280
+     1
+281
+     0
   0
 ENDTAB
   0
@@ -3117,7 +5449,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-*MODEL_SPACE
+*Model_Space
  70
      0
  10
@@ -3127,7 +5459,7 @@ AcDbBlockBegin
  30
 0.0
   3
-*MODEL_SPACE
+*Model_Space
   1
 
   0
@@ -3157,7 +5489,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-*PAPER_SPACE
+*Paper_Space
  70
      0
  10
@@ -3167,7 +5499,7 @@ AcDbBlockBegin
  30
 0.0
   3
-*PAPER_SPACE
+*Paper_Space
   1
 
   0
@@ -3187,6 +5519,44 @@ AcDbBlockEnd
   0
 BLOCK
   5
+24
+330
+23
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+*Paper_Space0
+ 70
+     0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+*Paper_Space0
+  1
+
+  0
+ENDBLK
+  5
+25
+330
+23
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
 44
 330
 42
@@ -3197,7 +5567,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_2
+block 2
  70
      0
  10
@@ -3207,7 +5577,7 @@ BLOCK_2
  30
 0.0
   3
-BLOCK_2
+block 2
   1
 
   0
@@ -3219,11 +5589,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_3
+block 3
  10
 0.0
  20
@@ -3239,11 +5609,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_4
+block 4
  10
 0.0
  20
@@ -3259,11 +5629,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_5
+block 5
  10
 0.0
  20
@@ -3295,7 +5665,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_3
+block 3
  70
      0
  10
@@ -3305,7 +5675,7 @@ BLOCK_3
  30
 0.0
   3
-BLOCK_3
+block 3
   1
 
   0
@@ -3317,9 +5687,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -3611,7 +5983,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_4
+block 4
  70
      0
  10
@@ -3621,7 +5993,7 @@ BLOCK_4
  30
 0.0
   3
-BLOCK_4
+block 4
   1
 
   0
@@ -3633,9 +6005,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -3831,7 +6205,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_5
+block 5
  70
      0
  10
@@ -3841,7 +6215,7 @@ BLOCK_5
  30
 0.0
   3
-BLOCK_5
+block 5
   1
 
   0
@@ -3853,9 +6227,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -4051,7 +6427,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_6
+block 6
  70
      0
  10
@@ -4061,7 +6437,7 @@ BLOCK_6
  30
 0.0
   3
-BLOCK_6
+block 6
   1
 
   0
@@ -4073,11 +6449,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_7
+block 7
  10
 0.0
  20
@@ -4093,11 +6469,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_8
+block 8
  10
 0.0
  20
@@ -4113,11 +6489,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_9
+block 9
  10
 0.0
  20
@@ -4149,7 +6525,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_7
+block 7
  70
      0
  10
@@ -4159,7 +6535,7 @@ BLOCK_7
  30
 0.0
   3
-BLOCK_7
+block 7
   1
 
   0
@@ -4171,9 +6547,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -4465,7 +6843,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_8
+block 8
  70
      0
  10
@@ -4475,7 +6853,7 @@ BLOCK_8
  30
 0.0
   3
-BLOCK_8
+block 8
   1
 
   0
@@ -4487,9 +6865,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -4685,7 +7065,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_9
+block 9
  70
      0
  10
@@ -4695,7 +7075,7 @@ BLOCK_9
  30
 0.0
   3
-BLOCK_9
+block 9
   1
 
   0
@@ -4707,9 +7087,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -4905,7 +7287,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_10
+block 10
  70
      0
  10
@@ -4915,7 +7297,7 @@ BLOCK_10
  30
 0.0
   3
-BLOCK_10
+block 10
   1
 
   0
@@ -4927,11 +7309,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_11
+block 11
  10
 0.0
  20
@@ -4947,11 +7329,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_14
+block 14
  10
 0.0
  20
@@ -4967,11 +7349,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_17
+block 17
  10
 0.0
  20
@@ -4987,11 +7369,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_20
+block 20
  10
 0.0
  20
@@ -5007,11 +7389,11 @@ A5
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_23
+block 23
  10
 0.0
  20
@@ -5027,11 +7409,11 @@ B3
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_26
+block 26
  10
 0.0
  20
@@ -5047,11 +7429,11 @@ C1
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_29
+block 29
  10
 0.0
  20
@@ -5067,11 +7449,11 @@ CF
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_32
+block 32
  10
 0.0
  20
@@ -5103,7 +7485,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_11
+block 11
  70
      0
  10
@@ -5113,7 +7495,7 @@ BLOCK_11
  30
 0.0
   3
-BLOCK_11
+block 11
   1
 
   0
@@ -5125,11 +7507,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_12
+block 12
  10
 0.0
  20
@@ -5145,11 +7527,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_13
+block 13
  10
 0.0
  20
@@ -5181,7 +7563,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_12
+block 12
  70
      0
  10
@@ -5191,7 +7573,7 @@ BLOCK_12
  30
 0.0
   3
-BLOCK_12
+block 12
   1
 
   0
@@ -5203,9 +7585,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -5401,7 +7785,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_13
+block 13
  70
      0
  10
@@ -5411,7 +7795,7 @@ BLOCK_13
  30
 0.0
   3
-BLOCK_13
+block 13
   1
 
   0
@@ -5423,9 +7807,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -5765,7 +8151,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_14
+block 14
  70
      0
  10
@@ -5775,7 +8161,7 @@ BLOCK_14
  30
 0.0
   3
-BLOCK_14
+block 14
   1
 
   0
@@ -5787,11 +8173,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_15
+block 15
  10
 0.0
  20
@@ -5807,11 +8193,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_16
+block 16
  10
 0.0
  20
@@ -5843,7 +8229,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_15
+block 15
  70
      0
  10
@@ -5853,7 +8239,7 @@ BLOCK_15
  30
 0.0
   3
-BLOCK_15
+block 15
   1
 
   0
@@ -5865,9 +8251,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -6063,7 +8451,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_16
+block 16
  70
      0
  10
@@ -6073,7 +8461,7 @@ BLOCK_16
  30
 0.0
   3
-BLOCK_16
+block 16
   1
 
   0
@@ -6085,9 +8473,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -6427,7 +8817,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_17
+block 17
  70
      0
  10
@@ -6437,7 +8827,7 @@ BLOCK_17
  30
 0.0
   3
-BLOCK_17
+block 17
   1
 
   0
@@ -6449,11 +8839,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_18
+block 18
  10
 0.0
  20
@@ -6469,11 +8859,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_19
+block 19
  10
 0.0
  20
@@ -6505,7 +8895,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_18
+block 18
  70
      0
  10
@@ -6515,7 +8905,7 @@ BLOCK_18
  30
 0.0
   3
-BLOCK_18
+block 18
   1
 
   0
@@ -6527,9 +8917,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -6725,7 +9117,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_19
+block 19
  70
      0
  10
@@ -6735,7 +9127,7 @@ BLOCK_19
  30
 0.0
   3
-BLOCK_19
+block 19
   1
 
   0
@@ -6747,9 +9139,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -7089,7 +9483,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_20
+block 20
  70
      0
  10
@@ -7099,7 +9493,7 @@ BLOCK_20
  30
 0.0
   3
-BLOCK_20
+block 20
   1
 
   0
@@ -7111,11 +9505,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_21
+block 21
  10
 0.0
  20
@@ -7131,11 +9525,11 @@ A0
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_22
+block 22
  10
 0.0
  20
@@ -7167,7 +9561,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_21
+block 21
  70
      0
  10
@@ -7177,7 +9571,7 @@ BLOCK_21
  30
 0.0
   3
-BLOCK_21
+block 21
   1
 
   0
@@ -7189,9 +9583,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -7387,7 +9783,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_22
+block 22
  70
      0
  10
@@ -7397,7 +9793,7 @@ BLOCK_22
  30
 0.0
   3
-BLOCK_22
+block 22
   1
 
   0
@@ -7409,9 +9805,11 @@ A3
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -7751,7 +10149,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_23
+block 23
  70
      0
  10
@@ -7761,7 +10159,7 @@ BLOCK_23
  30
 0.0
   3
-BLOCK_23
+block 23
   1
 
   0
@@ -7773,11 +10171,11 @@ A4
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_24
+block 24
  10
 0.0
  20
@@ -7793,11 +10191,11 @@ A4
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_25
+block 25
  10
 0.0
  20
@@ -7829,7 +10227,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_24
+block 24
  70
      0
  10
@@ -7839,7 +10237,7 @@ BLOCK_24
  30
 0.0
   3
-BLOCK_24
+block 24
   1
 
   0
@@ -7851,9 +10249,11 @@ A8
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -8049,7 +10449,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_25
+block 25
  70
      0
  10
@@ -8059,7 +10459,7 @@ BLOCK_25
  30
 0.0
   3
-BLOCK_25
+block 25
   1
 
   0
@@ -8071,9 +10471,11 @@ AD
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -8413,7 +10815,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_26
+block 26
  70
      0
  10
@@ -8423,7 +10825,7 @@ BLOCK_26
  30
 0.0
   3
-BLOCK_26
+block 26
   1
 
   0
@@ -8435,11 +10837,11 @@ B2
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_27
+block 27
  10
 0.0
  20
@@ -8455,11 +10857,11 @@ B2
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_28
+block 28
  10
 0.0
  20
@@ -8491,7 +10893,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_27
+block 27
  70
      0
  10
@@ -8501,7 +10903,7 @@ BLOCK_27
  30
 0.0
   3
-BLOCK_27
+block 27
   1
 
   0
@@ -8513,9 +10915,11 @@ B6
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -8711,7 +11115,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_28
+block 28
  70
      0
  10
@@ -8721,7 +11125,7 @@ BLOCK_28
  30
 0.0
   3
-BLOCK_28
+block 28
   1
 
   0
@@ -8733,9 +11137,11 @@ BB
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -9075,7 +11481,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_29
+block 29
  70
      0
  10
@@ -9085,7 +11491,7 @@ BLOCK_29
  30
 0.0
   3
-BLOCK_29
+block 29
   1
 
   0
@@ -9097,11 +11503,11 @@ C0
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_30
+block 30
  10
 0.0
  20
@@ -9117,11 +11523,11 @@ C0
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_31
+block 31
  10
 0.0
  20
@@ -9153,7 +11559,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_30
+block 30
  70
      0
  10
@@ -9163,7 +11569,7 @@ BLOCK_30
  30
 0.0
   3
-BLOCK_30
+block 30
   1
 
   0
@@ -9175,9 +11581,11 @@ C4
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -9373,7 +11781,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_31
+block 31
  70
      0
  10
@@ -9383,7 +11791,7 @@ BLOCK_31
  30
 0.0
   3
-BLOCK_31
+block 31
   1
 
   0
@@ -9395,9 +11803,11 @@ C9
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -9737,7 +12147,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_32
+block 32
  70
      0
  10
@@ -9747,7 +12157,7 @@ BLOCK_32
  30
 0.0
   3
-BLOCK_32
+block 32
   1
 
   0
@@ -9759,11 +12169,11 @@ CE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_33
+block 33
  10
 0.0
  20
@@ -9779,11 +12189,11 @@ CE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_34
+block 34
  10
 0.0
  20
@@ -9815,7 +12225,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_33
+block 33
  70
      0
  10
@@ -9825,7 +12235,7 @@ BLOCK_33
  30
 0.0
   3
-BLOCK_33
+block 33
   1
 
   0
@@ -9837,9 +12247,11 @@ D2
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -10035,7 +12447,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_34
+block 34
  70
      0
  10
@@ -10045,7 +12457,7 @@ BLOCK_34
  30
 0.0
   3
-BLOCK_34
+block 34
   1
 
   0
@@ -10057,9 +12469,11 @@ D7
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -10399,7 +12813,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_35
+block 35
  70
      0
  10
@@ -10409,7 +12823,7 @@ BLOCK_35
  30
 0.0
   3
-BLOCK_35
+block 35
   1
 
   0
@@ -10421,11 +12835,11 @@ DC
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_36
+block 36
  10
 0.0
  20
@@ -10441,11 +12855,11 @@ DC
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_37
+block 37
  10
 0.0
  20
@@ -10461,11 +12875,11 @@ DC
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_38
+block 38
  10
 0.0
  20
@@ -10481,11 +12895,11 @@ DC
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_39
+block 39
  10
 0.0
  20
@@ -10501,11 +12915,11 @@ DC
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_40
+block 40
  10
 0.0
  20
@@ -10521,11 +12935,11 @@ DC
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_41
+block 41
  10
 0.0
  20
@@ -10541,11 +12955,11 @@ DC
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_42
+block 42
  10
 0.0
  20
@@ -10561,11 +12975,11 @@ DC
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_43
+block 43
  10
 0.0
  20
@@ -10581,11 +12995,11 @@ DC
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_44
+block 44
  10
 0.0
  20
@@ -10601,11 +13015,11 @@ DC
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_45
+block 45
  10
 0.0
  20
@@ -10621,11 +13035,11 @@ DC
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_46
+block 46
  10
 0.0
  20
@@ -10641,11 +13055,11 @@ DC
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_47
+block 47
  10
 0.0
  20
@@ -10661,11 +13075,11 @@ DC
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_48
+block 48
  10
 0.0
  20
@@ -10681,11 +13095,11 @@ DC
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_49
+block 49
  10
 0.0
  20
@@ -10701,11 +13115,11 @@ DC
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_50
+block 50
  10
 0.0
  20
@@ -10721,11 +13135,11 @@ DC
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_51
+block 51
  10
 0.0
  20
@@ -10741,11 +13155,11 @@ DC
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_52
+block 52
  10
 0.0
  20
@@ -10761,11 +13175,11 @@ DC
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_53
+block 53
  10
 0.0
  20
@@ -10781,11 +13195,11 @@ DC
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_54
+block 54
  10
 0.0
  20
@@ -10801,11 +13215,11 @@ DC
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_55
+block 55
  10
 0.0
  20
@@ -10821,11 +13235,11 @@ DC
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_56
+block 56
  10
 0.0
  20
@@ -10841,11 +13255,11 @@ DC
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_57
+block 57
  10
 0.0
  20
@@ -10861,11 +13275,11 @@ DC
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_58
+block 58
  10
 0.0
  20
@@ -10881,11 +13295,11 @@ DC
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_59
+block 59
  10
 0.0
  20
@@ -10901,11 +13315,11 @@ DC
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_60
+block 60
  10
 0.0
  20
@@ -10921,11 +13335,11 @@ DC
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_61
+block 61
  10
 0.0
  20
@@ -10941,9 +13355,11 @@ DC
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -10963,9 +13379,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -11005,9 +13423,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 POLYLINE
   5
@@ -11017,9 +13437,11 @@ DC
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -11039,9 +13461,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -11081,9 +13505,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 POLYLINE
   5
@@ -11093,9 +13519,11 @@ DC
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -11115,9 +13543,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -11157,9 +13587,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 INSERT
   5
@@ -11169,11 +13601,11 @@ DC
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_62
+block 62
  10
 0.0
  20
@@ -11189,11 +13621,11 @@ DC
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_63
+block 63
  10
 0.0
  20
@@ -11209,11 +13641,11 @@ DC
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_64
+block 64
  10
 0.0
  20
@@ -11229,11 +13661,11 @@ DC
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_65
+block 65
  10
 0.0
  20
@@ -11249,9 +13681,11 @@ DC
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -11271,9 +13705,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -11313,9 +13749,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 SPLINE
   5
@@ -11325,9 +13763,11 @@ DC
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -13187,11 +15627,11 @@ DC
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_66
+block 66
  10
 0.0
  20
@@ -13223,7 +15663,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_36
+block 36
  70
      0
  10
@@ -13233,7 +15673,7 @@ BLOCK_36
  30
 0.0
   3
-BLOCK_36
+block 36
   1
 
   0
@@ -13245,9 +15685,11 @@ E0
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -13443,7 +15885,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_37
+block 37
  70
      0
  10
@@ -13453,7 +15895,7 @@ BLOCK_37
  30
 0.0
   3
-BLOCK_37
+block 37
   1
 
   0
@@ -13465,9 +15907,11 @@ E5
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -13663,7 +16107,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_38
+block 38
  70
      0
  10
@@ -13673,7 +16117,7 @@ BLOCK_38
  30
 0.0
   3
-BLOCK_38
+block 38
   1
 
   0
@@ -13685,9 +16129,11 @@ EA
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -13883,7 +16329,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_39
+block 39
  70
      0
  10
@@ -13893,7 +16339,7 @@ BLOCK_39
  30
 0.0
   3
-BLOCK_39
+block 39
   1
 
   0
@@ -13905,9 +16351,11 @@ EF
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -14103,7 +16551,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_40
+block 40
  70
      0
  10
@@ -14113,7 +16561,7 @@ BLOCK_40
  30
 0.0
   3
-BLOCK_40
+block 40
   1
 
   0
@@ -14125,9 +16573,11 @@ F4
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -14323,7 +16773,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_41
+block 41
  70
      0
  10
@@ -14333,7 +16783,7 @@ BLOCK_41
  30
 0.0
   3
-BLOCK_41
+block 41
   1
 
   0
@@ -14345,9 +16795,11 @@ F9
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -14367,9 +16819,11 @@ FD
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -14389,9 +16843,11 @@ FD
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -14411,9 +16867,11 @@ FD
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -14433,9 +16891,11 @@ FD
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -14455,9 +16915,11 @@ FD
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -14477,9 +16939,11 @@ FD
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -14505,7 +16969,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_42
+block 42
  70
      0
  10
@@ -14515,7 +16979,7 @@ BLOCK_42
  30
 0.0
   3
-BLOCK_42
+block 42
   1
 
   0
@@ -14527,9 +16991,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -14549,9 +17015,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -14571,9 +17039,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -14593,9 +17063,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -14615,9 +17087,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -14637,9 +17111,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -14659,9 +17135,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -14687,7 +17165,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_43
+block 43
  70
      0
  10
@@ -14697,7 +17175,7 @@ BLOCK_43
  30
 0.0
   3
-BLOCK_43
+block 43
   1
 
   0
@@ -14709,9 +17187,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -14731,9 +17211,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -14753,9 +17235,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -14775,9 +17259,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -14797,9 +17283,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -14819,9 +17307,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -14841,9 +17331,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -14869,7 +17361,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_44
+block 44
  70
      0
  10
@@ -14879,7 +17371,7 @@ BLOCK_44
  30
 0.0
   3
-BLOCK_44
+block 44
   1
 
   0
@@ -14891,9 +17383,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -14913,9 +17407,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -14935,9 +17431,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -14957,9 +17455,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -14979,9 +17479,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -15001,9 +17503,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -15023,9 +17527,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -15051,7 +17557,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_45
+block 45
  70
      0
  10
@@ -15061,7 +17567,7 @@ BLOCK_45
  30
 0.0
   3
-BLOCK_45
+block 45
   1
 
   0
@@ -15073,9 +17579,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -15095,9 +17603,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -15117,9 +17627,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -15139,9 +17651,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -15161,9 +17675,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -15183,9 +17699,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -15205,9 +17723,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -15233,7 +17753,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_46
+block 46
  70
      0
  10
@@ -15243,7 +17763,7 @@ BLOCK_46
  30
 0.0
   3
-BLOCK_46
+block 46
   1
 
   0
@@ -15255,9 +17775,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -15277,9 +17799,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -15299,9 +17823,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -15321,9 +17847,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -15343,9 +17871,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -15365,9 +17895,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -15387,9 +17919,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -15415,7 +17949,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_47
+block 47
  70
      0
  10
@@ -15425,7 +17959,7 @@ BLOCK_47
  30
 0.0
   3
-BLOCK_47
+block 47
   1
 
   0
@@ -15437,9 +17971,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -15459,9 +17995,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -15481,9 +18019,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -15503,9 +18043,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -15525,9 +18067,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -15547,9 +18091,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -15569,9 +18115,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -15597,7 +18145,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_48
+block 48
  70
      0
  10
@@ -15607,7 +18155,7 @@ BLOCK_48
  30
 0.0
   3
-BLOCK_48
+block 48
   1
 
   0
@@ -15619,9 +18167,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -15641,9 +18191,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -15663,9 +18215,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -15685,9 +18239,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -15707,9 +18263,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -15729,9 +18287,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -15751,9 +18311,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -15779,7 +18341,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_49
+block 49
  70
      0
  10
@@ -15789,7 +18351,7 @@ BLOCK_49
  30
 0.0
   3
-BLOCK_49
+block 49
   1
 
   0
@@ -15801,9 +18363,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -15823,9 +18387,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -15845,9 +18411,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -15867,9 +18435,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -15889,9 +18459,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -15911,9 +18483,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -15933,9 +18507,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -15961,7 +18537,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_50
+block 50
  70
      0
  10
@@ -15971,7 +18547,7 @@ BLOCK_50
  30
 0.0
   3
-BLOCK_50
+block 50
   1
 
   0
@@ -15983,9 +18559,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -16005,9 +18583,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -16027,9 +18607,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -16049,9 +18631,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -16071,9 +18655,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -16093,9 +18679,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -16115,9 +18703,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -16143,7 +18733,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_51
+block 51
  70
      0
  10
@@ -16153,7 +18743,7 @@ BLOCK_51
  30
 0.0
   3
-BLOCK_51
+block 51
   1
 
   0
@@ -16165,9 +18755,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -16187,9 +18779,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -16209,9 +18803,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -16231,9 +18827,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -16253,9 +18851,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -16275,9 +18875,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -16297,9 +18899,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -16325,7 +18929,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_52
+block 52
  70
      0
  10
@@ -16335,7 +18939,7 @@ BLOCK_52
  30
 0.0
   3
-BLOCK_52
+block 52
   1
 
   0
@@ -16347,9 +18951,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -16369,9 +18975,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -16391,9 +18999,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -16413,9 +19023,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -16435,9 +19047,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -16457,9 +19071,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -16479,9 +19095,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -16507,7 +19125,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_53
+block 53
  70
      0
  10
@@ -16517,7 +19135,7 @@ BLOCK_53
  30
 0.0
   3
-BLOCK_53
+block 53
   1
 
   0
@@ -16529,9 +19147,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -16551,9 +19171,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -16573,9 +19195,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -16595,9 +19219,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -16617,9 +19243,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -16639,9 +19267,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -16661,9 +19291,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -16689,7 +19321,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_54
+block 54
  70
      0
  10
@@ -16699,7 +19331,7 @@ BLOCK_54
  30
 0.0
   3
-BLOCK_54
+block 54
   1
 
   0
@@ -16711,9 +19343,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -16733,9 +19367,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -16755,9 +19391,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -16777,9 +19415,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -16799,9 +19439,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -16821,9 +19463,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -16843,9 +19487,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -16871,7 +19517,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_55
+block 55
  70
      0
  10
@@ -16881,7 +19527,7 @@ BLOCK_55
  30
 0.0
   3
-BLOCK_55
+block 55
   1
 
   0
@@ -16893,9 +19539,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -16915,9 +19563,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -16937,9 +19587,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -16959,9 +19611,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -16981,9 +19635,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -17003,9 +19659,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -17025,9 +19683,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -17053,7 +19713,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_56
+block 56
  70
      0
  10
@@ -17063,7 +19723,7 @@ BLOCK_56
  30
 0.0
   3
-BLOCK_56
+block 56
   1
 
   0
@@ -17075,9 +19735,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -17097,9 +19759,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -17119,9 +19783,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -17141,9 +19807,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -17163,9 +19831,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -17185,9 +19855,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -17207,9 +19879,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -17235,7 +19909,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_57
+block 57
  70
      0
  10
@@ -17245,7 +19919,7 @@ BLOCK_57
  30
 0.0
   3
-BLOCK_57
+block 57
   1
 
   0
@@ -17257,9 +19931,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -17279,9 +19955,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -17301,9 +19979,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -17323,9 +20003,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -17345,9 +20027,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -17367,9 +20051,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -17389,9 +20075,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -17417,7 +20105,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_58
+block 58
  70
      0
  10
@@ -17427,7 +20115,7 @@ BLOCK_58
  30
 0.0
   3
-BLOCK_58
+block 58
   1
 
   0
@@ -17439,9 +20127,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -17461,9 +20151,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -17483,9 +20175,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -17505,9 +20199,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -17527,9 +20223,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -17549,9 +20247,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -17571,9 +20271,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -17599,7 +20301,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_59
+block 59
  70
      0
  10
@@ -17609,7 +20311,7 @@ BLOCK_59
  30
 0.0
   3
-BLOCK_59
+block 59
   1
 
   0
@@ -17621,9 +20323,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -17643,9 +20347,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -17665,9 +20371,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -17687,9 +20395,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -17709,9 +20419,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -17731,9 +20443,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -17753,9 +20467,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -17781,7 +20497,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_60
+block 60
  70
      0
  10
@@ -17791,7 +20507,7 @@ BLOCK_60
  30
 0.0
   3
-BLOCK_60
+block 60
   1
 
   0
@@ -17803,9 +20519,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -17825,9 +20543,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -17847,9 +20567,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -17869,9 +20591,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -17891,9 +20615,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -17913,9 +20639,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -17935,9 +20663,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -17963,7 +20693,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_61
+block 61
  70
      0
  10
@@ -17973,7 +20703,7 @@ BLOCK_61
  30
 0.0
   3
-BLOCK_61
+block 61
   1
 
   0
@@ -17985,9 +20715,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -18007,9 +20739,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -18029,9 +20763,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -18051,9 +20787,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -18073,9 +20811,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -18095,9 +20835,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -18117,9 +20859,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -18145,7 +20889,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_62
+block 62
  70
      0
  10
@@ -18155,7 +20899,7 @@ BLOCK_62
  30
 0.0
   3
-BLOCK_62
+block 62
   1
 
   0
@@ -18167,9 +20911,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -18365,7 +21111,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_63
+block 63
  70
      0
  10
@@ -18375,7 +21121,7 @@ BLOCK_63
  30
 0.0
   3
-BLOCK_63
+block 63
   1
 
   0
@@ -18387,9 +21133,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -18585,7 +21333,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_64
+block 64
  70
      0
  10
@@ -18595,7 +21343,7 @@ BLOCK_64
  30
 0.0
   3
-BLOCK_64
+block 64
   1
 
   0
@@ -18607,9 +21355,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -18805,7 +21555,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_65
+block 65
  70
      0
  10
@@ -18815,7 +21565,7 @@ BLOCK_65
  30
 0.0
   3
-BLOCK_65
+block 65
   1
 
   0
@@ -18827,9 +21577,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -19025,7 +21777,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_66
+block 66
  70
      0
  10
@@ -19035,7 +21787,7 @@ BLOCK_66
  30
 0.0
   3
-BLOCK_66
+block 66
   1
 
   0
@@ -19047,9 +21799,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -19069,9 +21823,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -19091,9 +21847,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -19113,9 +21871,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -19135,9 +21895,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -19157,9 +21919,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -19179,9 +21943,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -19207,7 +21973,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_67
+block 67
  70
      0
  10
@@ -19217,7 +21983,7 @@ BLOCK_67
  30
 0.0
   3
-BLOCK_67
+block 67
   1
 
   0
@@ -19229,9 +21995,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -19427,7 +22195,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_68
+block 68
  70
      0
  10
@@ -19437,7 +22205,7 @@ BLOCK_68
  30
 0.0
   3
-BLOCK_68
+block 68
   1
 
   0
@@ -19449,11 +22217,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_69
+block 69
  10
 0.0
  20
@@ -19469,11 +22237,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_70
+block 70
  10
 0.0
  20
@@ -19489,11 +22257,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_71
+block 71
  10
 0.0
  20
@@ -19509,11 +22277,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_72
+block 72
  10
 0.0
  20
@@ -19529,11 +22297,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_73
+block 73
  10
 0.0
  20
@@ -19549,11 +22317,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_74
+block 74
  10
 0.0
  20
@@ -19569,11 +22337,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_75
+block 75
  10
 0.0
  20
@@ -19589,11 +22357,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_76
+block 76
  10
 0.0
  20
@@ -19609,11 +22377,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_77
+block 77
  10
 0.0
  20
@@ -19629,9 +22397,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -21555,7 +24325,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_69
+block 69
  70
      0
  10
@@ -21565,7 +24335,7 @@ BLOCK_69
  30
 0.0
   3
-BLOCK_69
+block 69
   1
 
   0
@@ -21577,9 +24347,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -21775,7 +24547,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_70
+block 70
  70
      0
  10
@@ -21785,7 +24557,7 @@ BLOCK_70
  30
 0.0
   3
-BLOCK_70
+block 70
   1
 
   0
@@ -21797,9 +24569,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -21995,7 +24769,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_71
+block 71
  70
      0
  10
@@ -22005,7 +24779,7 @@ BLOCK_71
  30
 0.0
   3
-BLOCK_71
+block 71
   1
 
   0
@@ -22017,9 +24791,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -22215,7 +24991,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_72
+block 72
  70
      0
  10
@@ -22225,7 +25001,7 @@ BLOCK_72
  30
 0.0
   3
-BLOCK_72
+block 72
   1
 
   0
@@ -22237,9 +25013,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -22435,7 +25213,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_73
+block 73
  70
      0
  10
@@ -22445,7 +25223,7 @@ BLOCK_73
  30
 0.0
   3
-BLOCK_73
+block 73
   1
 
   0
@@ -22457,9 +25235,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -22655,7 +25435,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_74
+block 74
  70
      0
  10
@@ -22665,7 +25445,7 @@ BLOCK_74
  30
 0.0
   3
-BLOCK_74
+block 74
   1
 
   0
@@ -22677,9 +25457,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -22875,7 +25657,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_75
+block 75
  70
      0
  10
@@ -22885,7 +25667,7 @@ BLOCK_75
  30
 0.0
   3
-BLOCK_75
+block 75
   1
 
   0
@@ -22897,9 +25679,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -23095,7 +25879,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_76
+block 76
  70
      0
  10
@@ -23105,7 +25889,7 @@ BLOCK_76
  30
 0.0
   3
-BLOCK_76
+block 76
   1
 
   0
@@ -23117,9 +25901,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -23315,7 +26101,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_77
+block 77
  70
      0
  10
@@ -23325,7 +26111,7 @@ BLOCK_77
  30
 0.0
   3
-BLOCK_77
+block 77
   1
 
   0
@@ -23337,9 +26123,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -23535,7 +26323,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_78
+block 78
  70
      0
  10
@@ -23545,7 +26333,7 @@ BLOCK_78
  30
 0.0
   3
-BLOCK_78
+block 78
   1
 
   0
@@ -23557,11 +26345,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_79
+block 79
  10
 0.0
  20
@@ -23577,11 +26365,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_82
+block 82
  10
 0.0
  20
@@ -23597,11 +26385,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_85
+block 85
  10
 0.0
  20
@@ -23617,11 +26405,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_88
+block 88
  10
 0.0
  20
@@ -23637,11 +26425,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_91
+block 91
  10
 0.0
  20
@@ -23657,11 +26445,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_94
+block 94
  10
 0.0
  20
@@ -23677,11 +26465,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_97
+block 97
  10
 0.0
  20
@@ -23697,11 +26485,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_100
+block 100
  10
 0.0
  20
@@ -23733,7 +26521,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_79
+block 79
  70
      0
  10
@@ -23743,7 +26531,7 @@ BLOCK_79
  30
 0.0
   3
-BLOCK_79
+block 79
   1
 
   0
@@ -23755,11 +26543,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_80
+block 80
  10
 0.0
  20
@@ -23775,11 +26563,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_81
+block 81
  10
 0.0
  20
@@ -23811,7 +26599,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_80
+block 80
  70
      0
  10
@@ -23821,7 +26609,7 @@ BLOCK_80
  30
 0.0
   3
-BLOCK_80
+block 80
   1
 
   0
@@ -23833,9 +26621,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -24031,7 +26821,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_81
+block 81
  70
      0
  10
@@ -24041,7 +26831,7 @@ BLOCK_81
  30
 0.0
   3
-BLOCK_81
+block 81
   1
 
   0
@@ -24053,9 +26843,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -24395,7 +27187,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_82
+block 82
  70
      0
  10
@@ -24405,7 +27197,7 @@ BLOCK_82
  30
 0.0
   3
-BLOCK_82
+block 82
   1
 
   0
@@ -24417,11 +27209,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_83
+block 83
  10
 0.0
  20
@@ -24437,11 +27229,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_84
+block 84
  10
 0.0
  20
@@ -24473,7 +27265,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_83
+block 83
  70
      0
  10
@@ -24483,7 +27275,7 @@ BLOCK_83
  30
 0.0
   3
-BLOCK_83
+block 83
   1
 
   0
@@ -24495,9 +27287,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -24693,7 +27487,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_84
+block 84
  70
      0
  10
@@ -24703,7 +27497,7 @@ BLOCK_84
  30
 0.0
   3
-BLOCK_84
+block 84
   1
 
   0
@@ -24715,9 +27509,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -25057,7 +27853,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_85
+block 85
  70
      0
  10
@@ -25067,7 +27863,7 @@ BLOCK_85
  30
 0.0
   3
-BLOCK_85
+block 85
   1
 
   0
@@ -25079,11 +27875,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_86
+block 86
  10
 0.0
  20
@@ -25099,11 +27895,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_87
+block 87
  10
 0.0
  20
@@ -25135,7 +27931,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_86
+block 86
  70
      0
  10
@@ -25145,7 +27941,7 @@ BLOCK_86
  30
 0.0
   3
-BLOCK_86
+block 86
   1
 
   0
@@ -25157,9 +27953,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -25355,7 +28153,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_87
+block 87
  70
      0
  10
@@ -25365,7 +28163,7 @@ BLOCK_87
  30
 0.0
   3
-BLOCK_87
+block 87
   1
 
   0
@@ -25377,9 +28175,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -25719,7 +28519,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_88
+block 88
  70
      0
  10
@@ -25729,7 +28529,7 @@ BLOCK_88
  30
 0.0
   3
-BLOCK_88
+block 88
   1
 
   0
@@ -25741,11 +28541,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_89
+block 89
  10
 0.0
  20
@@ -25761,11 +28561,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_90
+block 90
  10
 0.0
  20
@@ -25797,7 +28597,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_89
+block 89
  70
      0
  10
@@ -25807,7 +28607,7 @@ BLOCK_89
  30
 0.0
   3
-BLOCK_89
+block 89
   1
 
   0
@@ -25819,9 +28619,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -26017,7 +28819,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_90
+block 90
  70
      0
  10
@@ -26027,7 +28829,7 @@ BLOCK_90
  30
 0.0
   3
-BLOCK_90
+block 90
   1
 
   0
@@ -26039,9 +28841,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -26381,7 +29185,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_91
+block 91
  70
      0
  10
@@ -26391,7 +29195,7 @@ BLOCK_91
  30
 0.0
   3
-BLOCK_91
+block 91
   1
 
   0
@@ -26403,11 +29207,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_92
+block 92
  10
 0.0
  20
@@ -26423,11 +29227,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_93
+block 93
  10
 0.0
  20
@@ -26459,7 +29263,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_92
+block 92
  70
      0
  10
@@ -26469,7 +29273,7 @@ BLOCK_92
  30
 0.0
   3
-BLOCK_92
+block 92
   1
 
   0
@@ -26481,9 +29285,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -26679,7 +29485,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_93
+block 93
  70
      0
  10
@@ -26689,7 +29495,7 @@ BLOCK_93
  30
 0.0
   3
-BLOCK_93
+block 93
   1
 
   0
@@ -26701,9 +29507,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -27043,7 +29851,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_94
+block 94
  70
      0
  10
@@ -27053,7 +29861,7 @@ BLOCK_94
  30
 0.0
   3
-BLOCK_94
+block 94
   1
 
   0
@@ -27065,11 +29873,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_95
+block 95
  10
 0.0
  20
@@ -27085,11 +29893,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_96
+block 96
  10
 0.0
  20
@@ -27121,7 +29929,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_95
+block 95
  70
      0
  10
@@ -27131,7 +29939,7 @@ BLOCK_95
  30
 0.0
   3
-BLOCK_95
+block 95
   1
 
   0
@@ -27143,9 +29951,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -27341,7 +30151,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_96
+block 96
  70
      0
  10
@@ -27351,7 +30161,7 @@ BLOCK_96
  30
 0.0
   3
-BLOCK_96
+block 96
   1
 
   0
@@ -27363,9 +30173,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -27705,7 +30517,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_97
+block 97
  70
      0
  10
@@ -27715,7 +30527,7 @@ BLOCK_97
  30
 0.0
   3
-BLOCK_97
+block 97
   1
 
   0
@@ -27727,11 +30539,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_98
+block 98
  10
 0.0
  20
@@ -27747,11 +30559,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_99
+block 99
  10
 0.0
  20
@@ -27783,7 +30595,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_98
+block 98
  70
      0
  10
@@ -27793,7 +30605,7 @@ BLOCK_98
  30
 0.0
   3
-BLOCK_98
+block 98
   1
 
   0
@@ -27805,9 +30617,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -28003,7 +30817,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_99
+block 99
  70
      0
  10
@@ -28013,7 +30827,7 @@ BLOCK_99
  30
 0.0
   3
-BLOCK_99
+block 99
   1
 
   0
@@ -28025,9 +30839,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -28367,7 +31183,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_100
+block 100
  70
      0
  10
@@ -28377,7 +31193,7 @@ BLOCK_100
  30
 0.0
   3
-BLOCK_100
+block 100
   1
 
   0
@@ -28389,11 +31205,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_101
+block 101
  10
 0.0
  20
@@ -28409,11 +31225,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_102
+block 102
  10
 0.0
  20
@@ -28445,7 +31261,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_101
+block 101
  70
      0
  10
@@ -28455,7 +31271,7 @@ BLOCK_101
  30
 0.0
   3
-BLOCK_101
+block 101
   1
 
   0
@@ -28467,9 +31283,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -28665,7 +31483,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_102
+block 102
  70
      0
  10
@@ -28675,7 +31493,7 @@ BLOCK_102
  30
 0.0
   3
-BLOCK_102
+block 102
   1
 
   0
@@ -28687,9 +31505,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -29029,7 +31849,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_103
+block 103
  70
      0
  10
@@ -29039,7 +31859,7 @@ BLOCK_103
  30
 0.0
   3
-BLOCK_103
+block 103
   1
 
   0
@@ -29051,11 +31871,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_104
+block 104
  10
 0.0
  20
@@ -29071,11 +31891,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_105
+block 105
  10
 0.0
  20
@@ -29091,11 +31911,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_106
+block 106
  10
 0.0
  20
@@ -29111,11 +31931,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_107
+block 107
  10
 0.0
  20
@@ -29131,11 +31951,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_108
+block 108
  10
 0.0
  20
@@ -29151,11 +31971,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_109
+block 109
  10
 0.0
  20
@@ -29171,11 +31991,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_110
+block 110
  10
 0.0
  20
@@ -29191,11 +32011,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_111
+block 111
  10
 0.0
  20
@@ -29211,11 +32031,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_112
+block 112
  10
 0.0
  20
@@ -29231,11 +32051,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_113
+block 113
  10
 0.0
  20
@@ -29251,11 +32071,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_114
+block 114
  10
 0.0
  20
@@ -29271,11 +32091,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_115
+block 115
  10
 0.0
  20
@@ -29291,11 +32111,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_116
+block 116
  10
 0.0
  20
@@ -29311,11 +32131,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_117
+block 117
  10
 0.0
  20
@@ -29331,11 +32151,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_118
+block 118
  10
 0.0
  20
@@ -29351,11 +32171,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_119
+block 119
  10
 0.0
  20
@@ -29371,11 +32191,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_120
+block 120
  10
 0.0
  20
@@ -29391,11 +32211,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_121
+block 121
  10
 0.0
  20
@@ -29411,11 +32231,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_122
+block 122
  10
 0.0
  20
@@ -29431,11 +32251,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_123
+block 123
  10
 0.0
  20
@@ -29451,11 +32271,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_124
+block 124
  10
 0.0
  20
@@ -29471,11 +32291,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_125
+block 125
  10
 0.0
  20
@@ -29491,11 +32311,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_126
+block 126
  10
 0.0
  20
@@ -29511,11 +32331,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_127
+block 127
  10
 0.0
  20
@@ -29531,11 +32351,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_128
+block 128
  10
 0.0
  20
@@ -29551,11 +32371,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_129
+block 129
  10
 0.0
  20
@@ -29571,9 +32391,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -29593,9 +32415,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -29635,9 +32459,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 POLYLINE
   5
@@ -29647,9 +32473,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -29669,9 +32497,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -29711,9 +32541,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 POLYLINE
   5
@@ -29723,9 +32555,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -29745,9 +32579,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -29787,9 +32623,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 INSERT
   5
@@ -29799,11 +32637,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_130
+block 130
  10
 0.0
  20
@@ -29819,11 +32657,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_131
+block 131
  10
 0.0
  20
@@ -29839,11 +32677,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_132
+block 132
  10
 0.0
  20
@@ -29859,11 +32697,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_133
+block 133
  10
 0.0
  20
@@ -29879,9 +32717,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -29901,9 +32741,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -29943,9 +32785,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 SPLINE
   5
@@ -29955,9 +32799,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -31817,11 +34663,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_134
+block 134
  10
 0.0
  20
@@ -31853,7 +34699,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_104
+block 104
  70
      0
  10
@@ -31863,7 +34709,7 @@ BLOCK_104
  30
 0.0
   3
-BLOCK_104
+block 104
   1
 
   0
@@ -31875,9 +34721,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -32073,7 +34921,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_105
+block 105
  70
      0
  10
@@ -32083,7 +34931,7 @@ BLOCK_105
  30
 0.0
   3
-BLOCK_105
+block 105
   1
 
   0
@@ -32095,9 +34943,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -32293,7 +35143,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_106
+block 106
  70
      0
  10
@@ -32303,7 +35153,7 @@ BLOCK_106
  30
 0.0
   3
-BLOCK_106
+block 106
   1
 
   0
@@ -32315,9 +35165,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -32513,7 +35365,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_107
+block 107
  70
      0
  10
@@ -32523,7 +35375,7 @@ BLOCK_107
  30
 0.0
   3
-BLOCK_107
+block 107
   1
 
   0
@@ -32535,9 +35387,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -32733,7 +35587,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_108
+block 108
  70
      0
  10
@@ -32743,7 +35597,7 @@ BLOCK_108
  30
 0.0
   3
-BLOCK_108
+block 108
   1
 
   0
@@ -32755,9 +35609,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -32953,7 +35809,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_109
+block 109
  70
      0
  10
@@ -32963,7 +35819,7 @@ BLOCK_109
  30
 0.0
   3
-BLOCK_109
+block 109
   1
 
   0
@@ -32975,9 +35831,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -32997,9 +35855,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -33019,9 +35879,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -33041,9 +35903,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -33063,9 +35927,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -33085,9 +35951,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -33107,9 +35975,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -33135,7 +36005,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_110
+block 110
  70
      0
  10
@@ -33145,7 +36015,7 @@ BLOCK_110
  30
 0.0
   3
-BLOCK_110
+block 110
   1
 
   0
@@ -33157,9 +36027,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -33179,9 +36051,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -33201,9 +36075,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -33223,9 +36099,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -33245,9 +36123,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -33267,9 +36147,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -33289,9 +36171,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -33317,7 +36201,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_111
+block 111
  70
      0
  10
@@ -33327,7 +36211,7 @@ BLOCK_111
  30
 0.0
   3
-BLOCK_111
+block 111
   1
 
   0
@@ -33339,9 +36223,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -33361,9 +36247,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -33383,9 +36271,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -33405,9 +36295,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -33427,9 +36319,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -33449,9 +36343,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -33471,9 +36367,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -33499,7 +36397,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_112
+block 112
  70
      0
  10
@@ -33509,7 +36407,7 @@ BLOCK_112
  30
 0.0
   3
-BLOCK_112
+block 112
   1
 
   0
@@ -33521,9 +36419,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -33543,9 +36443,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -33565,9 +36467,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -33587,9 +36491,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -33609,9 +36515,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -33631,9 +36539,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -33653,9 +36563,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -33681,7 +36593,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_113
+block 113
  70
      0
  10
@@ -33691,7 +36603,7 @@ BLOCK_113
  30
 0.0
   3
-BLOCK_113
+block 113
   1
 
   0
@@ -33703,9 +36615,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -33725,9 +36639,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -33747,9 +36663,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -33769,9 +36687,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -33791,9 +36711,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -33813,9 +36735,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -33835,9 +36759,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -33863,7 +36789,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_114
+block 114
  70
      0
  10
@@ -33873,7 +36799,7 @@ BLOCK_114
  30
 0.0
   3
-BLOCK_114
+block 114
   1
 
   0
@@ -33885,9 +36811,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -33907,9 +36835,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -33929,9 +36859,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -33951,9 +36883,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -33973,9 +36907,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -33995,9 +36931,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -34017,9 +36955,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -34045,7 +36985,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_115
+block 115
  70
      0
  10
@@ -34055,7 +36995,7 @@ BLOCK_115
  30
 0.0
   3
-BLOCK_115
+block 115
   1
 
   0
@@ -34067,9 +37007,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -34089,9 +37031,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -34111,9 +37055,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -34133,9 +37079,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -34155,9 +37103,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -34177,9 +37127,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -34199,9 +37151,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -34227,7 +37181,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_116
+block 116
  70
      0
  10
@@ -34237,7 +37191,7 @@ BLOCK_116
  30
 0.0
   3
-BLOCK_116
+block 116
   1
 
   0
@@ -34249,9 +37203,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -34271,9 +37227,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -34293,9 +37251,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -34315,9 +37275,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -34337,9 +37299,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -34359,9 +37323,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -34381,9 +37347,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -34409,7 +37377,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_117
+block 117
  70
      0
  10
@@ -34419,7 +37387,7 @@ BLOCK_117
  30
 0.0
   3
-BLOCK_117
+block 117
   1
 
   0
@@ -34431,9 +37399,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -34453,9 +37423,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -34475,9 +37447,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -34497,9 +37471,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -34519,9 +37495,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -34541,9 +37519,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -34563,9 +37543,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -34591,7 +37573,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_118
+block 118
  70
      0
  10
@@ -34601,7 +37583,7 @@ BLOCK_118
  30
 0.0
   3
-BLOCK_118
+block 118
   1
 
   0
@@ -34613,9 +37595,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -34635,9 +37619,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -34657,9 +37643,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -34679,9 +37667,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -34701,9 +37691,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -34723,9 +37715,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -34745,9 +37739,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -34773,7 +37769,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_119
+block 119
  70
      0
  10
@@ -34783,7 +37779,7 @@ BLOCK_119
  30
 0.0
   3
-BLOCK_119
+block 119
   1
 
   0
@@ -34795,9 +37791,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -34817,9 +37815,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -34839,9 +37839,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -34861,9 +37863,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -34883,9 +37887,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -34905,9 +37911,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -34927,9 +37935,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -34955,7 +37965,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_120
+block 120
  70
      0
  10
@@ -34965,7 +37975,7 @@ BLOCK_120
  30
 0.0
   3
-BLOCK_120
+block 120
   1
 
   0
@@ -34977,9 +37987,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -34999,9 +38011,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -35021,9 +38035,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -35043,9 +38059,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -35065,9 +38083,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -35087,9 +38107,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -35109,9 +38131,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -35137,7 +38161,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_121
+block 121
  70
      0
  10
@@ -35147,7 +38171,7 @@ BLOCK_121
  30
 0.0
   3
-BLOCK_121
+block 121
   1
 
   0
@@ -35159,9 +38183,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -35181,9 +38207,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -35203,9 +38231,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -35225,9 +38255,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -35247,9 +38279,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -35269,9 +38303,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -35291,9 +38327,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -35319,7 +38357,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_122
+block 122
  70
      0
  10
@@ -35329,7 +38367,7 @@ BLOCK_122
  30
 0.0
   3
-BLOCK_122
+block 122
   1
 
   0
@@ -35341,9 +38379,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -35363,9 +38403,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -35385,9 +38427,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -35407,9 +38451,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -35429,9 +38475,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -35451,9 +38499,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -35473,9 +38523,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -35501,7 +38553,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_123
+block 123
  70
      0
  10
@@ -35511,7 +38563,7 @@ BLOCK_123
  30
 0.0
   3
-BLOCK_123
+block 123
   1
 
   0
@@ -35523,9 +38575,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -35545,9 +38599,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -35567,9 +38623,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -35589,9 +38647,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -35611,9 +38671,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -35633,9 +38695,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -35655,9 +38719,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -35683,7 +38749,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_124
+block 124
  70
      0
  10
@@ -35693,7 +38759,7 @@ BLOCK_124
  30
 0.0
   3
-BLOCK_124
+block 124
   1
 
   0
@@ -35705,9 +38771,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -35727,9 +38795,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -35749,9 +38819,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -35771,9 +38843,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -35793,9 +38867,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -35815,9 +38891,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -35837,9 +38915,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -35865,7 +38945,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_125
+block 125
  70
      0
  10
@@ -35875,7 +38955,7 @@ BLOCK_125
  30
 0.0
   3
-BLOCK_125
+block 125
   1
 
   0
@@ -35887,9 +38967,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -35909,9 +38991,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -35931,9 +39015,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -35953,9 +39039,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -35975,9 +39063,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -35997,9 +39087,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -36019,9 +39111,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -36047,7 +39141,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_126
+block 126
  70
      0
  10
@@ -36057,7 +39151,7 @@ BLOCK_126
  30
 0.0
   3
-BLOCK_126
+block 126
   1
 
   0
@@ -36069,9 +39163,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -36091,9 +39187,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -36113,9 +39211,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -36135,9 +39235,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -36157,9 +39259,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -36179,9 +39283,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -36201,9 +39307,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -36229,7 +39337,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_127
+block 127
  70
      0
  10
@@ -36239,7 +39347,7 @@ BLOCK_127
  30
 0.0
   3
-BLOCK_127
+block 127
   1
 
   0
@@ -36251,9 +39359,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -36273,9 +39383,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -36295,9 +39407,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -36317,9 +39431,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -36339,9 +39455,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -36361,9 +39479,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -36383,9 +39503,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -36411,7 +39533,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_128
+block 128
  70
      0
  10
@@ -36421,7 +39543,7 @@ BLOCK_128
  30
 0.0
   3
-BLOCK_128
+block 128
   1
 
   0
@@ -36433,9 +39555,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -36455,9 +39579,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -36477,9 +39603,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -36499,9 +39627,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -36521,9 +39651,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -36543,9 +39675,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -36565,9 +39699,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -36593,7 +39729,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_129
+block 129
  70
      0
  10
@@ -36603,7 +39739,7 @@ BLOCK_129
  30
 0.0
   3
-BLOCK_129
+block 129
   1
 
   0
@@ -36615,9 +39751,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -36637,9 +39775,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -36659,9 +39799,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -36681,9 +39823,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -36703,9 +39847,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -36725,9 +39871,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -36747,9 +39895,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -36775,7 +39925,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_130
+block 130
  70
      0
  10
@@ -36785,7 +39935,7 @@ BLOCK_130
  30
 0.0
   3
-BLOCK_130
+block 130
   1
 
   0
@@ -36797,9 +39947,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -36995,7 +40147,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_131
+block 131
  70
      0
  10
@@ -37005,7 +40157,7 @@ BLOCK_131
  30
 0.0
   3
-BLOCK_131
+block 131
   1
 
   0
@@ -37017,9 +40169,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -37215,7 +40369,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_132
+block 132
  70
      0
  10
@@ -37225,7 +40379,7 @@ BLOCK_132
  30
 0.0
   3
-BLOCK_132
+block 132
   1
 
   0
@@ -37237,9 +40391,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -37435,7 +40591,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_133
+block 133
  70
      0
  10
@@ -37445,7 +40601,7 @@ BLOCK_133
  30
 0.0
   3
-BLOCK_133
+block 133
   1
 
   0
@@ -37457,9 +40613,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -37655,7 +40813,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_134
+block 134
  70
      0
  10
@@ -37665,7 +40823,7 @@ BLOCK_134
  30
 0.0
   3
-BLOCK_134
+block 134
   1
 
   0
@@ -37677,9 +40835,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -37699,9 +40859,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -37721,9 +40883,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -37743,9 +40907,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -37765,9 +40931,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -37787,9 +40955,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -37809,9 +40979,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 ENDBLK
   5
@@ -37837,7 +41009,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_135
+block 135
  70
      0
  10
@@ -37847,7 +41019,7 @@ BLOCK_135
  30
 0.0
   3
-BLOCK_135
+block 135
   1
 
   0
@@ -37859,11 +41031,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_136
+block 136
  10
 0.0
  20
@@ -37879,11 +41051,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_137
+block 137
  10
 0.0
  20
@@ -37899,11 +41071,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_138
+block 138
  10
 0.0
  20
@@ -37919,11 +41091,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_139
+block 139
  10
 0.0
  20
@@ -37939,11 +41111,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_140
+block 140
  10
 0.0
  20
@@ -37959,11 +41131,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_141
+block 141
  10
 0.0
  20
@@ -37979,11 +41151,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_142
+block 142
  10
 0.0
  20
@@ -37999,11 +41171,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_143
+block 143
  10
 0.0
  20
@@ -38019,11 +41191,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_144
+block 144
  10
 0.0
  20
@@ -38039,11 +41211,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_145
+block 145
  10
 0.0
  20
@@ -38059,9 +41231,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -39985,7 +43159,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_136
+block 136
  70
      0
  10
@@ -39995,7 +43169,7 @@ BLOCK_136
  30
 0.0
   3
-BLOCK_136
+block 136
   1
 
   0
@@ -40007,9 +43181,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -40205,7 +43381,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_137
+block 137
  70
      0
  10
@@ -40215,7 +43391,7 @@ BLOCK_137
  30
 0.0
   3
-BLOCK_137
+block 137
   1
 
   0
@@ -40227,9 +43403,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -40425,7 +43603,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_138
+block 138
  70
      0
  10
@@ -40435,7 +43613,7 @@ BLOCK_138
  30
 0.0
   3
-BLOCK_138
+block 138
   1
 
   0
@@ -40447,9 +43625,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -40645,7 +43825,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_139
+block 139
  70
      0
  10
@@ -40655,7 +43835,7 @@ BLOCK_139
  30
 0.0
   3
-BLOCK_139
+block 139
   1
 
   0
@@ -40667,9 +43847,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -40865,7 +44047,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_140
+block 140
  70
      0
  10
@@ -40875,7 +44057,7 @@ BLOCK_140
  30
 0.0
   3
-BLOCK_140
+block 140
   1
 
   0
@@ -40887,9 +44069,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -41085,7 +44269,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_141
+block 141
  70
      0
  10
@@ -41095,7 +44279,7 @@ BLOCK_141
  30
 0.0
   3
-BLOCK_141
+block 141
   1
 
   0
@@ -41107,9 +44291,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -41305,7 +44491,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_142
+block 142
  70
      0
  10
@@ -41315,7 +44501,7 @@ BLOCK_142
  30
 0.0
   3
-BLOCK_142
+block 142
   1
 
   0
@@ -41327,9 +44513,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -41525,7 +44713,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_143
+block 143
  70
      0
  10
@@ -41535,7 +44723,7 @@ BLOCK_143
  30
 0.0
   3
-BLOCK_143
+block 143
   1
 
   0
@@ -41547,9 +44735,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -41745,7 +44935,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_144
+block 144
  70
      0
  10
@@ -41755,7 +44945,7 @@ BLOCK_144
  30
 0.0
   3
-BLOCK_144
+block 144
   1
 
   0
@@ -41767,9 +44957,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -41965,7 +45157,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-BLOCK_145
+block 145
  70
      0
  10
@@ -41975,7 +45167,7 @@ BLOCK_145
  30
 0.0
   3
-BLOCK_145
+block 145
   1
 
   0
@@ -41987,9 +45179,11 @@ SPLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbSpline
 210
@@ -42187,11 +45381,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_2
+block 2
  10
 0.0
  20
@@ -42207,11 +45401,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_6
+block 6
  10
 0.0
  20
@@ -42227,11 +45421,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_10
+block 10
  10
 0.0
  20
@@ -42247,11 +45441,11 @@ DD
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_35
+block 35
  10
 0.0
  20
@@ -42267,11 +45461,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_67
+block 67
  10
 0.0
  20
@@ -42287,9 +45481,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -42309,9 +45505,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -42351,9 +45549,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 POLYLINE
   5
@@ -42363,9 +45563,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -42385,9 +45587,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -42427,9 +45631,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 POLYLINE
   5
@@ -42439,9 +45645,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -42461,9 +45669,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -42503,9 +45713,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 INSERT
   5
@@ -42515,11 +45727,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_68
+block 68
  10
 0.0
  20
@@ -42535,11 +45747,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_78
+block 78
  10
 0.0
  20
@@ -42555,11 +45767,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_103
+block 103
  10
 0.0
  20
@@ -42575,9 +45787,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -42597,9 +45811,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -42639,9 +45855,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 POLYLINE
   5
@@ -42651,9 +45869,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -42673,9 +45893,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -42715,9 +45937,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 POLYLINE
   5
@@ -42727,9 +45951,11 @@ POLYLINE
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDb2dPolyline
  66
@@ -42749,9 +45975,11 @@ VERTEX
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
 100
 AcDbVertex
 100
@@ -42791,9 +46019,11 @@ SEQEND
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
  62
      1
+370
+     9
   0
 INSERT
   5
@@ -42803,11 +46033,11 @@ INSERT
 100
 AcDbEntity
   8
-_U_5207_U_65AD_U_30D1_U_30
+_U+5207_U+65AD_U+30D1_U+30B9
 100
 AcDbBlockReference
   2
-BLOCK_135
+block 135
  10
 0.0
  20
@@ -42828,6 +46058,8 @@ C
 0
 100
 AcDbDictionary
+281
+     1
   3
 ACAD_GROUP
 350
@@ -42843,7 +46075,7 @@ ACAD_MATERIAL
   3
 ACAD_MLEADERSTYLE
 350
-440
+43F
   3
 ACAD_MLINESTYLE
 350
@@ -42853,19 +46085,49 @@ ACAD_PLOTSETTINGS
 350
 19
   3
+ACAD_PLOTSTYLENAME
+350
+E
+  3
+ACAD_TABLESTYLE
+350
+43E
+  3
 ACAD_VISUALSTYLE
 350
 2A
-  3
-ACDBVARIABLEDICTIONARY
-350
-43E
-1001
-ACAD
-1000
-TREAT_AS_HARD
-1070
+  0
+SUN
+  5
+3F
+330
+29
+100
+AcDbSun
+ 90
+        1
+290
      0
+ 63
+     7
+421
+ 16777215
+ 40
+1.0
+291
+     1
+ 91
+  2455826
+ 92
+ 54000000
+292
+     0
+ 70
+     2
+ 71
+   256
+280
+     1
   0
 DICTIONARY
   5
@@ -42880,12 +46142,8 @@ C
 C
 100
 AcDbDictionary
-1001
-ACAD
-1000
-TREAT_AS_HARD
-1070
-     0
+281
+     1
   0
 DICTIONARY
   5
@@ -42900,12 +46158,20 @@ C
 C
 100
 AcDbDictionary
-1001
-ACAD
-1000
-TREAT_AS_HARD
-1070
-     0
+281
+     1
+  3
+Layout1
+350
+1E
+  3
+Layout2
+350
+26
+  3
+Model
+350
+22
   0
 DICTIONARY
   5
@@ -42920,28 +46186,24 @@ C
 C
 100
 AcDbDictionary
+281
+     1
   3
-BYBLOCK
+ByBlock
 350
 3D
   3
-BYLAYER
+ByLayer
 350
 3C
   3
-GLOBAL
+Global
 350
 3E
-1001
-ACAD
-1000
-TREAT_AS_HARD
-1070
-     0
   0
 DICTIONARY
   5
-440
+43F
 102
 {ACAD_REACTORS
 330
@@ -42952,12 +46214,8 @@ C
 C
 100
 AcDbDictionary
-1001
-ACAD
-1000
-TREAT_AS_HARD
-1070
-     0
+281
+     1
   0
 DICTIONARY
   5
@@ -42972,16 +46230,12 @@ C
 C
 100
 AcDbDictionary
+281
+     1
   3
-STANDARD
+Standard
 350
 18
-1001
-ACAD
-1000
-TREAT_AS_HARD
-1070
-     0
   0
 DICTIONARY
   5
@@ -42996,16 +46250,12 @@ C
 C
 100
 AcDbDictionary
-1001
-ACAD
-1000
-TREAT_AS_HARD
-1070
-     0
+281
+     1
   0
-DICTIONARY
+ACDBDICTIONARYWDFLT
   5
-2A
+E
 102
 {ACAD_REACTORS
 330
@@ -43016,76 +46266,16 @@ C
 C
 100
 AcDbDictionary
+281
+     1
   3
-2DWIREFRAME
+Normal
 350
-2F
-  3
-3D_HIDDEN
-350
-31
-  3
-3DWIREFRAME
-350
-30
-  3
-BASIC
-350
-32
-  3
-BRIGHTEN
-350
-36
-  3
-COLORCHANGE
-350
-3A
-  3
-CONCEPTUAL
-350
-34
-  3
-DIM
-350
-35
-  3
-FACEPATTERN
-350
-39
-  3
-FLAT
-350
-2B
-  3
-FLATWITHEDGES
-350
-2C
-  3
-GOURAUD
-350
-2D
-  3
-GOURAUDWITHEDGES
-350
-2E
-  3
-LINEPATTERN
-350
-38
-  3
-REALISTIC
-350
-33
-  3
-THICKEN
-350
-37
-1001
-ACAD
-1000
-TREAT_AS_HARD
-1070
-     0
+F
+100
+AcDbDictionaryWithDefault
+340
+F
   0
 DICTIONARY
   5
@@ -43100,20 +46290,486 @@ C
 C
 100
 AcDbDictionary
+281
+     1
+  0
+DICTIONARY
+  5
+2A
+102
+{ACAD_REACTORS
+330
+C
+102
+}
+330
+C
+100
+AcDbDictionary
+281
+     1
   3
-DIMASSOC
+2dWireframe
 350
-441
+2F
   3
-HIDETEXT
+3D Hidden
 350
-442
-1001
-ACAD
-1000
-TREAT_AS_HARD
-1070
+31
+  3
+3dWireframe
+350
+30
+  3
+Basic
+350
+32
+  3
+Brighten
+350
+36
+  3
+ColorChange
+350
+3A
+  3
+Conceptual
+350
+34
+  3
+Dim
+350
+35
+  3
+Facepattern
+350
+39
+  3
+Flat
+350
+2B
+  3
+FlatWithEdges
+350
+2C
+  3
+Gouraud
+350
+2D
+  3
+GouraudWithEdges
+350
+2E
+  3
+Linepattern
+350
+38
+  3
+Realistic
+350
+33
+  3
+Thicken
+350
+37
+  0
+LAYOUT
+  5
+1E
+102
+{ACAD_REACTORS
+330
+1A
+102
+}
+330
+1A
+100
+AcDbPlotSettings
+  1
+
+  2
+none_device
+  4
+
+  6
+
+ 40
+0.0
+ 41
+0.0
+ 42
+0.0
+ 43
+0.0
+ 44
+0.0
+ 45
+0.0
+ 46
+0.0
+ 47
+0.0
+ 48
+0.0
+ 49
+0.0
+140
+0.0
+141
+0.0
+142
+1.0
+143
+1.0
+ 70
+   688
+ 72
      0
+ 73
+     0
+ 74
+     5
+  7
+
+ 75
+    16
+ 76
+     0
+ 77
+     2
+ 78
+   300
+147
+1.0
+148
+0.0
+149
+0.0
+100
+AcDbLayout
+  1
+Layout1
+ 70
+     1
+ 71
+     1
+ 10
+0.0
+ 20
+0.0
+ 11
+12.0
+ 21
+9.0
+ 12
+0.0
+ 22
+0.0
+ 32
+0.0
+ 14
+1.000000000000000E+20
+ 24
+1.000000000000000E+20
+ 34
+1.000000000000000E+20
+ 15
+-1.000000000000000E+20
+ 25
+-1.000000000000000E+20
+ 35
+-1.000000000000000E+20
+146
+0.0
+ 13
+0.0
+ 23
+0.0
+ 33
+0.0
+ 16
+1.0
+ 26
+0.0
+ 36
+0.0
+ 17
+0.0
+ 27
+1.0
+ 37
+0.0
+ 76
+     0
+330
+1B
+  0
+LAYOUT
+  5
+26
+102
+{ACAD_REACTORS
+330
+1A
+102
+}
+330
+1A
+100
+AcDbPlotSettings
+  1
+
+  2
+none_device
+  4
+
+  6
+
+ 40
+0.0
+ 41
+0.0
+ 42
+0.0
+ 43
+0.0
+ 44
+0.0
+ 45
+0.0
+ 46
+0.0
+ 47
+0.0
+ 48
+0.0
+ 49
+0.0
+140
+0.0
+141
+0.0
+142
+1.0
+143
+1.0
+ 70
+   688
+ 72
+     0
+ 73
+     0
+ 74
+     5
+  7
+
+ 75
+    16
+ 76
+     0
+ 77
+     2
+ 78
+   300
+147
+1.0
+148
+0.0
+149
+0.0
+100
+AcDbLayout
+  1
+Layout2
+ 70
+     1
+ 71
+     2
+ 10
+0.0
+ 20
+0.0
+ 11
+0.0
+ 21
+0.0
+ 12
+0.0
+ 22
+0.0
+ 32
+0.0
+ 14
+0.0
+ 24
+0.0
+ 34
+0.0
+ 15
+0.0
+ 25
+0.0
+ 35
+0.0
+146
+0.0
+ 13
+0.0
+ 23
+0.0
+ 33
+0.0
+ 16
+1.0
+ 26
+0.0
+ 36
+0.0
+ 17
+0.0
+ 27
+1.0
+ 37
+0.0
+ 76
+     0
+330
+23
+  0
+LAYOUT
+  5
+22
+102
+{ACAD_REACTORS
+330
+1A
+102
+}
+330
+1A
+100
+AcDbPlotSettings
+  1
+
+  2
+none_device
+  4
+
+  6
+
+ 40
+0.0
+ 41
+0.0
+ 42
+0.0
+ 43
+0.0
+ 44
+0.0
+ 45
+0.0
+ 46
+0.0
+ 47
+0.0
+ 48
+0.0
+ 49
+0.0
+140
+0.0
+141
+0.0
+142
+1.0
+143
+1.0
+ 70
+  1712
+ 72
+     0
+ 73
+     0
+ 74
+     0
+  7
+
+ 75
+     0
+ 76
+     0
+ 77
+     2
+ 78
+   300
+147
+1.0
+148
+0.0
+149
+0.0
+100
+AcDbLayout
+  1
+Model
+ 70
+     1
+ 71
+     0
+ 10
+0.0
+ 20
+0.0
+ 11
+12.0
+ 21
+9.0
+ 12
+0.0
+ 22
+0.0
+ 32
+0.0
+ 14
+1.000000000000000E+20
+ 24
+1.000000000000000E+20
+ 34
+1.000000000000000E+20
+ 15
+-1.000000000000000E+20
+ 25
+-1.000000000000000E+20
+ 35
+-1.000000000000000E+20
+146
+0.0
+ 13
+0.0
+ 23
+0.0
+ 33
+0.0
+ 16
+1.0
+ 26
+0.0
+ 36
+0.0
+ 17
+0.0
+ 27
+1.0
+ 37
+0.0
+ 76
+     0
+330
+1F
+331
+29
   0
 MATERIAL
   5
@@ -43124,18 +46780,16 @@ MATERIAL
 3B
 102
 }
-102
-{ACAD_XDICTIONARY
-360
-445
-102
-}
 330
 3B
 100
 AcDbMaterial
   1
 ByBlock
+ 72
+     1
+ 94
+      127
   0
 MATERIAL
   5
@@ -43146,18 +46800,16 @@ MATERIAL
 3B
 102
 }
-102
-{ACAD_XDICTIONARY
-360
-443
-102
-}
 330
 3B
 100
 AcDbMaterial
   1
 ByLayer
+ 72
+     1
+ 94
+      127
   0
 MATERIAL
   5
@@ -43168,18 +46820,16 @@ MATERIAL
 3B
 102
 }
-102
-{ACAD_XDICTIONARY
-360
-447
-102
-}
 330
 3B
 100
 AcDbMaterial
   1
 Global
+ 72
+     1
+ 94
+      127
   0
 MLINESTYLE
   5
@@ -43221,7 +46871,19 @@ BYLAYER
   6
 BYLAYER
   0
-ACAD_PROXY_OBJECT
+ACDBPLACEHOLDER
+  5
+F
+102
+{ACAD_REACTORS
+330
+E
+102
+}
+330
+E
+  0
+VISUALSTYLE
   5
 2F
 102
@@ -43233,23 +46895,133 @@ ACAD_PROXY_OBJECT
 330
 2A
 100
-AcDbZombieObject
- 90
-      499
- 91
-      501
- 93
-      436
-310
-42CC9915DA5C99599C985B595049028333333333333E3BF0000000000000FB0107901411070040501600405405064090741402480A0340
-1001
-ACAD
-1000
-AcDbSavedByObjectVersion
-1070
+AcDbVisualStyle
+  2
+2dWireframe
+ 70
+     4
+177
+     2
+291
      0
+ 71
+     0
+176
+     1
+ 72
+     2
+176
+     1
+ 73
+     0
+176
+     1
+ 90
+        0
+176
+     1
+ 40
+-0.6
+176
+     1
+ 41
+-30.0
+176
+     1
+ 62
+     5
+ 63
+     7
+421
+ 16777215
+176
+     1
+ 74
+     1
+176
+     1
+ 91
+        4
+176
+     1
+ 64
+     7
+176
+     1
+ 65
+   257
+176
+     1
+ 75
+     1
+176
+     1
+175
+     1
+176
+     1
+ 42
+1.0
+176
+     1
+ 92
+        0
+176
+     1
+ 66
+   257
+176
+     1
+ 43
+1.0
+176
+     1
+ 76
+     1
+176
+     1
+ 77
+     6
+176
+     1
+ 78
+     2
+176
+     1
+ 67
+     7
+176
+     1
+ 79
+     5
+176
+     1
+170
+     0
+176
+     1
+171
+     0
+176
+     1
+290
+     0
+176
+     1
+ 93
+        1
+176
+     1
+ 44
+0.0
+176
+     1
+173
+     0
+176
+     1
   0
-ACAD_PROXY_OBJECT
+VISUALSTYLE
   5
 31
 102
@@ -43261,23 +47033,133 @@ ACAD_PROXY_OBJECT
 330
 2A
 100
-AcDbZombieObject
- 90
-      499
- 91
-      501
- 93
-      500
-310
-424CD108121A5919195B90640502408333333333333E3BF0000000000000FB01079024090700405020000000000001110200405405064090740C02480A0340
-1001
-ACAD
-1000
-AcDbSavedByObjectVersion
-1070
+AcDbVisualStyle
+  2
+3D Hidden
+ 70
+     6
+177
+     2
+291
      0
+ 71
+     1
+176
+     1
+ 72
+     2
+176
+     1
+ 73
+     2
+176
+     1
+ 90
+        0
+176
+     1
+ 40
+-0.6
+176
+     1
+ 41
+-30.0
+176
+     1
+ 62
+     5
+ 63
+     7
+421
+ 16777215
+176
+     1
+ 74
+     2
+176
+     1
+ 91
+        2
+176
+     1
+ 64
+     7
+176
+     1
+ 65
+   257
+176
+     1
+ 75
+     2
+176
+     1
+175
+     1
+176
+     1
+ 42
+40.0
+176
+     1
+ 92
+        0
+176
+     1
+ 66
+   257
+176
+     1
+ 43
+1.0
+176
+     1
+ 76
+     1
+176
+     1
+ 77
+     6
+176
+     1
+ 78
+     2
+176
+     1
+ 67
+     7
+176
+     1
+ 79
+     3
+176
+     1
+170
+     0
+176
+     1
+171
+     0
+176
+     1
+290
+     0
+176
+     1
+ 93
+        1
+176
+     1
+ 44
+0.0
+176
+     1
+173
+     0
+176
+     1
   0
-ACAD_PROXY_OBJECT
+VISUALSTYLE
   5
 30
 102
@@ -43289,23 +47171,133 @@ ACAD_PROXY_OBJECT
 330
 2A
 100
-AcDbZombieObject
- 90
-      499
- 91
-      501
- 93
-      436
-310
-42CCD915DA5C99599C985B595059028333333333333E3BF0000000000000FB0107901411070040501600405405064090741402480A0340
-1001
-ACAD
-1000
-AcDbSavedByObjectVersion
-1070
+AcDbVisualStyle
+  2
+3dWireframe
+ 70
+     5
+177
+     2
+291
      0
+ 71
+     0
+176
+     1
+ 72
+     2
+176
+     1
+ 73
+     0
+176
+     1
+ 90
+        0
+176
+     1
+ 40
+-0.6
+176
+     1
+ 41
+-30.0
+176
+     1
+ 62
+     5
+ 63
+     7
+421
+ 16777215
+176
+     1
+ 74
+     1
+176
+     1
+ 91
+        4
+176
+     1
+ 64
+     7
+176
+     1
+ 65
+   257
+176
+     1
+ 75
+     1
+176
+     1
+175
+     1
+176
+     1
+ 42
+1.0
+176
+     1
+ 92
+        0
+176
+     1
+ 66
+   257
+176
+     1
+ 43
+1.0
+176
+     1
+ 76
+     1
+176
+     1
+ 77
+     6
+176
+     1
+ 78
+     2
+176
+     1
+ 67
+     7
+176
+     1
+ 79
+     5
+176
+     1
+170
+     0
+176
+     1
+171
+     0
+176
+     1
+290
+     0
+176
+     1
+ 93
+        1
+176
+     1
+ 44
+0.0
+176
+     1
+173
+     0
+176
+     1
   0
-ACAD_PROXY_OBJECT
+VISUALSTYLE
   5
 32
 102
@@ -43317,23 +47309,133 @@ ACAD_PROXY_OBJECT
 330
 2A
 100
-AcDbZombieObject
- 90
-      499
- 91
-      501
- 93
-      388
-310
-4150985CDA58D07406404333333333333E3BF0000000000000FB0107A41107004050150841D405064090741402480A0350
-1001
-ACAD
-1000
-AcDbSavedByObjectVersion
-1070
+AcDbVisualStyle
+  2
+Basic
+ 70
+     7
+177
+     2
+291
+     1
+ 71
+     1
+176
+     1
+ 72
      0
+176
+     1
+ 73
+     1
+176
+     1
+ 90
+        0
+176
+     1
+ 40
+-0.6
+176
+     1
+ 41
+-30.0
+176
+     1
+ 62
+     5
+ 63
+     7
+421
+ 16777215
+176
+     1
+ 74
+     0
+176
+     1
+ 91
+        4
+176
+     1
+ 64
+     7
+176
+     1
+ 65
+   257
+176
+     1
+ 75
+     1
+176
+     1
+175
+     1
+176
+     1
+ 42
+1.0
+176
+     1
+ 92
+        8
+176
+     1
+ 66
+     7
+176
+     1
+ 43
+1.0
+176
+     1
+ 76
+     1
+176
+     1
+ 77
+     6
+176
+     1
+ 78
+     2
+176
+     1
+ 67
+     7
+176
+     1
+ 79
+     5
+176
+     1
+170
+     0
+176
+     1
+171
+     0
+176
+     1
+290
+     0
+176
+     1
+ 93
+        1
+176
+     1
+ 44
+0.0
+176
+     1
+173
+     0
+176
+     1
   0
-ACAD_PROXY_OBJECT
+VISUALSTYLE
   5
 36
 102
@@ -43345,23 +47447,133 @@ ACAD_PROXY_OBJECT
 330
 2A
 100
-AcDbZombieObject
- 90
-      499
- 91
-      501
- 93
-      428
-310
-42109C9A59DA1D195B90C409028333333333333E3BF0000000000000FB010790141107004050150841D405064090741402480A029950
-1001
-ACAD
-1000
-AcDbSavedByObjectVersion
-1070
+AcDbVisualStyle
+  2
+Brighten
+ 70
+    12
+177
+     2
+291
+     1
+ 71
+     2
+176
+     1
+ 72
+     2
+176
+     1
+ 73
      0
+176
+     1
+ 90
+        0
+176
+     1
+ 40
+-0.6
+176
+     1
+ 41
+-30.0
+176
+     1
+ 62
+     5
+ 63
+     7
+421
+ 16777215
+176
+     1
+ 74
+     1
+176
+     1
+ 91
+        4
+176
+     1
+ 64
+     7
+176
+     1
+ 65
+   257
+176
+     1
+ 75
+     1
+176
+     1
+175
+     1
+176
+     1
+ 42
+1.0
+176
+     1
+ 92
+        8
+176
+     1
+ 66
+     7
+176
+     1
+ 43
+1.0
+176
+     1
+ 76
+     1
+176
+     1
+ 77
+     6
+176
+     1
+ 78
+     2
+176
+     1
+ 67
+     7
+176
+     1
+ 79
+     5
+176
+     1
+170
+     0
+176
+     1
+171
+     0
+176
+     1
+290
+     0
+176
+     1
+ 93
+        1
+176
+     1
+ 44
+50.0
+176
+     1
+173
+     0
+176
+     1
   0
-ACAD_PROXY_OBJECT
+VISUALSTYLE
   5
 3A
 102
@@ -43373,23 +47585,135 @@ ACAD_PROXY_OBJECT
 330
 2A
 100
-AcDbZombieObject
+AcDbVisualStyle
+  2
+ColorChange
+ 70
+    16
+177
+     2
+291
+     1
+ 71
+     2
+176
+     1
+ 72
+     2
+176
+     1
+ 73
+     3
+176
+     1
  90
-      499
+        0
+176
+     1
+ 40
+-0.6
+176
+     1
+ 41
+-30.0
+176
+     1
+ 62
+     5
+ 63
+     8
+421
+  8421504
+176
+     1
+ 74
+     1
+176
+     1
  91
-      501
- 93
-      452
-310
-42D0DBDB1BDC90DA185B99D95104090240C333333333333E3BF0000000000000FB0108901411070040501508421405064090741402480A0350
-1001
-ACAD
-1000
-AcDbSavedByObjectVersion
-1070
+        4
+176
+     1
+ 64
+     7
+176
+     1
+ 65
+   257
+176
+     1
+ 75
+     1
+176
+     1
+175
+     1
+176
+     1
+ 42
+1.0
+176
+     1
+ 92
+        8
+176
+     1
+ 66
+     8
+424
+  8421504
+176
+     1
+ 43
+1.0
+176
+     1
+ 76
+     1
+176
+     1
+ 77
+     6
+176
+     1
+ 78
+     2
+176
+     1
+ 67
+     7
+176
+     1
+ 79
+     5
+176
+     1
+170
      0
+176
+     1
+171
+     0
+176
+     1
+290
+     0
+176
+     1
+ 93
+        1
+176
+     1
+ 44
+0.0
+176
+     1
+173
+     0
+176
+     1
   0
-ACAD_PROXY_OBJECT
+VISUALSTYLE
   5
 34
 102
@@ -43401,23 +47725,133 @@ ACAD_PROXY_OBJECT
 330
 2A
 100
-AcDbZombieObject
- 90
-      499
- 91
-      501
- 93
-      500
-310
-4290DBDB98D95C1D1D585B10940D028333333333333E3BF0000000000000FB0107902409070040501000000000000111010841D405064090740C02480A0340
-1001
-ACAD
-1000
-AcDbSavedByObjectVersion
-1070
+AcDbVisualStyle
+  2
+Conceptual
+ 70
+     9
+177
+     2
+291
      0
+ 71
+     3
+176
+     1
+ 72
+     2
+176
+     1
+ 73
+     0
+176
+     1
+ 90
+        0
+176
+     1
+ 40
+-0.6
+176
+     1
+ 41
+-30.0
+176
+     1
+ 62
+     5
+ 63
+     7
+421
+ 16777215
+176
+     1
+ 74
+     2
+176
+     1
+ 91
+        2
+176
+     1
+ 64
+     7
+176
+     1
+ 65
+   257
+176
+     1
+ 75
+     1
+176
+     1
+175
+     1
+176
+     1
+ 42
+40.0
+176
+     1
+ 92
+        8
+176
+     1
+ 66
+     7
+176
+     1
+ 43
+1.0
+176
+     1
+ 76
+     1
+176
+     1
+ 77
+     6
+176
+     1
+ 78
+     2
+176
+     1
+ 67
+     7
+176
+     1
+ 79
+     3
+176
+     1
+170
+     0
+176
+     1
+171
+     0
+176
+     1
+290
+     0
+176
+     1
+ 93
+        1
+176
+     1
+ 44
+0.0
+176
+     1
+173
+     0
+176
+     1
   0
-ACAD_PROXY_OBJECT
+VISUALSTYLE
   5
 35
 102
@@ -43429,23 +47863,133 @@ ACAD_PROXY_OBJECT
 330
 2A
 100
-AcDbZombieObject
- 90
-      499
- 91
-      501
- 93
-      412
-310
-40D11A5B50B409028333333333333E3BF0000000000000FB010790141107004050150841D405064090741402480A02677FFFFFD0
-1001
-ACAD
-1000
-AcDbSavedByObjectVersion
-1070
+AcDbVisualStyle
+  2
+Dim
+ 70
+    11
+177
+     2
+291
+     1
+ 71
+     2
+176
+     1
+ 72
+     2
+176
+     1
+ 73
      0
+176
+     1
+ 90
+        0
+176
+     1
+ 40
+-0.6
+176
+     1
+ 41
+-30.0
+176
+     1
+ 62
+     5
+ 63
+     7
+421
+ 16777215
+176
+     1
+ 74
+     1
+176
+     1
+ 91
+        4
+176
+     1
+ 64
+     7
+176
+     1
+ 65
+   257
+176
+     1
+ 75
+     1
+176
+     1
+175
+     1
+176
+     1
+ 42
+1.0
+176
+     1
+ 92
+        8
+176
+     1
+ 66
+     7
+176
+     1
+ 43
+1.0
+176
+     1
+ 76
+     1
+176
+     1
+ 77
+     6
+176
+     1
+ 78
+     2
+176
+     1
+ 67
+     7
+176
+     1
+ 79
+     5
+176
+     1
+170
+     0
+176
+     1
+171
+     0
+176
+     1
+290
+     0
+176
+     1
+ 93
+        1
+176
+     1
+ 44
+-50.0
+176
+     1
+173
+     0
+176
+     1
   0
-ACAD_PROXY_OBJECT
+VISUALSTYLE
   5
 39
 102
@@ -43457,23 +48001,133 @@ ACAD_PROXY_OBJECT
 330
 2A
 100
-AcDbZombieObject
- 90
-      499
- 91
-      501
- 93
-      444
-310
-42D19858D95C185D1D195C9B90F409028333333333333E3BF0000000000000FB010790141107004050150841D405064090741402480A0350
-1001
-ACAD
-1000
-AcDbSavedByObjectVersion
-1070
+AcDbVisualStyle
+  2
+Facepattern
+ 70
+    15
+177
+     2
+291
+     1
+ 71
+     2
+176
+     1
+ 72
+     2
+176
+     1
+ 73
      0
+176
+     1
+ 90
+        0
+176
+     1
+ 40
+-0.6
+176
+     1
+ 41
+-30.0
+176
+     1
+ 62
+     5
+ 63
+     7
+421
+ 16777215
+176
+     1
+ 74
+     1
+176
+     1
+ 91
+        4
+176
+     1
+ 64
+     7
+176
+     1
+ 65
+   257
+176
+     1
+ 75
+     1
+176
+     1
+175
+     1
+176
+     1
+ 42
+1.0
+176
+     1
+ 92
+        8
+176
+     1
+ 66
+     7
+176
+     1
+ 43
+1.0
+176
+     1
+ 76
+     1
+176
+     1
+ 77
+     6
+176
+     1
+ 78
+     2
+176
+     1
+ 67
+     7
+176
+     1
+ 79
+     5
+176
+     1
+170
+     0
+176
+     1
+171
+     0
+176
+     1
+290
+     0
+176
+     1
+ 93
+        1
+176
+     1
+ 44
+0.0
+176
+     1
+173
+     0
+176
+     1
   0
-ACAD_PROXY_OBJECT
+VISUALSTYLE
   5
 2B
 102
@@ -43485,23 +48139,133 @@ ACAD_PROXY_OBJECT
 330
 2A
 100
-AcDbZombieObject
- 90
-      499
- 91
-      501
- 93
-      388
-310
-41119B185D240901404333333333333E3BF0000000000000F9010740A41107004050150841D405064090741402480A1B50
-1001
-ACAD
-1000
-AcDbSavedByObjectVersion
-1070
+AcDbVisualStyle
+  2
+Flat
+ 70
      0
+177
+     2
+291
+     1
+ 71
+     2
+176
+     1
+ 72
+     1
+176
+     1
+ 73
+     1
+176
+     1
+ 90
+        2
+176
+     1
+ 40
+-0.6
+176
+     1
+ 41
+30.0
+176
+     1
+ 62
+     5
+ 63
+     7
+421
+ 16777215
+176
+     1
+ 74
+     0
+176
+     1
+ 91
+        4
+176
+     1
+ 64
+     7
+176
+     1
+ 65
+   257
+176
+     1
+ 75
+     1
+176
+     1
+175
+     1
+176
+     1
+ 42
+1.0
+176
+     1
+ 92
+        8
+176
+     1
+ 66
+     7
+176
+     1
+ 43
+1.0
+176
+     1
+ 76
+     1
+176
+     1
+ 77
+     6
+176
+     1
+ 78
+     2
+176
+     1
+ 67
+     7
+176
+     1
+ 79
+     5
+176
+     1
+170
+     0
+176
+     1
+171
+     0
+176
+     1
+290
+     0
+176
+     1
+ 93
+       13
+176
+     1
+ 44
+0.0
+176
+     1
+173
+     0
+176
+     1
   0
-ACAD_PROXY_OBJECT
+VISUALSTYLE
   5
 2C
 102
@@ -43513,23 +48277,133 @@ ACAD_PROXY_OBJECT
 330
 2A
 100
-AcDbZombieObject
+AcDbVisualStyle
+  2
+FlatWithEdges
+ 70
+     1
+177
+     2
+291
+     1
+ 71
+     2
+176
+     1
+ 72
+     1
+176
+     1
+ 73
+     1
+176
+     1
  90
-      499
+        2
+176
+     1
+ 40
+-0.6
+176
+     1
+ 41
+30.0
+176
+     1
+ 62
+     5
+ 63
+     7
+421
+ 16777215
+176
+     1
+ 74
+     1
+176
+     1
  91
-      501
- 93
-      476
-310
-43519B185D15DA5D1A115919D95CD0140901404333333333333E3BF0000000000000F9010740901411070040501600405405064090741402480A1B50
-1001
-ACAD
-1000
-AcDbSavedByObjectVersion
-1070
+        4
+176
+     1
+ 64
+     7
+176
+     1
+ 65
+   257
+176
+     1
+ 75
+     1
+176
+     1
+175
+     1
+176
+     1
+ 42
+1.0
+176
+     1
+ 92
+        0
+176
+     1
+ 66
+   257
+176
+     1
+ 43
+1.0
+176
+     1
+ 76
+     1
+176
+     1
+ 77
+     6
+176
+     1
+ 78
+     2
+176
+     1
+ 67
+     7
+176
+     1
+ 79
+     5
+176
+     1
+170
      0
+176
+     1
+171
+     0
+176
+     1
+290
+     0
+176
+     1
+ 93
+       13
+176
+     1
+ 44
+0.0
+176
+     1
+173
+     0
+176
+     1
   0
-ACAD_PROXY_OBJECT
+VISUALSTYLE
   5
 2D
 102
@@ -43541,23 +48415,133 @@ ACAD_PROXY_OBJECT
 330
 2A
 100
-AcDbZombieObject
+AcDbVisualStyle
+  2
+Gouraud
+ 70
+     2
+177
+     2
+291
+     1
+ 71
+     2
+176
+     1
+ 72
+     2
+176
+     1
+ 73
+     1
+176
+     1
  90
-      499
- 91
-      501
- 93
-      412
-310
-41D1DBDD5C985D5910240902404333333333333E3BF0000000000000F9010740A411070040501641D405064090741402480A1B50
-1001
-ACAD
-1000
-AcDbSavedByObjectVersion
-1070
+        2
+176
+     1
+ 40
+-0.6
+176
+     1
+ 41
+30.0
+176
+     1
+ 62
+     5
+ 63
+     7
+421
+ 16777215
+176
+     1
+ 74
      0
+176
+     1
+ 91
+        4
+176
+     1
+ 64
+     7
+176
+     1
+ 65
+   257
+176
+     1
+ 75
+     1
+176
+     1
+175
+     1
+176
+     1
+ 42
+1.0
+176
+     1
+ 92
+        0
+176
+     1
+ 66
+     7
+176
+     1
+ 43
+1.0
+176
+     1
+ 76
+     1
+176
+     1
+ 77
+     6
+176
+     1
+ 78
+     2
+176
+     1
+ 67
+     7
+176
+     1
+ 79
+     5
+176
+     1
+170
+     0
+176
+     1
+171
+     0
+176
+     1
+290
+     0
+176
+     1
+ 93
+       13
+176
+     1
+ 44
+0.0
+176
+     1
+173
+     0
+176
+     1
   0
-ACAD_PROXY_OBJECT
+VISUALSTYLE
   5
 2E
 102
@@ -43569,23 +48553,133 @@ ACAD_PROXY_OBJECT
 330
 2A
 100
-AcDbZombieObject
+AcDbVisualStyle
+  2
+GouraudWithEdges
+ 70
+     3
+177
+     2
+291
+     1
+ 71
+     2
+176
+     1
+ 72
+     2
+176
+     1
+ 73
+     1
+176
+     1
  90
-      499
+        2
+176
+     1
+ 40
+-0.6
+176
+     1
+ 41
+30.0
+176
+     1
+ 62
+     5
+ 63
+     7
+421
+ 16777215
+176
+     1
+ 74
+     1
+176
+     1
  91
-      501
- 93
-      500
-310
-4411DBDD5C985D5915DA5D1A115919D95CD0340902404333333333333E3BF0000000000000F9010740901411070040501600405405064090741402480A1B50
-1001
-ACAD
-1000
-AcDbSavedByObjectVersion
-1070
+        4
+176
+     1
+ 64
+     7
+176
+     1
+ 65
+   257
+176
+     1
+ 75
+     1
+176
+     1
+175
+     1
+176
+     1
+ 42
+1.0
+176
+     1
+ 92
+        0
+176
+     1
+ 66
+   257
+176
+     1
+ 43
+1.0
+176
+     1
+ 76
+     1
+176
+     1
+ 77
+     6
+176
+     1
+ 78
+     2
+176
+     1
+ 67
+     7
+176
+     1
+ 79
+     5
+176
+     1
+170
      0
+176
+     1
+171
+     0
+176
+     1
+290
+     0
+176
+     1
+ 93
+       13
+176
+     1
+ 44
+0.0
+176
+     1
+173
+     0
+176
+     1
   0
-ACAD_PROXY_OBJECT
+VISUALSTYLE
   5
 38
 102
@@ -43597,23 +48691,133 @@ ACAD_PROXY_OBJECT
 330
 2A
 100
-AcDbZombieObject
- 90
-      499
- 91
-      501
- 93
-      444
-310
-42D31A5B995C185D1D195C9B90E409028333333333333E3BF0000000000000FB010790141107004050750841D405064090741402483A0350
-1001
-ACAD
-1000
-AcDbSavedByObjectVersion
-1070
+AcDbVisualStyle
+  2
+Linepattern
+ 70
+    14
+177
+     2
+291
+     1
+ 71
+     2
+176
+     1
+ 72
+     2
+176
+     1
+ 73
      0
+176
+     1
+ 90
+        0
+176
+     1
+ 40
+-0.6
+176
+     1
+ 41
+-30.0
+176
+     1
+ 62
+     5
+ 63
+     7
+421
+ 16777215
+176
+     1
+ 74
+     1
+176
+     1
+ 91
+        4
+176
+     1
+ 64
+     7
+176
+     1
+ 65
+   257
+176
+     1
+ 75
+     7
+176
+     1
+175
+     7
+176
+     1
+ 42
+1.0
+176
+     1
+ 92
+        8
+176
+     1
+ 66
+     7
+176
+     1
+ 43
+1.0
+176
+     1
+ 76
+     1
+176
+     1
+ 77
+     6
+176
+     1
+ 78
+     2
+176
+     1
+ 67
+     7
+176
+     1
+ 79
+     5
+176
+     1
+170
+     0
+176
+     1
+171
+     0
+176
+     1
+290
+     0
+176
+     1
+ 93
+        1
+176
+     1
+ 44
+0.0
+176
+     1
+173
+     0
+176
+     1
   0
-ACAD_PROXY_OBJECT
+VISUALSTYLE
   5
 33
 102
@@ -43625,23 +48829,135 @@ ACAD_PROXY_OBJECT
 330
 2A
 100
-AcDbZombieObject
- 90
-      499
- 91
-      501
- 93
-      420
-310
-425499585B1A5CDD1A58D08409028333333333333E3BF0000000000000FB01079019070040501508421405064090741402480A1B40
-1001
-ACAD
-1000
-AcDbSavedByObjectVersion
-1070
+AcDbVisualStyle
+  2
+Realistic
+ 70
+     8
+177
+     2
+291
      0
+ 71
+     2
+176
+     1
+ 72
+     2
+176
+     1
+ 73
+     0
+176
+     1
+ 90
+        0
+176
+     1
+ 40
+-0.6
+176
+     1
+ 41
+-30.0
+176
+     1
+ 62
+     5
+ 63
+     7
+421
+ 16777215
+176
+     1
+ 74
+     1
+176
+     1
+ 91
+        0
+176
+     1
+ 64
+     7
+176
+     1
+ 65
+   257
+176
+     1
+ 75
+     1
+176
+     1
+175
+     1
+176
+     1
+ 42
+1.0
+176
+     1
+ 92
+        8
+176
+     1
+ 66
+     8
+424
+  7895160
+176
+     1
+ 43
+1.0
+176
+     1
+ 76
+     1
+176
+     1
+ 77
+     6
+176
+     1
+ 78
+     2
+176
+     1
+ 67
+     7
+176
+     1
+ 79
+     5
+176
+     1
+170
+     0
+176
+     1
+171
+     0
+176
+     1
+290
+     0
+176
+     1
+ 93
+       13
+176
+     1
+ 44
+0.0
+176
+     1
+173
+     0
+176
+     1
   0
-ACAD_PROXY_OBJECT
+VISUALSTYLE
   5
 37
 102
@@ -43653,231 +48969,131 @@ ACAD_PROXY_OBJECT
 330
 2A
 100
-AcDbZombieObject
+AcDbVisualStyle
+  2
+Thicken
+ 70
+    13
+177
+     2
+291
+     1
+ 71
+     2
+176
+     1
+ 72
+     2
+176
+     1
+ 73
+     0
+176
+     1
  90
-      499
+        0
+176
+     1
+ 40
+-0.6
+176
+     1
+ 41
+-30.0
+176
+     1
+ 62
+     5
+ 63
+     7
+421
+ 16777215
+176
+     1
+ 74
+     1
+176
+     1
  91
-      501
- 93
-      412
-310
-41D51A1A58DAD95B90D409028333333333333E3BF0000000000000FB010790141107004050150C41D405064090741402480A0350
-1001
-ACAD
-1000
-AcDbSavedByObjectVersion
-1070
-     0
-  0
-DICTIONARYVAR
-  5
-441
-102
-{ACAD_REACTORS
-330
-43E
-102
-}
-330
-43E
-100
-DictionaryVariables
-280
-     0
-  1
-2
-  0
-DICTIONARYVAR
-  5
-442
-102
-{ACAD_REACTORS
-330
-43E
-102
-}
-330
-43E
-100
-DictionaryVariables
-280
-     0
-  1
-1
-  0
-DICTIONARY
-  5
-445
-330
-3D
-100
-AcDbDictionary
-  3
-ACAD_XREC_ROUNDTRIP
-360
-446
-1001
-ACAD
-1000
-TREAT_AS_HARD
-1070
+        4
+176
      1
-  0
-DICTIONARY
-  5
-443
-330
-3C
-100
-AcDbDictionary
-  3
-ACAD_XREC_ROUNDTRIP
-360
-444
-1001
-ACAD
-1000
-TREAT_AS_HARD
-1070
+ 64
+     7
+176
      1
-  0
-DICTIONARY
-  5
-447
-330
-3E
-100
-AcDbDictionary
-  3
-ACAD_XREC_ROUNDTRIP
-360
-448
-1001
-ACAD
-1000
-TREAT_AS_HARD
-1070
+ 65
+   257
+176
      1
-  0
-XRECORD
-  5
-446
-102
-{ACAD_REACTORS
-330
-445
-102
-}
-330
-445
-100
-AcDbXrecord
-102
-MATERIAL
-148
-0.0
-149
-0.0
-149
-0.0
- 93
-        0
- 94
-      127
-282
-     0
- 72
+ 75
      1
- 77
-     1
-171
+176
      1
 175
      1
-179
+176
      1
-273
-     0
-  0
-XRECORD
-  5
-444
-102
-{ACAD_REACTORS
-330
-443
-102
-}
-330
-443
-100
-AcDbXrecord
-102
-MATERIAL
-148
-0.0
-149
-0.0
-149
-0.0
- 93
-        0
- 94
-      127
-282
-     0
- 72
+ 42
+1.0
+176
+     1
+ 92
+       12
+176
+     1
+ 66
+     7
+176
+     1
+ 43
+1.0
+176
+     1
+ 76
+     1
+176
      1
  77
+     6
+176
+     1
+ 78
+     2
+176
+     1
+ 67
+     7
+176
+     1
+ 79
+     5
+176
+     1
+170
+     0
+176
      1
 171
-     1
-175
-     1
-179
-     1
-273
      0
-  0
-XRECORD
-  5
-448
-102
-{ACAD_REACTORS
-330
-447
-102
-}
-330
-447
-100
-AcDbXrecord
-102
-MATERIAL
-148
-0.0
-149
-0.0
-149
-0.0
+176
+     1
+290
+     0
+176
+     1
  93
-        0
- 94
-      127
-282
+        1
+176
+     1
+ 44
+0.0
+176
+     1
+173
      0
- 72
+176
      1
- 77
-     1
-171
-     1
-175
-     1
-179
-     1
-273
-     0
   0
 ENDSEC
   0

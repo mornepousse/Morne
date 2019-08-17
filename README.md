@@ -47,6 +47,13 @@ If you're preferring 1.6mm carbon mind that at least the screen protector piece 
 
 ![](images/tilting-tenting-jorne.png)
 
+### Cutting services
+
+* https://make.ponoko.com quotes [tilting-tenting-jorne.ai](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/tilting-tenting-jorne.ai)
+(3mm clear acrylic) for $14.85 (with free shipping)
+
+![](images/quote.png)
+
 ## Firmware
 
 Compatible with [stock Corne firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/crkbd). The extra key can be snapped off. [Bluetooth firmware version](https://github.com/joric/nrfmicro/wiki/Corne-BLE) is in progress.
