@@ -8,6 +8,8 @@ Version 2.0 has been already assembled and checked, everything works fine.
 
 Please refer to the official english [build guide](https://github.com/foostan/crkbd/blob/master/corne-classic/doc/buildguide_en.md) for assembly.
 
+### Jorne Classic 2.0
+
 * [jorne-classic-2.0-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/gerbers/jorne-classic-2.0-gerbers.zip)
 
 ![](images/jorne-classic-2.0.png)
@@ -16,13 +18,21 @@ Please refer to the official english [build guide](https://github.com/foostan/cr
 
 There are also two **UNTESTED** revisions with an extra key, use at your own risk:
 
+### Jorne Classic 2.1
+
 * [jorne-classic-2.1-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/gerbers/jorne-classic-2.1-gerbers.zip) (classic version, with mounting holes and ground planes)
 
 ![](images/jorne-classic-2.1.png)
 
+### Jorne Cherry 2.1
+
 * [jorne-cherry-2.1-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/gerbers/jorne-cherry-2.1-gerbers.zip) (hotswap version with kailh hotswap sockets)
 
 ![](images/jorne-cherry-2.1.png)
+
+### Jorne Cherry nRFMicro 2.1
+
+Added two nRFMicro boards to the gerbers, NO other changes.
 
 * [jorne-cherry-nrfmicro-2.1-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/gerbers/jorne-cherry-2.1-gerbers.zip) (hotswap version with kailh hotswap sockets and 2 embedded nrfmicros)
 
