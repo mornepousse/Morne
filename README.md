@@ -24,6 +24,12 @@ There are also two **UNTESTED** revisions with an extra key, use at your own ris
 
 ![](images/jorne-cherry-2.1.png)
 
+* [jorne-cherry-nrfmicro-2.1-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/gerbers/jorne-cherry-2.1-gerbers.zip) (hotswap version with kailh hotswap sockets and 2 embedded nrfmicros)
+
+![](images/jorne-cherry-nrfmicro-2.1.png)
+
+To merge two boards, start pcbnew by itself without starting the entire KiCad application. Then open one of the .kicad_pcb files. Then, use the "File" - "Append Board" command to bring in another PCB layout, edit edge cuts and plot the gerbers.
+
 ## Case
 
 Originally uses 3 mm acrylic glass for all the parts.
