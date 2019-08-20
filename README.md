@@ -34,13 +34,13 @@ There are also two **UNTESTED** revisions with an extra key, use at your own ris
 
 Added two nRFMicro boards to the gerbers, NO other changes.
 
-* [jorne-classic-nrfmicro-2.1-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/gerbers/jorne-classic-2.1-gerbers.zip) (classic version with 2 embedded nrfmicros)
+* [jorne-classic-nrfmicro-2.1-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/gerbers/jorne-classic-nrfmicro-2.1-gerbers.zip) (classic version with 2 embedded nrfmicros)
 
 ![](images/jorne-classic-nrfmicro-2.1.png)
 
 ### Jorne Cherry nRFMicro 2.1
 
-* [jorne-cherry-nrfmicro-2.1-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/gerbers/jorne-cherry-2.1-gerbers.zip) (hotswap version with kailh hotswap sockets and 2 embedded nrfmicros)
+* [jorne-cherry-nrfmicro-2.1-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/gerbers/jorne-cherry-nrfmicro-2.1-gerbers.zip) (hotswap version with kailh hotswap sockets and 2 embedded nrfmicros)
 
 ![](images/jorne-cherry-nrfmicro-2.1.png)
 
