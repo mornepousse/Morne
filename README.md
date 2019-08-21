@@ -42,6 +42,8 @@ JLCPCB apparently treats those two as separate designs and asks for additional $
 I had to remove miling slot between two different "designs" as stated here: https://support.jlcpcb.com/article/49-pcb-panelization.
 Use something sharp to cut a groove and break the daughter board off.
 
+**Upd** Apparently that was not enough, I'm still getting "suspended". DO NOT ORDER combined "designs" on JLCPCB, you will lose your coupons on cancelled orders.
+
 #### Jorne Classic nRFMicro 2.1
 
 * [jorne-cherry-nrfmicro-2.1-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/gerbers/jorne-cherry-nrfmicro-2.1-gerbers.zip) (hotswap version with kailh hotswap sockets and embedded nRFMicro)
