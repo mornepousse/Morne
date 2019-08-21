@@ -32,13 +32,17 @@ There are also two **UNTESTED** revisions with an extra key, use at your own ris
 
 ### Embedded nRFMicros
 
-#### Jorne Classic nRFMicro 2.1
-
 Added two nRFMicro boards to the gerbers, NO other changes.
 
-**WARNING** JLCPCB apparently treats those two as separate designs and asks for additional $24.
+To merge your boards, start pcbnew by itself without starting the entire KiCad application. Then open one of the .kicad_pcb files. Then, use the "File" - "Append Board" command to bring in another PCB layout, edit edge cuts and plot the gerbers.
+
+#### WARNING
+
+JLCPCB apparently treats those two as separate designs and asks for additional $24.
 I had to remove miling slot between two different "designs" as stated here: https://support.jlcpcb.com/article/49-pcb-panelization.
 Use something sharp to cut a groove and break the daughter board off.
+
+#### Jorne Classic nRFMicro 2.1
 
 * [jorne-cherry-nrfmicro-2.1-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/gerbers/jorne-cherry-nrfmicro-2.1-gerbers.zip) (hotswap version with kailh hotswap sockets and embedded nRFMicro)
 
