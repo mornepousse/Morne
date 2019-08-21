@@ -30,6 +30,20 @@ There are also two **UNTESTED** revisions with an extra key, use at your own ris
 
 ![](images/jorne-cherry-2.1.png)
 
+### Embedded nRFMicros
+
+#### Jorne Classic nRFMicro 2.1
+
+Added two nRFMicro boards to the gerbers, NO other changes.
+
+**WARNING** JLCPCB apparently treats those two as separate designs and asks for additional $24.
+I had to remove miling slot between two different "designs" as stated here: https://support.jlcpcb.com/article/49-pcb-panelization.
+Use something sharp to cut a groove and break the daughter board off.
+
+* [jorne-cherry-nrfmicro-2.1-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/gerbers/jorne-cherry-nrfmicro-2.1-gerbers.zip) (hotswap version with kailh hotswap sockets and embedded nRFMicro)
+
+![](images/jorne-cherry-nrfmicro-2.1.png)
+
 ## Case
 
 Originally uses 3 mm acrylic glass for all the parts.
