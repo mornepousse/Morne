@@ -30,35 +30,6 @@ There are also two **UNTESTED** revisions with an extra key, use at your own ris
 
 ![](images/jorne-cherry-2.1.png)
 
-### Embedded nRFMicros
-
-#### Jorne Classic nRFMicro 2.1
-
-Added two nRFMicro boards to the gerbers, NO other changes.
-
-**WARNING** JLCPCB apparently treats those two as 4 (?) separate designs and asks for additional $24.
-
-```
-Thanks for placing your order on JLCPCB.com
-You need to pay additional $24 for your order. <jorne-classic-nrfmicro-2.1-gerbers_Y3>.
-Reason: The order info shows that there is one design, but actually there are 4 different designs in your file,
-so there will be an extra cost for it if you want to make it as show in your file.
-```
-
-I have no idea what they consider a "design" but you better use another service (like https://elecrow.com) if you want combined PCBs.
-
-* [jorne-classic-nrfmicro-2.1-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/gerbers/jorne-classic-nrfmicro-2.1-gerbers.zip) (classic version with 2 embedded nrfmicros)
-
-![](images/jorne-classic-nrfmicro-2.1.png)
-
-#### Jorne Cherry nRFMicro 2.1
-
-* [jorne-cherry-nrfmicro-2.1-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/gerbers/jorne-cherry-nrfmicro-2.1-gerbers.zip) (hotswap version with kailh hotswap sockets and 2 embedded nrfmicros)
-
-![](images/jorne-cherry-nrfmicro-2.1.png)
-
-To merge two boards, start pcbnew by itself without starting the entire KiCad application. Then open one of the .kicad_pcb files. Then, use the "File" - "Append Board" command to bring in another PCB layout, edit edge cuts and plot the gerbers.
-
 ## Case
 
 Originally uses 3 mm acrylic glass for all the parts.
