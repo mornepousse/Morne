@@ -8,16 +8,6 @@ Version 2.0 has been already assembled and checked, everything works fine.
 
 Please refer to the official english [build guide](https://github.com/foostan/crkbd/blob/master/corne-classic/doc/buildguide_en.md) for assembly.
 
-### Jorne Classic 2.0
-
-* [jorne-classic-2.0-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/gerbers/jorne-classic-2.0-gerbers.zip)
-
-![](images/jorne-classic-2.0.png)
-
-**WARNING** no mounting holes and ground zones in this revision (lost in conversion)!
-
-There are also two **UNTESTED** revisions with an extra key, use at your own risk:
-
 ### Jorne Classic 2.1
 
 * [jorne-classic-2.1-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/gerbers/jorne-classic-2.1-gerbers.zip) (classic version, with mounting holes and ground planes)
@@ -29,26 +19,6 @@ There are also two **UNTESTED** revisions with an extra key, use at your own ris
 * [jorne-cherry-2.1-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/gerbers/jorne-cherry-2.1-gerbers.zip) (hotswap version with kailh hotswap sockets)
 
 ![](images/jorne-cherry-2.1.png)
-
-### Embedded nRFMicros
-
-Added two nRFMicro boards to the gerbers, NO other changes.
-
-To merge your boards, start pcbnew by itself without starting the entire KiCad application. Then open one of the .kicad_pcb files. Then, use the "File" - "Append Board" command to bring in another PCB layout, edit edge cuts and plot the gerbers.
-
-#### WARNING
-
-JLCPCB apparently treats those two as separate designs and asks for additional $24.
-I had to remove miling slot between two different "designs" as stated here: https://support.jlcpcb.com/article/49-pcb-panelization.
-Use something sharp to cut a groove and break the daughter board off.
-
-**Upd** Apparently that was not enough, I'm still getting "suspended". DO NOT ORDER combined "designs" on JLCPCB, you will lose your coupons on cancelled orders.
-
-#### Jorne Classic nRFMicro 2.1
-
-* [jorne-cherry-nrfmicro-2.1-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/gerbers/jorne-cherry-nrfmicro-2.1-gerbers.zip) (hotswap version with kailh hotswap sockets and embedded nRFMicro)
-
-![](images/jorne-cherry-nrfmicro-2.1.png)
 
 ## Case
 
@@ -112,6 +82,36 @@ More pictures: https://imgur.com/a/T2GXaLw
 ## Video
 
 [![](http://img.youtube.com/vi/JKPftgYVeUQ/0.jpg)](https://youtu.be/JKPftgYVeUQ)
+
+## Archive
+
+### Jorne Classic 2.0
+
+* [jorne-classic-2.0-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/gerbers/jorne-classic-2.0-gerbers.zip)
+
+* [jorne-classic-2.0.png](images/jorne-classic-2.0.png) (image)
+
+This one is tested and working. **WARNING** no mounting holes and ground zones in this revision (lost in conversion)!
+
+## Embedded nRFMicros
+
+Added two nRFMicro boards to the gerbers, NO other changes.
+
+To merge your boards, start pcbnew by itself without starting the entire KiCad application. Then open one of the .kicad_pcb files. Then, use the "File" - "Append Board" command to bring in another PCB layout, edit edge cuts and plot the gerbers.
+
+#### WARNING
+
+JLCPCB apparently treats those two as separate designs and asks for additional $24.
+I had to remove miling slot between two different "designs" as stated here: https://support.jlcpcb.com/article/49-pcb-panelization.
+Use something sharp to cut a groove and break the daughter board off.
+
+**Upd** Apparently that was not enough, I'm still getting "suspended". DO NOT ORDER combined "designs" on JLCPCB, you will lose your coupons on cancelled orders.
+
+#### Jorne Classic nRFMicro 2.1
+
+* [jorne-cherry-nrfmicro-2.1-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/gerbers/jorne-cherry-nrfmicro-2.1-gerbers.zip) (hotswap version with embedded nRFMicro, NOT accepted by JLCPCB)
+
+* [jorne-cherry-nrfmicro-2.1.png](images/jorne-cherry-nrfmicro-2.1.png) (image)
 
 ## References
 
