@@ -75,7 +75,7 @@ Note I did not reroute the whole board, just autorouted a few new traces and it 
 
 ## Pictures
 
-![](corne-classic/pcb/front.png)
+![](https://i.imgur.com/X4Zzvgg.jpg)
 
 More pictures: https://imgur.com/a/T2GXaLw
 
