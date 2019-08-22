@@ -41,9 +41,8 @@ If you're preferring 1.6mm carbon mind that at least the screen protector piece 
 ### Cutting services
 
 * https://make.ponoko.com quotes [tilting-tenting-jorne.ai](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/tilting-tenting-jorne.ai)
-(3mm clear acrylic) for $14.85 (with free shipping)
-
-Mind that hotswap version needs 1.5mm plate or switches won't snap. I'd recommend gray translucent acrylic.
+(3mm clear acrylic) for $14.85 (with free shipping to USA, **shipping to other countries starts from $65**, unfortunately).
+Mind that hotswap version needs 1.5mm plate or switches won't snap. I like the look of the gray translucent acrylic.
 
 ![](images/quote.png)
 
