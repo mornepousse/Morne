@@ -4,8 +4,6 @@ Corne with an extra key
 
 ## Downloads
 
-Version 2.0 has been already assembled and checked, everything works fine.
-
 Please refer to the official english [build guide](https://github.com/foostan/crkbd/blob/master/corne-classic/doc/buildguide_en.md) for assembly.
 
 ### Jorne Classic 2.1
@@ -87,11 +85,13 @@ More pictures: https://imgur.com/a/T2GXaLw
 
 ### Jorne Classic 2.0
 
+Version 2.0 has been already assembled and checked, everything works fine.
+
 * [jorne-classic-2.0-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/gerbers/jorne-classic-2.0-gerbers.zip)
 
 * [jorne-classic-2.0.png](images/jorne-classic-2.0.png) (image)
 
-This one is tested and working. **WARNING** no mounting holes and ground zones in this revision (lost in conversion)!
+**WARNING** no mounting holes and ground zones in this revision (lost in conversion)!
 
 ## Embedded nRFMicros
 
