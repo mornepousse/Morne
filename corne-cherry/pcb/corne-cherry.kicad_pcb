@@ -71,11 +71,11 @@
     (pad_to_mask_clearance 0)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
-    (grid_origin 96.181533 140.292775)
+    (grid_origin 194.685 67.962)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
-      (usegerberextensions false)
+      (usegerberextensions true)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
       (creategerberjobfile false)
@@ -8618,7 +8618,7 @@
     (tags "mounting hole 2.2mm no annular m2")
     (path /5D30F845)
     (attr virtual)
-    (fp_text reference H2 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference H2 (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole (at 0 3.2) (layer F.Fab)
@@ -8678,7 +8678,7 @@
     (tags "mounting hole 2.2mm no annular m2")
     (path /5D30EA8B)
     (attr virtual)
-    (fp_text reference H1 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference H1 (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole (at 0 3.2) (layer F.Fab)
@@ -8698,7 +8698,7 @@
     (tags "mounting hole 2.2mm no annular m2")
     (path /5D323D8E)
     (attr virtual)
-    (fp_text reference H3 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference H3 (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole (at 0 3.2) (layer F.Fab)
@@ -8738,7 +8738,7 @@
     (tags "mounting hole 2.2mm no annular m2")
     (path /5D360A0E)
     (attr virtual)
-    (fp_text reference H6 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference H6 (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole (at 0 3.2) (layer F.Fab)
@@ -8758,7 +8758,7 @@
     (tags "mounting hole 2.2mm no annular m2")
     (path /5D34C5D1)
     (attr virtual)
-    (fp_text reference H5 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference H5 (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole (at 0 3.2) (layer F.Fab)
@@ -8778,7 +8778,7 @@
     (tags "mounting hole 2.2mm no annular m2")
     (path /5D374F95)
     (attr virtual)
-    (fp_text reference H7 (at 0 -3.2) (layer F.SilkS)
+    (fp_text reference H7 (at 0 -3.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole (at 0 3.2) (layer F.Fab)
@@ -12737,7 +12737,7 @@
   (segment (start 49.7253 85.7175) (end 49.9566 85.9488) (width 0.25) (layer B.Cu) (net 78))
   (via (at 49.9566 85.9488) (size 0.6) (layers F.Cu B.Cu) (net 78))
 
-  (zone (net 26) (net_name GND) (layer F.Cu) (tstamp 5C6AE81E) (hatch edge 0.508)
+  (zone (net 26) (net_name GND) (layer F.Cu) (tstamp 5D5DFEEC) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -14762,7 +14762,7 @@
       )
     )
   )
-  (zone (net 26) (net_name GND) (layer B.Cu) (tstamp 5C6AE81B) (hatch edge 0.508)
+  (zone (net 26) (net_name GND) (layer B.Cu) (tstamp 5D5DFEE9) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
