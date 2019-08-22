@@ -1,10 +1,8 @@
 # Jorne
 
-Corne with an extra key
+Corne with an extra key. Please refer to the official english [build guide](https://github.com/foostan/crkbd/blob/master/corne-classic/doc/buildguide_en.md) for assembly.
 
 ## Downloads
-
-Please refer to the official english [build guide](https://github.com/foostan/crkbd/blob/master/corne-classic/doc/buildguide_en.md) for assembly.
 
 ### Jorne Classic 2.1
 
