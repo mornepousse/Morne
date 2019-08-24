@@ -38,6 +38,17 @@ If you're preferring 1.6mm carbon mind that at least the screen protector piece 
 
 ![](images/tilting-tenting-jorne.png)
 
+### Metal plate
+
+This is plate precisely the same as from the top-bottom above, but with 14mm cutouts instead of 13.85.
+
+* [top-bottom-jorne-plate.ai](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/top-bottom-jorne-plate.ai)
+
+* [top-bottom-jorne-plate.dxf](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/top-bottom-jorne-plate.dxf)
+
+![](images/top-bottom-jorne-plate.png)
+
+
 ### Cutting services
 
 * https://make.ponoko.com quotes [tilting-tenting-jorne.ai](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/tilting-tenting-jorne.ai)
