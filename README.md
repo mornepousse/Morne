@@ -12,6 +12,9 @@ Corne with an extra key. Please refer to the official english [build guide](http
 
 * [Elecrow](https://elecrow.com) (ask at support@elecrow.com). 3mm black translucent acrylic costs $35 for 5 A4 sheets, including shipping.
     They only ship in 5 pcs, you can try cutting dxf in half and probably get down to about $20 for the whole order.
+    (try [tilting-tenting-jorne-half.ai](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/tilting-tenting-jorne-half.ai) / [tilting-tenting-jorne-half.dxf](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/tilting-tenting-jorne-half.dxf))
+
+
 
 ### Screws and standoffs
 
