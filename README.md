@@ -10,11 +10,9 @@ Corne with an extra key. Please refer to the official english [build guide](http
 
 ### Acrylic cutting services
 
-* [Elecrow](https://elecrow.com) (ask at support@elecrow.com). 3mm black translucent acrylic costs $35 for 5 A4 sheets, including shipping.
-    They only ship in 5 pcs, you can try cutting dxf in half and probably get down to about $20 for the whole order.
-    (try [tilting-tenting-jorne-half.ai](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/tilting-tenting-jorne-half.ai) / [tilting-tenting-jorne-half.dxf](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/tilting-tenting-jorne-half.dxf))
-
-
+* [Elecrow](https://elecrow.com) (ask at support@elecrow.com). Cutting 3mm black translucent acrylic is
+    $35 for 5 A4 sheets, including shipping.
+    They only ship in multiple 5. I used A4, current A5 DXFs probably will cost about $20 (for 2.5 keyboards).
 
 ### Screws and standoffs
 
@@ -32,6 +30,10 @@ Use combined trackable shipping whether it is possible, it is much faster and mo
 
 ## Downloads
 
+* [jorne-simple.dxf](https://github.com/joric/crkbd/raw/jorne/dxf/jorne-simple.dxf)
+
+* [jorne-tilted.dxf](https://github.com/joric/crkbd/raw/jorne/dxf/jorne-tilted.dxf)
+
 ### Jorne Classic 2.1
 
 * [jorne-classic-2.1-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/gerbers/jorne-classic-2.1-gerbers.zip) (classic version, with mounting holes and ground planes)
@@ -44,37 +46,11 @@ Use combined trackable shipping whether it is possible, it is much faster and mo
 
 ![](images/jorne-cherry-2.1.png)
 
-## Case
+### Case
 
 Originally uses 3 mm acrylic glass for all the parts.
-
 If you're preferring 1.6mm carbon mind that at least the screen protector piece should be transparent.
-
-### Simple case
-
-* [top-bottom-jorne.ai](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/top-bottom-jorne.ai)
-
-* [top-bottom-jorne.dxf](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/top-bottom-jorne.dxf)
-
-![](images/top-bottom-jorne.png)
-
-### Tilting-tenting case
-
-* [tilting-tenting-jorne.ai](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/tilting-tenting-jorne.ai)
-
-* [tilting-tenting-jorne.dxf](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/tilting-tenting-jorne.dxf)
-
-![](images/tilting-tenting-jorne.png)
-
-### Metal plate
-
-This is plate precisely the same as from the top-bottom above, but with 14mm cutouts instead of 13.85.
-
-* [top-bottom-jorne-plate.ai](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/top-bottom-jorne-plate.ai)
-
-* [top-bottom-jorne-plate.dxf](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/top-bottom-jorne-plate.dxf)
-
-![](images/top-bottom-jorne-plate.png)
+This version is A5 size (full set for the one half).
 
 
 ## Firmware
@@ -145,6 +121,34 @@ Use something sharp to cut a groove and break the daughter board off.
 Mind that hotswap version needs 1.5mm plate or switches won't snap. I like the look of the gray translucent acrylic.
 
 ![](images/quote.png)
+
+## Original case files
+
+### Simple case
+
+* [top-bottom-jorne.ai](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/top-bottom-jorne.ai)
+
+* [top-bottom-jorne.dxf](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/top-bottom-jorne.dxf)
+
+* [top-bottom-jorne.png](images/top-bottom-jorne.png)
+
+### Tilting-tenting case
+
+* [tilting-tenting-jorne.ai](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/tilting-tenting-jorne.ai)
+
+* [tilting-tenting-jorne.dxf](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/tilting-tenting-jorne.dxf)
+
+* [tilting-tenting-jorne.png](images/tilting-tenting-jorne.png)
+
+### Metal plate
+
+This is plate precisely the same as from the top-bottom above, but with 14mm cutouts instead of 13.85.
+
+* [top-bottom-jorne-plate.ai](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/top-bottom-jorne-plate.ai)
+
+* [top-bottom-jorne-plate.dxf](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/top-bottom-jorne-plate.dxf)
+
+* [top-bottom-jorne-plate.png](images/top-bottom-jorne-plate.png)
 
 ## References
 
