@@ -18,12 +18,12 @@ Corne with an extra key. Please refer to the official english [build guide](http
 
 ### Screws and standoffs
 
-* I recommend [Nainline](https://www.aliexpress.com/item/32832332464.html) shop at Aliexpress. You need [6mm m2 screws](https://www.aliexpress.com/item/32950593680.html) (28 pcs) and [6mm 2m standoffs](https://www.aliexpress.com/item/32970573343.html) (14 pcs).
+* I recommend [Nainline](https://www.aliexpress.com/item/32832332464.html) shop at Aliexpress. You need [6mm m2 screws](https://www.aliexpress.com/item/32950593680.html) (28 pcs) and [6mm m2 standoffs](https://www.aliexpress.com/item/32597776358.html) (14 pcs).
 
 ### Pro Micros, OLEDs and other components
 
-* [128x32 White OLED](https://www.aliexpress.com/item/32798439084.html) costs just $1.57, [black Pro Micros](https://www.aliexpress.com/item/32849563958.html) cost $3.20, Great Wall also sells [1N4148 SMD diodes](https://www.aliexpress.com/item/32346066945.html).
-* [SK6812mini](https://www.aliexpress.com/item/32623583544.html) LEDs, you will need 12 (6 per half for the ambient), or 56 for the full RGB.
+* [128x32 White OLED](https://www.aliexpress.com/item/32798439084.html) $1.57 (need 2), [black Pro Micros](https://www.aliexpress.com/item/32849563958.html) $3.20 (need 2), [1N4148 SMD diodes](https://www.aliexpress.com/item/32346066945.html) (need 44), same seller.
+* [SK6812 3535 BL](https://www.aliexpress.com/item/32623583544.html) LEDs, you will need 12 (6 per half for the ambient), or 56 for the full RGB ($6.56 for 50 pcs).
 * [TRRS sockets, PJ320A (20 pcs)](https://www.aliexpress.com/item/32368285821.html), $1.32
 * [TRRS cable (angled, 15 cm)](https://www.aliexpress.com/item/32887579795.html), $1.59
 * [DIP 3*6*4.3mm tactile push button (30 pcs)](https://www.aliexpress.com/item/32901277211.html), $0.56
