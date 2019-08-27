@@ -30,10 +30,6 @@ Use combined trackable shipping whether it is possible, it is much faster and mo
 
 ## Downloads
 
-* [jorne-simple.dxf](https://github.com/joric/crkbd/raw/jorne/dxf/jorne-simple.dxf)
-
-* [jorne-tilted.dxf](https://github.com/joric/crkbd/raw/jorne/dxf/jorne-tilted.dxf)
-
 ### Jorne Classic 2.1
 
 * [jorne-classic-2.1-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/gerbers/jorne-classic-2.1-gerbers.zip) (classic version, with mounting holes and ground planes)
@@ -51,6 +47,9 @@ Use combined trackable shipping whether it is possible, it is much faster and mo
 Originally uses 3 mm acrylic glass for all the parts.
 If you're preferring 1.6mm carbon mind that at least the screen protector piece should be transparent.
 This version is A5 size (full set for the one half).
+
+* [jorne-simple.dxf](https://github.com/joric/crkbd/raw/jorne/dxf/jorne-simple.dxf)
+* [jorne-tilted.dxf](https://github.com/joric/crkbd/raw/jorne/dxf/jorne-tilted.dxf)
 
 
 ## Firmware
