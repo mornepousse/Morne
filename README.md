@@ -46,7 +46,8 @@ Use combined trackable shipping whether it is possible, it is much faster and mo
 
 Originally uses 3 mm acrylic glass for all the parts.
 If you're preferring 1.6mm carbon mind that at least the screen protector piece should be transparent.
-This version is A5 size (full set for the one half).
+This version is A5 size (full set for the one half). Cutouts are 13.85 mm for switches to hold in acrylic
+(edit cutouts to 14.00mm for steel). The plates are not Alps-compatible.
 
 * [jorne-simple.dxf](https://github.com/joric/crkbd/raw/jorne/dxf/jorne-simple.dxf)
 * [jorne-tilted.dxf](https://github.com/joric/crkbd/raw/jorne/dxf/jorne-tilted.dxf)
