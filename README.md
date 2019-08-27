@@ -13,6 +13,7 @@ Corne with an extra key. Please refer to the official english [build guide](http
 * [Elecrow](https://elecrow.com) (ask at support@elecrow.com). Cutting 3mm black translucent acrylic is
     $35 for 5 A4 sheets, including shipping.
     They only ship in multiple 5. I used A4, current A5 DXFs probably will cost about $20 (for 2.5 keyboards).
+	There's also this form but it doesn't have black translucent: https://www.elecrow.com/5pcs-acrylic-laser-cutting-service.html
 
 ### Screws and standoffs
 
