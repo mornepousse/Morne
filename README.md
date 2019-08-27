@@ -122,22 +122,18 @@ Mind that hotswap version needs 1.5mm plate or switches won't snap. I like the l
 
 ![](images/quote.png)
 
-## Original case files
+## Archived case files
 
 ### Simple case
 
 * [top-bottom-jorne.ai](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/top-bottom-jorne.ai)
-
 * [top-bottom-jorne.dxf](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/top-bottom-jorne.dxf)
-
 * [top-bottom-jorne.png](images/top-bottom-jorne.png)
 
 ### Tilting-tenting case
 
 * [tilting-tenting-jorne.ai](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/tilting-tenting-jorne.ai)
-
 * [tilting-tenting-jorne.dxf](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/tilting-tenting-jorne.dxf)
-
 * [tilting-tenting-jorne.png](images/tilting-tenting-jorne.png)
 
 ### Metal plate
@@ -145,9 +141,7 @@ Mind that hotswap version needs 1.5mm plate or switches won't snap. I like the l
 This is plate precisely the same as from the top-bottom above, but with 14mm cutouts instead of 13.85.
 
 * [top-bottom-jorne-plate.ai](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/top-bottom-jorne-plate.ai)
-
 * [top-bottom-jorne-plate.dxf](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/top-bottom-jorne-plate.dxf)
-
 * [top-bottom-jorne-plate.png](images/top-bottom-jorne-plate.png)
 
 ## References
