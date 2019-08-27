@@ -2,6 +2,31 @@
 
 Corne with an extra key. Please refer to the official english [build guide](https://github.com/foostan/crkbd/blob/master/corne-classic/doc/buildguide_en.md) for assembly.
 
+## Bill of Materials
+
+### PCB Manufacturers
+
+* [JLCPCB.com](https://jlcpcb.com). New users gets $8 discount, so 5 black matte PCBs cost $9.88 total, including shipping.
+
+### Acrylic cutting services
+
+* [Elecrow](https://elecrow.com) (ask at support@elecrow.com). 3mm black translucent acrylic costs $35 for 5 A4 sheets, including shipping.
+    They only ship in 5 pcs, you can try cutting dxf in half and probably get down to about $20 for the whole order.
+
+### Screws and standoffs
+
+* I recommend [Nainline](https://www.aliexpress.com/item/32832332464.html) shop at Aliexpress. You need [6mm m2 screws](https://www.aliexpress.com/item/32950593680.html) (28 pcs) and [6mm 2m standoffs](https://www.aliexpress.com/item/32970573343.html) (14 pcs).
+
+### Pro Micros, OLEDs and other components
+
+* [128x32 White OLED](https://www.aliexpress.com/item/32798439084.html) costs just $1.57, [black Pro Micros](https://www.aliexpress.com/item/32849563958.html) cost $3.20, Great Wall also sells [1N4148 SMD diodes](https://www.aliexpress.com/item/32346066945.html).
+* [SK6812mini](https://www.aliexpress.com/item/32623583544.html) LEDs, you will need 12 (6 per half for the ambient), or 56 for the full RGB.
+* [TRRS sockets, PJ320A (20 pcs)](https://www.aliexpress.com/item/32368285821.html), $1.32
+* [TRRS cable (angled, 15 cm)](https://www.aliexpress.com/item/32887579795.html), $1.59
+* [DIP 3*6*4.3mm tactile push button (30 pcs)](https://www.aliexpress.com/item/32901277211.html), $0.56
+
+Use combined trackable shipping whether it is possible, it is much faster and more reliable.
+
 ## Downloads
 
 ### Jorne Classic 2.1
@@ -49,21 +74,10 @@ This is plate precisely the same as from the top-bottom above, but with 14mm cut
 ![](images/top-bottom-jorne-plate.png)
 
 
-### Cutting services
-
-* https://make.ponoko.com quotes [tilting-tenting-jorne.ai](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/tilting-tenting-jorne.ai)
-(3mm clear acrylic) for $14.85 (with free shipping to USA, **shipping to other countries starts from $65**, unfortunately).
-Mind that hotswap version needs 1.5mm plate or switches won't snap. I like the look of the gray translucent acrylic.
-
-![](images/quote.png)
-
 ## Firmware
 
 Compatible with [stock Corne firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/crkbd). The extra key can be snapped off. [Bluetooth firmware version](https://github.com/joric/nrfmicro/wiki/Corne-BLE) is in progress.
 
-## PCB manufacturers
-
-I recommend [JLCPCB.com](https://jlcpcb.com). New users gets $8 discount, so 5 black matte PCBs cost $9.88 total, including shipping.
 
 ## Modification
 
@@ -120,6 +134,14 @@ Use something sharp to cut a groove and break the daughter board off.
 * [jorne-cherry-nrfmicro-2.1-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/gerbers/jorne-cherry-nrfmicro-2.1-gerbers.zip) (hotswap version with embedded nRFMicro, NOT accepted by JLCPCB)
 
 * [jorne-cherry-nrfmicro-2.1.png](images/jorne-cherry-nrfmicro-2.1.png) (image)
+
+### Ponoko
+
+* https://make.ponoko.com quotes [tilting-tenting-jorne.ai](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/tilting-tenting-jorne.ai)
+(3mm clear acrylic) for $14.85 (with free shipping to USA, **shipping to other countries starts from $65**, unfortunately).
+Mind that hotswap version needs 1.5mm plate or switches won't snap. I like the look of the gray translucent acrylic.
+
+![](images/quote.png)
 
 ## References
 
