@@ -4,30 +4,28 @@ Corne with an extra key. Please refer to the official english [build guide](http
 
 ## Bill of Materials
 
-### PCB Manufacturers
+Use combined trackable shipping whether it is possible, it is much faster and more reliable than economy shipping.
 
-* [JLCPCB.com](https://jlcpcb.com). New users gets $8 discount, so 5 black matte PCBs cost $9.88 total, including shipping.
-
-### Acrylic cutting services
-
-* [Elecrow](https://elecrow.com) (ask at support@elecrow.com). Cutting 3mm black translucent acrylic is
-    $35 for 5 A4 sheets, including shipping.
-    They only ship in multiple 5. I used A4, current A5 DXFs probably will cost about $20 (for 2.5 keyboards).
-	There's also this form but it doesn't have black translucent: https://www.elecrow.com/5pcs-acrylic-laser-cutting-service.html
-
-### Screws and standoffs
-
-* I recommend [Nainline](https://www.aliexpress.com/item/32832332464.html) shop at Aliexpress. You need [6mm m2 screws](https://www.aliexpress.com/item/32950593680.html) (28 pcs) and [6mm m2 standoffs](https://www.aliexpress.com/item/32597776358.html) (14 pcs).
-
-### Pro Micros, OLEDs and other components
-
-* [128x32 White OLED](https://www.aliexpress.com/item/32798439084.html) $1.57 (need 2), [black Pro Micros](https://www.aliexpress.com/item/32849563958.html) $3.20 (need 2), [1N4148 SMD diodes](https://www.aliexpress.com/item/32346066945.html) (need 44), same seller.
-* [SK6812 3535 BL](https://www.aliexpress.com/item/32623583544.html) LEDs, you will need 12 (6 per half for the ambient), or 56 for the full RGB ($6.56 for 50 pcs).
+* [128x32 White OLED](https://www.aliexpress.com/item/32798439084.html) $1.57 (need 2), [black Pro Micros](https://www.aliexpress.com/item/32849563958.html) $3.20 (need 2), [1N4148 SMD diodes](https://www.aliexpress.com/item/32346066945.html) (need 44), same seller
+* [SK6812 3535 BL](https://www.aliexpress.com/item/32623583544.html) LEDs, you will need 12 (6 per half for the ambient), or 56 for the full RGB ($6.56 for 50 pcs)
 * [TRRS sockets, PJ320A (20 pcs)](https://www.aliexpress.com/item/32368285821.html), $1.32
 * [TRRS cable (angled, 15 cm)](https://www.aliexpress.com/item/32887579795.html), $1.59
 * [DIP 3*6*4.3mm tactile push button (30 pcs)](https://www.aliexpress.com/item/32901277211.html), $0.56
+* [M2 screws](https://www.aliexpress.com/item/32950593680.html) (6mm, 28 pcs), [M2 standoffs](https://www.aliexpress.com/item/32597776358.html) (6mm, 14 pcs), same seller
 
-Use combined trackable shipping whether it is possible, it is much faster and more reliable.
+## PCB Manufacturers
+
+* [JLCPCB.com](https://jlcpcb.com). New users gets $8 discount, so 5 black matte PCBs cost $9.88 total, including shipping.
+
+## Laser cutting services
+
+* [Elecrow](https://www.elecrow.com/5pcs-acrylic-laser-cutting-service.html) cuts acrylic glass for cheap. Ordered 5 full sets (20x30cm) for $35 (including shipping).
+	[5 half-sets](https://i.imgur.com/T2h6KQt.jpg) (15x20cm) cost maybe $20 (they only ship in multiple of 5).
+	Got 3mm black translucent acrylic after emailing support@elecrow.com
+* [GDCTECH Store](https://www.aliexpress.com/item/32966756953.html) on Aliexpress cuts 1.5mm carbon
+	($67 including shipping for the 40x50cm sheet)
+* [Laserboost](https://laserboost.com) wants about 40 EUR for steel and 60 EUR for aluminum for the 12x35cm sheet
+	(plus 14 EUR shipping)
 
 ## Downloads
 
@@ -43,21 +41,18 @@ Use combined trackable shipping whether it is possible, it is much faster and mo
 
 ![](images/jorne-cherry-2.1.png)
 
-### Case
+## Case files
 
-Originally uses 3 mm acrylic glass for all the parts.
-If you're preferring 1.6mm carbon mind that at least the screen protector piece should be transparent.
-This version is A5 size (full set for the one half). Cutouts are 13.85 mm for switches to hold in acrylic
-(edit cutouts to 14.00mm for steel). The plates are not Alps-compatible.
+Cutouts are 13.85mm for switches to hold in acrylic class. You need to edit the file to make 14.00mm cutouts for steel.
 
-* [jorne-simple.dxf](https://github.com/joric/crkbd/raw/jorne/dxf/jorne-simple.dxf)
-* [jorne-tilted.dxf](https://github.com/joric/crkbd/raw/jorne/dxf/jorne-tilted.dxf)
+* [jorne-simple.dxf](https://github.com/joric/crkbd/raw/jorne/dxf/jorne-simple.dxf) (simple case)
+* [jorne-tilted.dxf](https://github.com/joric/crkbd/raw/jorne/dxf/jorne-tilted.dxf) (tilting-tenting case)
 
+This is new half-size version (for one half) made in Inkscape. See archived case files below for full-size versions.
 
 ## Firmware
 
 Compatible with [stock Corne firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/crkbd). The extra key can be snapped off. [Bluetooth firmware version](https://github.com/joric/nrfmicro/wiki/Corne-BLE) is in progress.
-
 
 ## Modification
 
@@ -144,6 +139,7 @@ This is plate precisely the same as from the top-bottom above, but with 14mm cut
 * [top-bottom-jorne-plate.ai](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/top-bottom-jorne-plate.ai)
 * [top-bottom-jorne-plate.dxf](https://github.com/joric/crkbd/raw/jorne/corne-classic/acrylic_plate/top-bottom-jorne-plate.dxf)
 * [top-bottom-jorne-plate.png](images/top-bottom-jorne-plate.png)
+
 
 ## References
 
