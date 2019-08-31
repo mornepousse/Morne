@@ -19,8 +19,8 @@ Use combined trackable shipping whether it is possible, it is much faster and mo
 
 ## Laser cutting services
 
-* [Elecrow](https://www.elecrow.com/5pcs-acrylic-laser-cutting-service.html) cuts acrylic glass for cheap. Ordered 5 full sets (20x30cm) for $35 (including shipping).
-	[5 half-sets](https://i.imgur.com/T2h6KQt.jpg) (15x20cm) cost maybe $20 (they only ship in multiple of 5).
+* [Elecrow](https://www.elecrow.com/5pcs-acrylic-laser-cutting-service.html) cuts acrylic glass for cheap. Ordered [5 full sets](https://i.imgur.com/T2h6KQt.jpg) (20x30cm) for $35 (including shipping),
+	5 half-sets (15x20cm) cost maybe $20 (they only ship in multiple of 5).
 	Got 3mm black translucent acrylic after emailing support@elecrow.com
 * [GDCTECH Store](https://www.aliexpress.com/item/32966756953.html) on Aliexpress cuts 1.5mm carbon
 	($67 including shipping for the 40x50cm sheet)
