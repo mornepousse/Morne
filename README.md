@@ -12,6 +12,7 @@ Use combined trackable shipping whether it is possible, it is much faster and mo
 * [TRRS cable (angled, 15 cm)](https://www.aliexpress.com/item/32887579795.html), $1.59
 * [DIP 3*6*4.3mm tactile push button (30 pcs)](https://www.aliexpress.com/item/32901277211.html), $0.56
 * [M2 screws](https://www.aliexpress.com/item/32950593680.html) (6mm, 28 pcs), [M2 standoffs](https://www.aliexpress.com/item/32597776358.html) (6mm, 14 pcs), same seller
+* [(Optional) 3.5mm pin headers](https://www.aliexpress.com/item/32888288845.html) to hotswap OLED and Pro Micros
 
 ## PCB Manufacturers
 
