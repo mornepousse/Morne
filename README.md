@@ -16,7 +16,7 @@ Use combined trackable shipping whether it is possible, it is much faster and mo
 
 ## PCB Manufacturers
 
-* [JLCPCB.com](https://jlcpcb.com). New users gets $8 discount, so 5 black matte PCBs cost $9.88 total, including shipping.
+* [JLCPCB.com](https://jlcpcb.com). New users get $8 discount, so 5 black matte PCBs cost $9.88 total, including shipping.
 
 ## Laser cutting services
 
