@@ -29,6 +29,13 @@ Use combined trackable shipping whether it is possible, it is much faster and mo
 * [Laserboost](https://laserboost.com) wants about 40 EUR for steel and 60 EUR for aluminum for the 12x35cm sheet
 	(plus 14 EUR shipping)
 
+## Firmware
+
+Still a little bit incomplete but extra keys work:
+
+* https://github.com/joric/qmk_firmware/tree/joric-crkbd/keyboards/crkbd/keymaps/joric
+
+
 ## Downloads
 
 ### Jorne Classic 2.1
