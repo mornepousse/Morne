@@ -13,6 +13,7 @@ Use combined trackable shipping whether it is possible, it is much faster and mo
 * [DIP 3*6*4.3mm tactile push button (30 pcs)](https://www.aliexpress.com/item/32901277211.html), $0.56
 * [M2 screws](https://www.aliexpress.com/item/32950593680.html) (6mm, 28 pcs), [M2 standoffs](https://www.aliexpress.com/item/32597776358.html) (6mm, 14 pcs), same seller
 * [(Optional) 3.5mm pin headers](https://www.aliexpress.com/item/32888288845.html) to hotswap OLED and Pro Micros
+* [(Optional) 3mm bumpons](https://www.aliexpress.com/item/32912066603.html) (black), [another ones](https://www.aliexpress.com/item/32680543746.html) (clear)
 
 ## PCB Manufacturers
 
@@ -100,10 +101,41 @@ To merge your boards, start pcbnew by itself without starting the entire KiCad a
 #### WARNING
 
 JLCPCB apparently treats those two as separate designs and asks for additional $24.
-I had to remove miling slot between two different "designs" as stated here: https://support.jlcpcb.com/article/49-pcb-panelization.
-Use something sharp to cut a groove and break the daughter board off.
 
-**Upd** Apparently that was not enough, I'm still getting "suspended". DO NOT ORDER combined "designs" on JLCPCB, you will lose your coupons on cancelled orders.
+```
+to: support@jlcpcb.com
+
+I was trying to manufacture prototype boards using attached gerbers (also see the picture
+https://i.imgur.com/qTdJm5N.jpg). The PCB got suspended (probably because I added my nRFMicro
+board to the design) despite all those parts are complimentary. It's impossible to distinguish
+those 2 (or 4?) separate designs automatically, so I assume human factor, the auditor
+is just trying to earn some money for the company.
+
+So far I've cancelled the order and refunded the money (order Y7-2675244A).
+I'm not going to reorder two bords separately so your auditor just've lost a bunch of money
+instead of saving them.
+
+Could you please tell me how to place those boards properly to pass the audit?
+I wouldn't really like to cut the boards with scissors or something,
+because 1 milled slot doesn't really cost anything and that would be highly illogical
+and weird for the users who would try to order those opensourced boards using JLCPCB.
+```
+
+```
+from: support@jlcpcb.com
+
+Dear client, thank you for your email.
+After checking your file there are 2 different designs in your file.
+Due to our company policy, if you have more than 1 design we will charge you extra fee.
+And if you wanna pass the system and don't wanna to pay for the extra fee,
+I suggest you remove the slot between the 2 boards.
+```
+
+I had to remove miling slot between two different "designs" as stated here: https://support.jlcpcb.com/article/49-pcb-panelization.
+They suggest then to use something sharp to cut a groove and break the daughter board off.
+
+**Upd:** Apparently that was not enough, I'm still getting "suspended". **DO NOT ORDER** combined "designs" on JLCPCB, you will lose your coupons on cancelled orders.
+
 
 #### Jorne Classic nRFMicro 2.1
 
