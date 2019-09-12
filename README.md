@@ -10,7 +10,7 @@ Use combined trackable shipping whether it is possible, it is much faster and mo
 * [SK6812 3535 BL](https://www.aliexpress.com/item/32623583544.html) LEDs, you will need 12 (6 per half for the ambient), or 56 for the full RGB ($6.56 for 50 pcs)
 * [TRRS sockets, PJ320A (20 pcs)](https://www.aliexpress.com/item/32368285821.html), $1.32
 * [TRRS cable (angled, 15 cm)](https://www.aliexpress.com/item/32887579795.html), $1.59
-* [DIP 3*6*4.3mm tactile push button (30 pcs)](https://www.aliexpress.com/item/32901277211.html), $0.56
+* [DIP 3x6x4.3mm tactile push button (30 pcs)](https://www.aliexpress.com/item/32901277211.html), $0.56
 * [M2 screws](https://www.aliexpress.com/item/32950593680.html) (6mm, 28 pcs), [M2 standoffs](https://www.aliexpress.com/item/32597776358.html) (6mm, 14 pcs), same seller
 * [(Optional) 3.5mm pin headers](https://www.aliexpress.com/item/32888288845.html) to hotswap OLED and Pro Micros
 * [(Optional) 3mm bumpons](https://www.aliexpress.com/item/32912066603.html) (black), [another ones](https://www.aliexpress.com/item/32680543746.html) (clear)
