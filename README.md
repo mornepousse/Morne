@@ -105,6 +105,10 @@ Added two nRFMicro boards to the gerbers, NO other changes.
 
 To merge your boards, start pcbnew by itself without starting the entire KiCad application. Then open one of the .kicad_pcb files. Then, use the "File" - "Append Board" command to bring in another PCB layout, edit edge cuts and plot the gerbers.
 
+* [jorne-cherry-nrfmicro-2.1-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/gerbers/jorne-cherry-nrfmicro-2.1-gerbers.zip) (hotswap version with embedded nRFMicro, NOT accepted by JLCPCB)
+
+![jorne-cherry-nrfmicro-2.1.png](images/jorne-cherry-nrfmicro-2.1.png)
+
 #### WARNING
 
 JLCPCB apparently treats those two as separate designs and asks for additional $24.
@@ -142,13 +146,6 @@ I had to remove miling slot between two different "designs" as stated here: http
 They suggest then to use something sharp to cut a groove and break the daughter board off.
 
 **Upd:** Apparently that was not enough, I'm still getting "suspended". **DO NOT ORDER** combined "designs" on JLCPCB, you will lose your coupons on cancelled orders.
-
-
-#### Jorne Classic nRFMicro 2.1
-
-* [jorne-cherry-nrfmicro-2.1-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/gerbers/jorne-cherry-nrfmicro-2.1-gerbers.zip) (hotswap version with embedded nRFMicro, NOT accepted by JLCPCB)
-
-* [jorne-cherry-nrfmicro-2.1.png](images/jorne-cherry-nrfmicro-2.1.png) (image)
 
 ### Ponoko
 
