@@ -105,8 +105,6 @@ Added two nRFMicro boards to the gerbers, NO other changes.
 
 To merge your boards, start pcbnew by itself without starting the entire KiCad application. Then open one of the .kicad_pcb files. Then, use the "File" - "Append Board" command to bring in another PCB layout, edit edge cuts and plot the gerbers.
 
-* [jorne-cherry-nrfmicro-2.1-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/gerbers/jorne-cherry-nrfmicro-2.1-gerbers.zip) (hotswap version with embedded nRFMicro, NOT accepted by JLCPCB)
-
 ![jorne-cherry-nrfmicro-2.1.png](images/jorne-cherry-nrfmicro-2.1.png)
 
 #### WARNING
