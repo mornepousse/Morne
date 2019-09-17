@@ -29,18 +29,6 @@ Use combined trackable shipping whether it is possible, it is much faster and mo
 * [Laserboost](https://laserboost.com) wants about 40 EUR for steel and 60 EUR for aluminum for the 12x35cm sheet
 	(plus 14 EUR shipping)
 
-## Firmware
-
-I've managed to make Jian-like layout for Corne, see the Jorne branch:
-
-* https://github.com/joric/qmk_firmware/tree/jorne/keyboards/crkbd/keymaps/jorne
-
-![](https://kle-render.herokuapp.com/api/df19fba80500d1179dfda8c41b9f221a)
-
-Same in KLE format: [Jorne layout](http://www.keyboard-layout-editor.com/#/gists/df19fba80500d1179dfda8c41b9f221a)
-(also see the origial [Jian layout](http://www.keyboard-layout-editor.com/#/gists/4b6c2af67148f58ddd6c6b2976c4370f))
-Also [experimental branch](https://github.com/joric/qmk_firmware/tree/joric-crkbd/keyboards/crkbd/keymaps/joric) (deprecated).
-
 ## Downloads
 
 ### Jorne Classic 2.1
@@ -68,6 +56,16 @@ This is new half-size version (for one half) made in Inkscape. See archived case
 
 Compatible with [stock Corne firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/crkbd). The extra key can be snapped off. [Bluetooth firmware version](https://github.com/joric/nrfmicro/wiki/Corne-BLE) is in progress.
 
+I've also managed to make Jian-like layout for Corne, see the Jorne branch:
+
+* https://github.com/joric/qmk_firmware/tree/jorne/keyboards/crkbd/keymaps/jorne
+
+![](https://kle-render.herokuapp.com/api/df19fba80500d1179dfda8c41b9f221a)
+
+Same in KLE format: [Jorne layout](http://www.keyboard-layout-editor.com/#/gists/df19fba80500d1179dfda8c41b9f221a)
+(also see the origial [Jian layout](http://www.keyboard-layout-editor.com/#/gists/4b6c2af67148f58ddd6c6b2976c4370f))
+also [experimental branch](https://github.com/joric/qmk_firmware/tree/joric-crkbd/keyboards/crkbd/keymaps/joric) (deprecated).
+
 ## Modification
 
 In order to make your own Corne clone, you need to do the following:
@@ -84,7 +82,7 @@ Note I did not reroute the whole board, just autorouted a few new traces and it 
 
 ## Pictures
 
-![](https://i.imgur.com/pcZmi6P.jpg)
+![](https://i.imgur.com/Z33wqHx.jpg)
 
 ![](https://i.imgur.com/riiHjx8.jpg)
 
