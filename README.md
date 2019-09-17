@@ -29,15 +29,6 @@ Use combined trackable shipping whether it is possible, it is much faster and mo
 * [Laserboost](https://laserboost.com) wants about 40 EUR for steel and 60 EUR for aluminum for the 12x35cm sheet
 	(plus 14 EUR shipping)
 
-
-## Pictures
-
-![](https://i.imgur.com/pcZmi6P.jpg)
-
-![](https://i.imgur.com/riiHjx8.jpg)
-
-More pictures: https://imgur.com/a/T2GXaLw
-
 ## Firmware
 
 I've managed to make Jian-like layout for Corne, see the Jorne branch:
@@ -92,6 +83,10 @@ In order to make your own Corne clone, you need to do the following:
 Note I did not reroute the whole board, just autorouted a few new traces and it worked.
 
 ## Pictures
+
+![](https://i.imgur.com/pcZmi6P.jpg)
+
+![](https://i.imgur.com/riiHjx8.jpg)
 
 ![](https://i.imgur.com/X4Zzvgg.jpg)
 
