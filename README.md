@@ -37,7 +37,8 @@ I've managed to make Jian-like layout for Corne, see the Jorne branch:
 
 ![](https://kle-render.herokuapp.com/api/df19fba80500d1179dfda8c41b9f221a)
 
-Same in KLE format: [Jorne layout](http://www.keyboard-layout-editor.com/#/gists/390e5db8d649b006c32a5c49d4c82dab) (also see the origial [Jian layout](http://www.keyboard-layout-editor.com/#/gists/df19fba80500d1179dfda8c41b9f221a))
+Same in KLE format: [Jorne layout](http://www.keyboard-layout-editor.com/#/gists/df19fba80500d1179dfda8c41b9f221a)
+(also see the origial [Jian layout](http://www.keyboard-layout-editor.com/#/gists/4b6c2af67148f58ddd6c6b2976c4370f))
 
 Also [experimental branch](https://github.com/joric/qmk_firmware/tree/joric-crkbd/keyboards/crkbd/keymaps/joric) (deprecated).
 
