@@ -25,6 +25,11 @@ Cutouts are 13.85mm for switches to hold in acrylic class. You need to edit the 
 * [jorne-simple.dxf](https://github.com/joric/crkbd/raw/jorne/dxf/jorne-simple.dxf) (simple case)
 * [jorne-tilted.dxf](https://github.com/joric/crkbd/raw/jorne/dxf/jorne-tilted.dxf) (tilting-tenting case)
 
+Steel plates, 14.00 mm cutouts:
+
+* [jorne-simple-metal-plate.dxf](https://github.com/joric/crkbd/raw/jorne/dxf/jorne-simple-metal-plate.dxf) (simple plate, 14 mm cutouts)
+* [jorne-tilted-metal-plate.dxf](https://github.com/joric/crkbd/raw/jorne/dxf/jorne-tilted-metal-plate.dxf) (tilting-tenting plate, 14 mm cutouts)
+
 This is new half-size version (for one half) made in Inkscape. See archived case files below for full-size versions.
 
 ## References
