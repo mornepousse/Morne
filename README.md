@@ -1,8 +1,6 @@
-# Jorne
+# Jorne Keyboard
 
-Corne with an extra key. Please refer to the official english [build guide](https://github.com/foostan/crkbd/blob/master/corne-classic/doc/buildguide_en.md) for assembly.
-
-Please refer to my QMK fork's wiki [Jorne](https://github.com/joric/qmk_firmware/wiki/jorne) page for details.
+Please read [Jorne Keyboard wiki](https://github.com/joric/jorne/wiki) for the details
 
 ## Downloads
 
