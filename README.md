@@ -1,6 +1,15 @@
 # Jorne Keyboard
 
-Please read [Jorne Keyboard wiki](https://github.com/joric/jorne/wiki) for the details
+Please read wiki for details: https://github.com/joric/jorne/wiki
+
+## Default layout
+
+Jorne is essentially [Corne](https://github.com/foostan/crkbd) keyboard but with an extra key for brackets and international layouts.
+
+![](https://kle-render.herokuapp.com/api/df19fba80500d1179dfda8c41b9f221a?5)
+
+* Same in KLE format: [Jorne layout](http://www.keyboard-layout-editor.com/#/gists/df19fba80500d1179dfda8c41b9f221a)
+(also see the origial [Jian layout](http://www.keyboard-layout-editor.com/#/gists/4b6c2af67148f58ddd6c6b2976c4370f)).
 
 ## Downloads
 
