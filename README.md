@@ -2,7 +2,11 @@
 
 Please read wiki for details: https://github.com/joric/jorne/wiki
 
-## Default layout
+## Firmware
+
+Build QMK as `make crkbd:jorne` (also compatible with default crkbd firmware, extra key can be snapped off)
+
+* https://github.com/joric/qmk/tree/jorne/keyboards/crkbd/keymaps/jorne
 
 ![](https://kle-render.herokuapp.com/api/df19fba80500d1179dfda8c41b9f221a?5)
 
