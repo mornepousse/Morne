@@ -1,17 +1,10 @@
 # Jorne Keyboard
 
-Please read wiki for details: https://github.com/joric/jorne/wiki
+Please read project wiki for details: https://github.com/joric/jorne/wiki
 
 ## Firmware
 
-Build QMK as `make crkbd:jorne` (also compatible with default crkbd firmware, extra key can be snapped off)
-
-* https://github.com/joric/qmk/tree/jorne/keyboards/crkbd/keymaps/jorne
-
-![](https://kle-render.herokuapp.com/api/df19fba80500d1179dfda8c41b9f221a?5)
-
-* Same in KLE format: [Jorne layout](http://www.keyboard-layout-editor.com/#/gists/df19fba80500d1179dfda8c41b9f221a)
-(also see the original [Jian layout](http://www.keyboard-layout-editor.com/#/gists/4b6c2af67148f58ddd6c6b2976c4370f)).
+Please read Jorne firmware wiki: https://github.com/joric/qmk/wiki/jorne
 
 ## Downloads
 
