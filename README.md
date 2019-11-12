@@ -1,10 +1,6 @@
-# Jorne Keyboard
+# Jorne keyboard
 
 Please read project wiki for details: https://github.com/joric/jorne/wiki
-
-## Firmware
-
-Please read Jorne firmware wiki: https://github.com/joric/qmk/wiki/jorne
 
 ## Downloads
 
