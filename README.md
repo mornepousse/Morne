@@ -2,7 +2,7 @@
 
 Please read project wiki for details: https://github.com/joric/jorne/wiki
 
-## Downloads
+## PCB
 
 ### Jorne Classic 2.1
 
@@ -16,20 +16,19 @@ Please read project wiki for details: https://github.com/joric/jorne/wiki
 
 ![](images/jorne-cherry-2.1.png)
 
-## Case files
+## Case
 
-Cutouts are 13.85mm for switches to hold in acrylic class. You need to edit the file to make 14.00mm cutouts for steel.
+### Acrylic (13.85mm cutouts)
 
 * [jorne-simple.dxf](https://github.com/joric/crkbd/raw/jorne/dxf/jorne-simple.dxf) (simple case)
 * [jorne-tilted.dxf](https://github.com/joric/crkbd/raw/jorne/dxf/jorne-tilted.dxf) (tilting-tenting case)
 
-Steel plates, 14.00 mm cutouts:
+### Steel (14.00mm cutouts)
 
 * [jorne-simple-metal-plate.dxf](https://github.com/joric/crkbd/raw/jorne/dxf/jorne-simple-metal-plate.dxf) (simple plate, 14 mm cutouts)
 * [jorne-tilted-metal-plate.dxf](https://github.com/joric/crkbd/raw/jorne/dxf/jorne-tilted-metal-plate.dxf) (tilting-tenting plate, 14 mm cutouts)
 
-This is new half-size version (for one half) made in Inkscape. See archived case files below for full-size versions.
-
 ## References
 
-* https://github.com/joric/qmk_firmware/wiki/jorne
+* https://github.com/joric/jorne/wiki
+* https://github.com/joric/qmk/wiki/jorne
