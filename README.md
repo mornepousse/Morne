@@ -28,6 +28,12 @@ Please read project wiki for details: https://github.com/joric/jorne/wiki
 * [jorne-simple-metal-plate.dxf](https://github.com/joric/crkbd/raw/jorne/dxf/jorne-simple-metal-plate.dxf) (simple plate, 14 mm cutouts)
 * [jorne-tilted-metal-plate.dxf](https://github.com/joric/crkbd/raw/jorne/dxf/jorne-tilted-metal-plate.dxf) (tilting-tenting plate, 14 mm cutouts)
 
+### PCB top plate
+
+* [jorne-top-plate-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/gerbers/jorne-top-plate-gerbers.zip)
+
+![](images/jorne-top-plate.png)
+
 ## References
 
 * https://github.com/joric/jorne/wiki
