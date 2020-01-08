@@ -20,8 +20,13 @@ Please read project wiki for details: https://github.com/joric/jorne/wiki
 
 ### Acrylic (13.85mm cutouts)
 
-* [jorne-simple.dxf](https://github.com/joric/crkbd/raw/jorne/dxf/jorne-simple.dxf) (simple case)
-* [jorne-tilted.dxf](https://github.com/joric/crkbd/raw/jorne/dxf/jorne-tilted.dxf) (tilting-tenting case)
+* [jorne-simple.dxf](https://github.com/joric/crkbd/raw/jorne/dxf/jorne-simple.dxf) (simple case, sheet size 154x154mm)
+
+![](images/jorne-simple.png)
+
+* [jorne-tilted.dxf](https://github.com/joric/crkbd/raw/jorne/dxf/jorne-tilted.dxf) (tilting-tenting case, sheet size 156x165mm)
+
+![](images/jorne-tilted.png)
 
 ### Steel (14.00mm cutouts)
 
