@@ -2,6 +2,11 @@
 
 Please read project wiki for details: https://github.com/joric/jorne/wiki
 
+## Disclaimer
+
+The keyboard layout is derived from [Jian layout](http://www.keyboard-layout-editor.com/#/gists/4b6c2af67148f58ddd6c6b2976c4370f) (just visually, there was no actual copying involved).
+Please buy Jian from its author, [/u/KgOfHedgehogs](http://reddit.com/u/KgOfHedgehogs), he's running a high quality commercial batch.
+
 ## PCB
 
 ### Jorne Classic 2.1
