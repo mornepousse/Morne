@@ -21,6 +21,12 @@ Please buy Jian from its author, [/u/KgOfHedgehogs](http://reddit.com/u/KgOfHedg
 
 ![](images/jorne-cherry-2.1.png)
 
+### Jorne Cherry 3.0
+
+* [jorne-cherry-3.0-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/gerbers/jorne-cherry-3.0-gerbers.zip) (non-reversible PCB with kailh hotswap sockets and south facing switches)
+
+![](images/jorne-cherry-3.0.png)
+
 ## Case
 
 ### Acrylic (13.85mm cutouts)
