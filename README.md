@@ -39,6 +39,10 @@ Please buy Jian from its author, [/u/KgOfHedgehogs](http://reddit.com/u/KgOfHedg
 
 ![](images/jorne-tilted.png)
 
+### 3d Print
+
+* [Case on Thingiverse](https://www.thingiverse.com/thing:4647173) (simple case)
+
 ### Steel (14.00mm cutouts)
 
 * [jorne-simple-metal-plate.dxf](https://github.com/joric/crkbd/raw/jorne/dxf/jorne-simple-metal-plate.dxf) (simple plate, 14 mm cutouts)
