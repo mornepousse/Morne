@@ -1,4 +1,4 @@
-# Jorne keyboard
+# Morne keyboard
 
 
 ## PCB
