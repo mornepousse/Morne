@@ -1,11 +1,10 @@
-# Jorne keyboard
+# Morne keyboard
 
 
 ## PCB
 
-### Jorne Cherry 2.1
+### Morne Cherry 1.0
 
-* [jorne-cherry-2.1-gerbers.zip](https://github.com/joric/crkbd/raw/jorne/gerbers/jorne-cherry-2.1-gerbers.zip) (hotswap version with kailh hotswap sockets, fixed version with all LED holes)
 
 ![](images/jorne-cherry-2.1.png)
 
