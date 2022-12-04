@@ -1,5 +1,4 @@
-# Morne keyboard
-
+# ![](other/mornelogotxt.png)
 
 ## PCB
 
