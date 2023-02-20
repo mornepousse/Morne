@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 .DS_Store
 *.bak
 *.kicad_pcb-bak
 **/gerber/*
 
 corne-cherry/pcb/DXF/
+=======
+.DS_Store
+*.bak
+*.kicad_pcb-bak
+**/gerber/*
+
+corne-cherry/pcb/corne-cherry-backups/
+>>>>>>> jorne
