@@ -8,6 +8,6 @@ fr : Le clavier que j'ai créé est un dérivé du Jorne et du Kyria rev2, deux 
 ## PCB
 
 
-![](images/jorne-cherry-2.1.png)
+![](images/PCB.PNG)
 
 [BOM](https://github.com/mornepousse/Morne/blob/jorne/doc/BOM.md)
