@@ -63,7 +63,7 @@
       36
     ],
     "visible_layers": "ffff7ff_ffffffff",
-    "zone_display_mode": 0
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "corne-cherry.kicad_prl",
