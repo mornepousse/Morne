@@ -13,6 +13,7 @@ Actuellement, je n'ai pas encore eu le temps de tester le PCB et de créer le co
 
 ## PCB
 
+![](images/TestBuild.jpg)
 
 ![](images/PCB.PNG)
 
