@@ -18,7 +18,7 @@ Actuellement, je n'ai pas encore eu le temps de tester le PCB et de créer le co
 ![](images/PCB.PNG)
 
 
-Creation date: 02/12/2023
+Creation date: 02/12/2022
 
 
 By ordering on [JLCPCB](https://cart.jlcpcb.com/quote?orderType=1&stencilLayer=2&stencilWidth=100&stencilLength=100&stencilCounts=5):
