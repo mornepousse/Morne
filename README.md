@@ -57,3 +57,7 @@ Simulate the final price (case not included):
 | 3.97€ | 32.90€ | 18.06€ | 48.98€ | 103.91€ |
 
 [BOM](https://github.com/mornepousse/Morne/blob/jorne/doc/BOM.md)
+
+[Firmware](https://github.com/mornepousse/Rouge-Gorge_QMX_Part)
+
+
